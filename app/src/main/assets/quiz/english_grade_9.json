@@ -1,0 +1,631 @@
+{
+  "version": 2,
+  "subject": "英语",
+  "grade": 9,
+  "items": [
+    {
+      "id": "e9-001",
+      "subject": "英语",
+      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "options": [
+        "葡萄",
+        "苹果",
+        "橘子",
+        "香蕉"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"apple\" 意为“苹果”。"
+    },
+    {
+      "id": "e9-002",
+      "subject": "英语",
+      "stem": "英语单词 \"banana\" 的中文意思是什么？",
+      "options": [
+        "草莓",
+        "香蕉",
+        "苹果",
+        "西瓜"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"banana\" 意为“香蕉”。"
+    },
+    {
+      "id": "e9-003",
+      "subject": "英语",
+      "stem": "英语单词 \"orange\" 的中文意思是什么？",
+      "options": [
+        "梨",
+        "桃子",
+        "柠檬",
+        "橙子/橘子"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"orange\" 意为“橙子/橘子”。"
+    },
+    {
+      "id": "e9-004",
+      "subject": "英语",
+      "stem": "英语单词 \"water\" 的中文意思是什么？",
+      "options": [
+        "牛奶",
+        "水",
+        "果汁",
+        "茶"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"water\" 意为“水”。"
+    },
+    {
+      "id": "e9-005",
+      "subject": "英语",
+      "stem": "英语单词 \"milk\" 的中文意思是什么？",
+      "options": [
+        "牛奶",
+        "咖啡",
+        "面包",
+        "水"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"milk\" 意为“牛奶”。"
+    },
+    {
+      "id": "e9-006",
+      "subject": "英语",
+      "stem": "英语单词 \"bread\" 的中文意思是什么？",
+      "options": [
+        "蛋糕",
+        "米饭",
+        "面包",
+        "面条"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"bread\" 意为“面包”。"
+    },
+    {
+      "id": "e9-007",
+      "subject": "英语",
+      "stem": "英语单词 \"book\" 的中文意思是什么？",
+      "options": [
+        "钢笔",
+        "书",
+        "尺子",
+        "书包"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"book\" 意为“书”。"
+    },
+    {
+      "id": "e9-008",
+      "subject": "英语",
+      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
+      "options": [
+        "橡皮",
+        "课桌",
+        "铅笔",
+        "椅子"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"pencil\" 意为“铅笔”。"
+    },
+    {
+      "id": "e9-009",
+      "subject": "英语",
+      "stem": "英语单词 \"school\" 的中文意思是什么？",
+      "options": [
+        "超市",
+        "医院",
+        "学校",
+        "公园"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"school\" 意为“学校”。"
+    },
+    {
+      "id": "e9-010",
+      "subject": "英语",
+      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
+      "options": [
+        "司机",
+        "农民",
+        "医生",
+        "老师"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"teacher\" 意为“老师”。"
+    },
+    {
+      "id": "e9-011",
+      "subject": "英语",
+      "stem": "英语单词 \"student\" 的中文意思是什么？",
+      "options": [
+        "老师",
+        "护士",
+        "学生",
+        "警察"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"student\" 意为“学生”。"
+    },
+    {
+      "id": "e9-012",
+      "subject": "英语",
+      "stem": "英语单词 \"family\" 的中文意思是什么？",
+      "options": [
+        "同学",
+        "朋友",
+        "家庭",
+        "邻居"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"family\" 意为“家庭”。"
+    },
+    {
+      "id": "e9-013",
+      "subject": "英语",
+      "stem": "英语单词 \"mother\" 的中文意思是什么？",
+      "options": [
+        "父亲",
+        "兄弟",
+        "母亲",
+        "姐妹"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"mother\" 意为“母亲”。"
+    },
+    {
+      "id": "e9-014",
+      "subject": "英语",
+      "stem": "英语单词 \"father\" 的中文意思是什么？",
+      "options": [
+        "阿姨",
+        "父亲",
+        "母亲",
+        "叔叔"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"father\" 意为“父亲”。"
+    },
+    {
+      "id": "e9-015",
+      "subject": "英语",
+      "stem": "英语单词 \"morning\" 的中文意思是什么？",
+      "options": [
+        "早晨/上午",
+        "下午",
+        "晚上",
+        "中午"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"morning\" 意为“早晨/上午”。"
+    },
+    {
+      "id": "e9-016",
+      "subject": "英语",
+      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
+      "options": [
+        "昨天",
+        "下午",
+        "夜晚",
+        "早晨"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"afternoon\" 意为“下午”。"
+    },
+    {
+      "id": "e9-017",
+      "subject": "英语",
+      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
+      "options": [
+        "星期一",
+        "星期二",
+        "星期五",
+        "星期日"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Monday\" 意为“星期一”。"
+    },
+    {
+      "id": "e9-018",
+      "subject": "英语",
+      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
+      "options": [
+        "星期三",
+        "星期五",
+        "星期六",
+        "星期四"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Friday\" 意为“星期五”。"
+    },
+    {
+      "id": "e9-019",
+      "subject": "英语",
+      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
+      "options": [
+        "星期一",
+        "星期六",
+        "星期日",
+        "星期二"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Sunday\" 意为“星期日”。"
+    },
+    {
+      "id": "e9-020",
+      "subject": "英语",
+      "stem": "英语单词 \"spring\" 的中文意思是什么？",
+      "options": [
+        "秋天",
+        "夏天",
+        "春天",
+        "冬天"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"spring\" 意为“春天”。"
+    },
+    {
+      "id": "e9-021",
+      "subject": "英语",
+      "stem": "英语单词 \"summer\" 的中文意思是什么？",
+      "options": [
+        "春天",
+        "夏天",
+        "冬天",
+        "秋天"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"summer\" 意为“夏天”。"
+    },
+    {
+      "id": "e9-022",
+      "subject": "英语",
+      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
+      "options": [
+        "夏天",
+        "冬天",
+        "春天",
+        "秋天"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"autumn\" 意为“秋天”。"
+    },
+    {
+      "id": "e9-023",
+      "subject": "英语",
+      "stem": "英语单词 \"winter\" 的中文意思是什么？",
+      "options": [
+        "冬天",
+        "春天",
+        "秋天",
+        "夏天"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"winter\" 意为“冬天”。"
+    },
+    {
+      "id": "e9-024",
+      "subject": "英语",
+      "stem": "英语单词 \"library\" 的中文意思是什么？",
+      "options": [
+        "图书馆",
+        "体育馆",
+        "电影院",
+        "博物馆"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"library\" 意为“图书馆”。"
+    },
+    {
+      "id": "e9-025",
+      "subject": "英语",
+      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
+      "options": [
+        "学校",
+        "医院",
+        "邮局",
+        "银行"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"hospital\" 意为“医院”。"
+    },
+    {
+      "id": "e9-026",
+      "subject": "英语",
+      "stem": "英语单词 \"science\" 的中文意思是什么？",
+      "options": [
+        "数学",
+        "音乐",
+        "科学",
+        "历史"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"science\" 意为“科学”。"
+    },
+    {
+      "id": "e9-027",
+      "subject": "英语",
+      "stem": "英语单词 \"computer\" 的中文意思是什么？",
+      "options": [
+        "相机",
+        "电脑",
+        "电话",
+        "电视"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"computer\" 意为“电脑”。"
+    },
+    {
+      "id": "e9-028",
+      "subject": "英语",
+      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
+      "options": [
+        "杂志",
+        "笔记本",
+        "词典",
+        "报纸"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"dictionary\" 意为“词典”。"
+    },
+    {
+      "id": "e9-029",
+      "subject": "英语",
+      "stem": "英语单词 \"environment\" 的中文意思是什么？",
+      "options": [
+        "环境",
+        "温度",
+        "政府",
+        "实验"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"environment\" 意为“环境”。"
+    },
+    {
+      "id": "e9-030",
+      "subject": "英语",
+      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
+      "options": [
+        "温度",
+        "季节",
+        "天气",
+        "距离"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"temperature\" 意为“温度”。"
+    },
+    {
+      "id": "e9-031",
+      "subject": "英语",
+      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
+      "options": [
+        "自然",
+        "知识",
+        "文化",
+        "语言"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"knowledge\" 意为“知识”。"
+    },
+    {
+      "id": "e9-032",
+      "subject": "英语",
+      "stem": "英语单词 \"experience\" 的中文意思是什么？",
+      "options": [
+        "实验",
+        "经验/经历",
+        "解释",
+        "运动"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"experience\" 意为“经验/经历”。"
+    },
+    {
+      "id": "e9-033",
+      "subject": "英语",
+      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
+      "options": [
+        "I'm fine.",
+        "You're welcome.",
+        "Nice to meet you.",
+        "Goodbye."
+      ],
+      "answerIndex": 1,
+      "explanation": "回应感谢常用 You're welcome（不客气）。"
+    },
+    {
+      "id": "e9-034",
+      "subject": "英语",
+      "stem": "早上见到老师时，应该用哪句英语问好？",
+      "options": [
+        "See you!",
+        "Good morning!",
+        "Good night!",
+        "Good afternoon!"
+      ],
+      "answerIndex": 1,
+      "explanation": "早上问好使用 Good morning!"
+    },
+    {
+      "id": "e9-035",
+      "subject": "英语",
+      "stem": "\"How old are you?\" 是在询问什么？",
+      "options": [
+        "你是谁？",
+        "你在哪里？",
+        "你几岁了？",
+        "你好吗？"
+      ],
+      "answerIndex": 2,
+      "explanation": "How old 用来询问年龄。"
+    },
+    {
+      "id": "e9-036",
+      "subject": "英语",
+      "stem": "填空：I ___ a student.",
+      "options": [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      "answerIndex": 0,
+      "explanation": "第一人称单数 I 搭配 be 动词 am。"
+    },
+    {
+      "id": "e9-037",
+      "subject": "英语",
+      "stem": "填空：She ___ reading books every day.",
+      "options": [
+        "likes",
+        "liking",
+        "like",
+        "to like"
+      ],
+      "answerIndex": 0,
+      "explanation": "第三人称单数一般现在时动词加 -s。"
+    },
+    {
+      "id": "e9-038",
+      "subject": "英语",
+      "stem": "填空：There ___ an apple and two pears on the table.",
+      "options": [
+        "are",
+        "be",
+        "is",
+        "am"
+      ],
+      "answerIndex": 2,
+      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
+    },
+    {
+      "id": "e9-039",
+      "subject": "英语",
+      "stem": "\"child\"（孩子）的复数形式是什么？",
+      "options": [
+        "childrens",
+        "childs",
+        "children",
+        "childes"
+      ],
+      "answerIndex": 2,
+      "explanation": "child 的不规则复数是 children。"
+    },
+    {
+      "id": "e9-040",
+      "subject": "英语",
+      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
+      "options": [
+        "tooths",
+        "teethes",
+        "teeth",
+        "toothes"
+      ],
+      "answerIndex": 2,
+      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
+    },
+    {
+      "id": "e9-041",
+      "subject": "英语",
+      "stem": "动词 \"go\" 的过去式是什么？",
+      "options": [
+        "gone",
+        "goed",
+        "went",
+        "going"
+      ],
+      "answerIndex": 2,
+      "explanation": "go - went - gone 是不规则动词变化。"
+    },
+    {
+      "id": "e9-042",
+      "subject": "英语",
+      "stem": "动词 \"buy\"（买）的过去式是什么？",
+      "options": [
+        "buying",
+        "buyed",
+        "brought",
+        "bought"
+      ],
+      "answerIndex": 3,
+      "explanation": "buy 的过去式和过去分词都是 bought。"
+    },
+    {
+      "id": "e9-043",
+      "subject": "英语",
+      "stem": "填空：He has lived in Beijing ___ 2020.",
+      "options": [
+        "since",
+        "in",
+        "at",
+        "for"
+      ],
+      "answerIndex": 0,
+      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+    },
+    {
+      "id": "e9-044",
+      "subject": "英语",
+      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "options": [
+        "interesting; interested",
+        "interesting; interest",
+        "interest; interesting",
+        "interested; interesting"
+      ],
+      "answerIndex": 0,
+      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+    },
+    {
+      "id": "e9-045",
+      "subject": "英语",
+      "stem": "填空：If it ___ tomorrow, we will stay at home.",
+      "options": [
+        "rains",
+        "rain",
+        "rained",
+        "will rain"
+      ],
+      "answerIndex": 0,
+      "explanation": "if 引导的条件状语从句遵循“主将从现”，从句用一般现在时 rains。"
+    },
+    {
+      "id": "e9-046",
+      "subject": "英语",
+      "stem": "填空：English ___ all over the world today.",
+      "options": [
+        "was speaking",
+        "is spoken",
+        "speaks",
+        "spoke"
+      ],
+      "answerIndex": 1,
+      "explanation": "英语是“被讲”，一般现在时被动语态 is spoken。"
+    },
+    {
+      "id": "e9-047",
+      "subject": "英语",
+      "stem": "填空：Could you tell me where ___?",
+      "options": [
+        "was the post office",
+        "the post office is",
+        "the post office was",
+        "is the post office"
+      ],
+      "answerIndex": 1,
+      "explanation": "宾语从句必须使用陈述句语序（主语+谓语）。"
+    },
+    {
+      "id": "e9-048",
+      "subject": "英语",
+      "stem": "填空：Look! The children ___ basketball on the playground.",
+      "options": [
+        "plays",
+        "are playing",
+        "played",
+        "play"
+      ],
+      "answerIndex": 1,
+      "explanation": "Look! 提示动作正在发生，用现在进行时 are playing。"
+    }
+  ]
+}

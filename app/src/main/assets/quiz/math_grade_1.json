@@ -1,0 +1,787 @@
+{
+  "version": 2,
+  "subject": "数学",
+  "grade": 1,
+  "items": [
+    {
+      "id": "m1-001",
+      "subject": "数学",
+      "stem": "3 + 2 = ?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "3加2等于5。"
+    },
+    {
+      "id": "m1-002",
+      "subject": "数学",
+      "stem": "3 + 3 = ?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answerIndex": 1,
+      "explanation": "3加3等于6。"
+    },
+    {
+      "id": "m1-003",
+      "subject": "数学",
+      "stem": "3 + 4 = ?",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "9"
+      ],
+      "answerIndex": 1,
+      "explanation": "3加4等于7。"
+    },
+    {
+      "id": "m1-004",
+      "subject": "数学",
+      "stem": "3 + 5 = ?",
+      "options": [
+        "9",
+        "7",
+        "10",
+        "8"
+      ],
+      "answerIndex": 3,
+      "explanation": "3加5等于8。"
+    },
+    {
+      "id": "m1-005",
+      "subject": "数学",
+      "stem": "3 + 6 = ?",
+      "options": [
+        "11",
+        "8",
+        "9",
+        "10"
+      ],
+      "answerIndex": 2,
+      "explanation": "3加6等于9。"
+    },
+    {
+      "id": "m1-006",
+      "subject": "数学",
+      "stem": "3 + 7 = ?",
+      "options": [
+        "9",
+        "11",
+        "10",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "3加7等于10。"
+    },
+    {
+      "id": "m1-007",
+      "subject": "数学",
+      "stem": "3 + 8 = ?",
+      "options": [
+        "13",
+        "12",
+        "11",
+        "10"
+      ],
+      "answerIndex": 2,
+      "explanation": "3加8等于11。"
+    },
+    {
+      "id": "m1-008",
+      "subject": "数学",
+      "stem": "3 + 9 = ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "answerIndex": 1,
+      "explanation": "3加9等于12。"
+    },
+    {
+      "id": "m1-009",
+      "subject": "数学",
+      "stem": "4 + 2 = ?",
+      "options": [
+        "8",
+        "7",
+        "5",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "4加2等于6。"
+    },
+    {
+      "id": "m1-010",
+      "subject": "数学",
+      "stem": "4 + 3 = ?",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "7"
+      ],
+      "answerIndex": 3,
+      "explanation": "4加3等于7。"
+    },
+    {
+      "id": "m1-011",
+      "subject": "数学",
+      "stem": "4 + 4 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "4加4等于8。"
+    },
+    {
+      "id": "m1-012",
+      "subject": "数学",
+      "stem": "4 + 5 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answerIndex": 1,
+      "explanation": "4加5等于9。"
+    },
+    {
+      "id": "m1-013",
+      "subject": "数学",
+      "stem": "4 + 6 = ?",
+      "options": [
+        "12",
+        "9",
+        "10",
+        "11"
+      ],
+      "answerIndex": 2,
+      "explanation": "4加6等于10。"
+    },
+    {
+      "id": "m1-014",
+      "subject": "数学",
+      "stem": "4 + 7 = ?",
+      "options": [
+        "12",
+        "11",
+        "10",
+        "13"
+      ],
+      "answerIndex": 1,
+      "explanation": "4加7等于11。"
+    },
+    {
+      "id": "m1-015",
+      "subject": "数学",
+      "stem": "4 + 8 = ?",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "answerIndex": 0,
+      "explanation": "4加8等于12。"
+    },
+    {
+      "id": "m1-016",
+      "subject": "数学",
+      "stem": "4 + 9 = ?",
+      "options": [
+        "14",
+        "13",
+        "15",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "4加9等于13。"
+    },
+    {
+      "id": "m1-017",
+      "subject": "数学",
+      "stem": "5 + 2 = ?",
+      "options": [
+        "9",
+        "6",
+        "7",
+        "8"
+      ],
+      "answerIndex": 2,
+      "explanation": "5加2等于7。"
+    },
+    {
+      "id": "m1-018",
+      "subject": "数学",
+      "stem": "5 + 3 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "5加3等于8。"
+    },
+    {
+      "id": "m1-019",
+      "subject": "数学",
+      "stem": "5 + 4 = ?",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "5加4等于9。"
+    },
+    {
+      "id": "m1-020",
+      "subject": "数学",
+      "stem": "5 + 5 = ?",
+      "options": [
+        "9",
+        "12",
+        "11",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "5加5等于10。"
+    },
+    {
+      "id": "m1-021",
+      "subject": "数学",
+      "stem": "5 + 6 = ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "5加6等于11。"
+    },
+    {
+      "id": "m1-022",
+      "subject": "数学",
+      "stem": "5 + 7 = ?",
+      "options": [
+        "14",
+        "12",
+        "11",
+        "13"
+      ],
+      "answerIndex": 1,
+      "explanation": "5加7等于12。"
+    },
+    {
+      "id": "m1-023",
+      "subject": "数学",
+      "stem": "5 + 8 = ?",
+      "options": [
+        "14",
+        "15",
+        "13",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "5加8等于13。"
+    },
+    {
+      "id": "m1-024",
+      "subject": "数学",
+      "stem": "5 + 9 = ?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "13"
+      ],
+      "answerIndex": 0,
+      "explanation": "5加9等于14。"
+    },
+    {
+      "id": "m1-025",
+      "subject": "数学",
+      "stem": "6 + 2 = ?",
+      "options": [
+        "10",
+        "9",
+        "7",
+        "8"
+      ],
+      "answerIndex": 3,
+      "explanation": "6加2等于8。"
+    },
+    {
+      "id": "m1-026",
+      "subject": "数学",
+      "stem": "11 - 3 = ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "11减3等于8。"
+    },
+    {
+      "id": "m1-027",
+      "subject": "数学",
+      "stem": "11 - 4 = ?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "7"
+      ],
+      "answerIndex": 3,
+      "explanation": "11减4等于7。"
+    },
+    {
+      "id": "m1-028",
+      "subject": "数学",
+      "stem": "11 - 5 = ?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "11减5等于6。"
+    },
+    {
+      "id": "m1-029",
+      "subject": "数学",
+      "stem": "11 - 6 = ?",
+      "options": [
+        "6",
+        "4",
+        "5",
+        "7"
+      ],
+      "answerIndex": 2,
+      "explanation": "11减6等于5。"
+    },
+    {
+      "id": "m1-030",
+      "subject": "数学",
+      "stem": "11 - 7 = ?",
+      "options": [
+        "3",
+        "6",
+        "4",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "11减7等于4。"
+    },
+    {
+      "id": "m1-031",
+      "subject": "数学",
+      "stem": "11 - 8 = ?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "11减8等于3。"
+    },
+    {
+      "id": "m1-032",
+      "subject": "数学",
+      "stem": "11 - 9 = ?",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "11减9等于2。"
+    },
+    {
+      "id": "m1-033",
+      "subject": "数学",
+      "stem": "12 - 3 = ?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "11"
+      ],
+      "answerIndex": 2,
+      "explanation": "12减3等于9。"
+    },
+    {
+      "id": "m1-034",
+      "subject": "数学",
+      "stem": "12 - 4 = ?",
+      "options": [
+        "9",
+        "10",
+        "7",
+        "8"
+      ],
+      "answerIndex": 3,
+      "explanation": "12减4等于8。"
+    },
+    {
+      "id": "m1-035",
+      "subject": "数学",
+      "stem": "12 - 5 = ?",
+      "options": [
+        "9",
+        "7",
+        "6",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "12减5等于7。"
+    },
+    {
+      "id": "m1-036",
+      "subject": "数学",
+      "stem": "12 - 6 = ?",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "12减6等于6。"
+    },
+    {
+      "id": "m1-037",
+      "subject": "数学",
+      "stem": "12 - 7 = ?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "12减7等于5。"
+    },
+    {
+      "id": "m1-038",
+      "subject": "数学",
+      "stem": "12 - 8 = ?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answerIndex": 3,
+      "explanation": "12减8等于4。"
+    },
+    {
+      "id": "m1-039",
+      "subject": "数学",
+      "stem": "12 - 9 = ?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "12减9等于3。"
+    },
+    {
+      "id": "m1-040",
+      "subject": "数学",
+      "stem": "13 - 3 = ?",
+      "options": [
+        "12",
+        "9",
+        "10",
+        "11"
+      ],
+      "answerIndex": 2,
+      "explanation": "13减3等于10。"
+    },
+    {
+      "id": "m1-041",
+      "subject": "数学",
+      "stem": "13 - 4 = ?",
+      "options": [
+        "11",
+        "8",
+        "10",
+        "9"
+      ],
+      "answerIndex": 3,
+      "explanation": "13减4等于9。"
+    },
+    {
+      "id": "m1-042",
+      "subject": "数学",
+      "stem": "13 - 5 = ?",
+      "options": [
+        "8",
+        "10",
+        "7",
+        "9"
+      ],
+      "answerIndex": 0,
+      "explanation": "13减5等于8。"
+    },
+    {
+      "id": "m1-043",
+      "subject": "数学",
+      "stem": "13 - 6 = ?",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "13减6等于7。"
+    },
+    {
+      "id": "m1-044",
+      "subject": "数学",
+      "stem": "13 - 7 = ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "13减7等于6。"
+    },
+    {
+      "id": "m1-045",
+      "subject": "数学",
+      "stem": "13 - 8 = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answerIndex": 1,
+      "explanation": "13减8等于5。"
+    },
+    {
+      "id": "m1-046",
+      "subject": "数学",
+      "stem": "树上有 9 只小鸟，又飞来 6 只，现在一共有几只？",
+      "options": [
+        "16 只",
+        "15 只",
+        "14 只",
+        "13 只"
+      ],
+      "answerIndex": 1,
+      "explanation": "9 + 6 = 15（只）。"
+    },
+    {
+      "id": "m1-047",
+      "subject": "数学",
+      "stem": "小明有 16 颗糖，吃了 7 颗，还剩几颗？",
+      "options": [
+        "8 颗",
+        "10 颗",
+        "7 颗",
+        "9 颗"
+      ],
+      "answerIndex": 3,
+      "explanation": "16 - 7 = 9（颗）。"
+    },
+    {
+      "id": "m1-048",
+      "subject": "数学",
+      "stem": "正方体一共有几个面？",
+      "options": [
+        "4 个",
+        "6 个",
+        "5 个",
+        "8 个"
+      ],
+      "answerIndex": 1,
+      "explanation": "正方体上下左右前后共 6 个面。"
+    },
+    {
+      "id": "m1-049",
+      "subject": "数学",
+      "stem": "1 元等于多少角？",
+      "options": [
+        "10 角",
+        "100 角",
+        "20 角",
+        "5 角"
+      ],
+      "answerIndex": 0,
+      "explanation": "人民币换算：1 元 = 10 角。"
+    },
+    {
+      "id": "m1-050",
+      "subject": "数学",
+      "stem": "钟面上时针指向 3，分针指向 12，表示几时？",
+      "options": [
+        "12 时",
+        "9 时",
+        "3 时",
+        "6 时"
+      ],
+      "answerIndex": 2,
+      "explanation": "分针指12表示整点，时针指3即3时。"
+    },
+    {
+      "id": "m1-051",
+      "subject": "数学",
+      "stem": "排队做操，小红前面有 4 人，后面有 5 人，这一队共有几人？",
+      "options": [
+        "8 人",
+        "11 人",
+        "9 人",
+        "10 人"
+      ],
+      "answerIndex": 3,
+      "explanation": "4 + 5 + 1（小红自己）= 10 人。"
+    },
+    {
+      "id": "m1-052",
+      "subject": "数学",
+      "stem": "最大的一位数是几？",
+      "options": [
+        "0",
+        "10",
+        "9",
+        "1"
+      ],
+      "answerIndex": 2,
+      "explanation": "最大的一位数是 9，最小的两位数是 10。"
+    },
+    {
+      "id": "m1-053",
+      "subject": "数学",
+      "stem": "最小的两位数与最大的一位数相差多少？",
+      "options": [
+        "10",
+        "1",
+        "2",
+        "9"
+      ],
+      "answerIndex": 1,
+      "explanation": "10 - 9 = 1。"
+    },
+    {
+      "id": "m1-054",
+      "subject": "数学",
+      "stem": "18 里面有几个十和几个一？",
+      "options": [
+        "1 个十和 8 个一",
+        "18 个十",
+        "8 个十和 1 个一",
+        "2 个十"
+      ],
+      "answerIndex": 0,
+      "explanation": "十位是1表示1个十，个位是8表示8个一。"
+    },
+    {
+      "id": "m1-055",
+      "subject": "数学",
+      "stem": "按规律填数：2, 4, 6, 8, ( )，括号里填几？",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "9"
+      ],
+      "answerIndex": 1,
+      "explanation": "每次递增 2，8 + 2 = 10。"
+    },
+    {
+      "id": "m1-056",
+      "subject": "数学",
+      "stem": "按规律填数：15, 12, 9, 6, ( )，括号里填几？",
+      "options": [
+        "3",
+        "0",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0,
+      "explanation": "每次递减 3，6 - 3 = 3。"
+    },
+    {
+      "id": "m1-057",
+      "subject": "数学",
+      "stem": "一个星期有几天？",
+      "options": [
+        "5 天",
+        "8 天",
+        "6 天",
+        "7 天"
+      ],
+      "answerIndex": 3,
+      "explanation": "一个星期从周一到周日共 7 天。"
+    },
+    {
+      "id": "m1-058",
+      "subject": "数学",
+      "stem": "三角形有几条边？",
+      "options": [
+        "4 条",
+        "3 条",
+        "2 条",
+        "5 条"
+      ],
+      "answerIndex": 1,
+      "explanation": "三角形由 3 条线段围成。"
+    },
+    {
+      "id": "m1-059",
+      "subject": "数学",
+      "stem": "妈妈买了 14 个苹果，分给哥哥 5 个、弟弟 4 个，还剩几个？",
+      "options": [
+        "5 个",
+        "4 个",
+        "9 个",
+        "6 个"
+      ],
+      "answerIndex": 0,
+      "explanation": "14 - 5 - 4 = 5（个）。"
+    },
+    {
+      "id": "m1-060",
+      "subject": "数学",
+      "stem": "比 13 大 4 的数是几？",
+      "options": [
+        "18",
+        "17",
+        "9",
+        "16"
+      ],
+      "answerIndex": 1,
+      "explanation": "13 + 4 = 17。"
+    }
+  ]
+}

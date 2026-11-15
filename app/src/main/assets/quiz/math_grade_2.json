@@ -1,0 +1,787 @@
+{
+  "version": 2,
+  "subject": "数学",
+  "grade": 2,
+  "items": [
+    {
+      "id": "m2-001",
+      "subject": "数学",
+      "stem": "2 × 2 = ?",
+      "options": [
+        "6",
+        "选项1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：2乘2等于4。"
+    },
+    {
+      "id": "m2-002",
+      "subject": "数学",
+      "stem": "2 × 3 = ?",
+      "options": [
+        "8",
+        "6",
+        "3",
+        "选项1"
+      ],
+      "answerIndex": 1,
+      "explanation": "乘法口诀：2乘3等于6。"
+    },
+    {
+      "id": "m2-003",
+      "subject": "数学",
+      "stem": "2 × 4 = ?",
+      "options": [
+        "4",
+        "选项1",
+        "8",
+        "10"
+      ],
+      "answerIndex": 2,
+      "explanation": "乘法口诀：2乘4等于8。"
+    },
+    {
+      "id": "m2-004",
+      "subject": "数学",
+      "stem": "2 × 5 = ?",
+      "options": [
+        "选项1",
+        "12",
+        "5",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：2乘5等于10。"
+    },
+    {
+      "id": "m2-005",
+      "subject": "数学",
+      "stem": "2 × 6 = ?",
+      "options": [
+        "6",
+        "14",
+        "选项1",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：2乘6等于12。"
+    },
+    {
+      "id": "m2-006",
+      "subject": "数学",
+      "stem": "2 × 7 = ?",
+      "options": [
+        "14",
+        "选项1",
+        "16",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：2乘7等于14。"
+    },
+    {
+      "id": "m2-007",
+      "subject": "数学",
+      "stem": "2 × 8 = ?",
+      "options": [
+        "16",
+        "选项1",
+        "8",
+        "18"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：2乘8等于16。"
+    },
+    {
+      "id": "m2-008",
+      "subject": "数学",
+      "stem": "2 × 9 = ?",
+      "options": [
+        "20",
+        "18",
+        "选项1",
+        "9"
+      ],
+      "answerIndex": 1,
+      "explanation": "乘法口诀：2乘9等于18。"
+    },
+    {
+      "id": "m2-009",
+      "subject": "数学",
+      "stem": "3 × 3 = ?",
+      "options": [
+        "9",
+        "11",
+        "6",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：3乘3等于9。"
+    },
+    {
+      "id": "m2-010",
+      "subject": "数学",
+      "stem": "3 × 4 = ?",
+      "options": [
+        "12",
+        "15",
+        "14",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：3乘4等于12。"
+    },
+    {
+      "id": "m2-011",
+      "subject": "数学",
+      "stem": "3 × 5 = ?",
+      "options": [
+        "18",
+        "17",
+        "15",
+        "10"
+      ],
+      "answerIndex": 2,
+      "explanation": "乘法口诀：3乘5等于15。"
+    },
+    {
+      "id": "m2-012",
+      "subject": "数学",
+      "stem": "3 × 6 = ?",
+      "options": [
+        "12",
+        "21",
+        "20",
+        "18"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：3乘6等于18。"
+    },
+    {
+      "id": "m2-013",
+      "subject": "数学",
+      "stem": "3 × 7 = ?",
+      "options": [
+        "14",
+        "21",
+        "23",
+        "24"
+      ],
+      "answerIndex": 1,
+      "explanation": "乘法口诀：3乘7等于21。"
+    },
+    {
+      "id": "m2-014",
+      "subject": "数学",
+      "stem": "3 × 8 = ?",
+      "options": [
+        "24",
+        "27",
+        "26",
+        "16"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：3乘8等于24。"
+    },
+    {
+      "id": "m2-015",
+      "subject": "数学",
+      "stem": "3 × 9 = ?",
+      "options": [
+        "27",
+        "18",
+        "29",
+        "30"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：3乘9等于27。"
+    },
+    {
+      "id": "m2-016",
+      "subject": "数学",
+      "stem": "4 × 4 = ?",
+      "options": [
+        "16",
+        "18",
+        "12",
+        "20"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：4乘4等于16。"
+    },
+    {
+      "id": "m2-017",
+      "subject": "数学",
+      "stem": "4 × 5 = ?",
+      "options": [
+        "20",
+        "15",
+        "24",
+        "22"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：4乘5等于20。"
+    },
+    {
+      "id": "m2-018",
+      "subject": "数学",
+      "stem": "4 × 6 = ?",
+      "options": [
+        "18",
+        "28",
+        "24",
+        "26"
+      ],
+      "answerIndex": 2,
+      "explanation": "乘法口诀：4乘6等于24。"
+    },
+    {
+      "id": "m2-019",
+      "subject": "数学",
+      "stem": "4 × 7 = ?",
+      "options": [
+        "21",
+        "32",
+        "30",
+        "28"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：4乘7等于28。"
+    },
+    {
+      "id": "m2-020",
+      "subject": "数学",
+      "stem": "4 × 8 = ?",
+      "options": [
+        "36",
+        "34",
+        "32",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "乘法口诀：4乘8等于32。"
+    },
+    {
+      "id": "m2-021",
+      "subject": "数学",
+      "stem": "4 × 9 = ?",
+      "options": [
+        "40",
+        "27",
+        "38",
+        "36"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：4乘9等于36。"
+    },
+    {
+      "id": "m2-022",
+      "subject": "数学",
+      "stem": "5 × 5 = ?",
+      "options": [
+        "20",
+        "27",
+        "25",
+        "30"
+      ],
+      "answerIndex": 2,
+      "explanation": "乘法口诀：5乘5等于25。"
+    },
+    {
+      "id": "m2-023",
+      "subject": "数学",
+      "stem": "5 × 6 = ?",
+      "options": [
+        "24",
+        "30",
+        "32",
+        "35"
+      ],
+      "answerIndex": 1,
+      "explanation": "乘法口诀：5乘6等于30。"
+    },
+    {
+      "id": "m2-024",
+      "subject": "数学",
+      "stem": "5 × 7 = ?",
+      "options": [
+        "37",
+        "40",
+        "28",
+        "35"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：5乘7等于35。"
+    },
+    {
+      "id": "m2-025",
+      "subject": "数学",
+      "stem": "5 × 8 = ?",
+      "options": [
+        "42",
+        "40",
+        "32",
+        "45"
+      ],
+      "answerIndex": 1,
+      "explanation": "乘法口诀：5乘8等于40。"
+    },
+    {
+      "id": "m2-026",
+      "subject": "数学",
+      "stem": "5 × 9 = ?",
+      "options": [
+        "50",
+        "47",
+        "36",
+        "45"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：5乘9等于45。"
+    },
+    {
+      "id": "m2-027",
+      "subject": "数学",
+      "stem": "6 × 6 = ?",
+      "options": [
+        "36",
+        "30",
+        "38",
+        "42"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：6乘6等于36。"
+    },
+    {
+      "id": "m2-028",
+      "subject": "数学",
+      "stem": "6 × 7 = ?",
+      "options": [
+        "42",
+        "35",
+        "44",
+        "48"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：6乘7等于42。"
+    },
+    {
+      "id": "m2-029",
+      "subject": "数学",
+      "stem": "6 × 8 = ?",
+      "options": [
+        "50",
+        "54",
+        "40",
+        "48"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：6乘8等于48。"
+    },
+    {
+      "id": "m2-030",
+      "subject": "数学",
+      "stem": "6 × 9 = ?",
+      "options": [
+        "45",
+        "54",
+        "60",
+        "56"
+      ],
+      "answerIndex": 1,
+      "explanation": "乘法口诀：6乘9等于54。"
+    },
+    {
+      "id": "m2-031",
+      "subject": "数学",
+      "stem": "7 × 7 = ?",
+      "options": [
+        "49",
+        "51",
+        "42",
+        "56"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：7乘7等于49。"
+    },
+    {
+      "id": "m2-032",
+      "subject": "数学",
+      "stem": "7 × 8 = ?",
+      "options": [
+        "58",
+        "48",
+        "56",
+        "63"
+      ],
+      "answerIndex": 2,
+      "explanation": "乘法口诀：7乘8等于56。"
+    },
+    {
+      "id": "m2-033",
+      "subject": "数学",
+      "stem": "7 × 9 = ?",
+      "options": [
+        "70",
+        "63",
+        "54",
+        "65"
+      ],
+      "answerIndex": 1,
+      "explanation": "乘法口诀：7乘9等于63。"
+    },
+    {
+      "id": "m2-034",
+      "subject": "数学",
+      "stem": "8 × 8 = ?",
+      "options": [
+        "72",
+        "56",
+        "66",
+        "64"
+      ],
+      "answerIndex": 3,
+      "explanation": "乘法口诀：8乘8等于64。"
+    },
+    {
+      "id": "m2-035",
+      "subject": "数学",
+      "stem": "8 × 9 = ?",
+      "options": [
+        "72",
+        "80",
+        "63",
+        "74"
+      ],
+      "answerIndex": 0,
+      "explanation": "乘法口诀：8乘9等于72。"
+    },
+    {
+      "id": "m2-036",
+      "subject": "数学",
+      "stem": "28 + 35 = ?",
+      "options": [
+        "63",
+        "65",
+        "62",
+        "73"
+      ],
+      "answerIndex": 0,
+      "explanation": "28 + 35 = 63。"
+    },
+    {
+      "id": "m2-037",
+      "subject": "数学",
+      "stem": "47 + 26 = ?",
+      "options": [
+        "75",
+        "73",
+        "72",
+        "83"
+      ],
+      "answerIndex": 1,
+      "explanation": "47 + 26 = 73。"
+    },
+    {
+      "id": "m2-038",
+      "subject": "数学",
+      "stem": "56 + 38 = ?",
+      "options": [
+        "96",
+        "94",
+        "93",
+        "104"
+      ],
+      "answerIndex": 1,
+      "explanation": "56 + 38 = 94。"
+    },
+    {
+      "id": "m2-039",
+      "subject": "数学",
+      "stem": "64 + 29 = ?",
+      "options": [
+        "92",
+        "103",
+        "93",
+        "95"
+      ],
+      "answerIndex": 2,
+      "explanation": "64 + 29 = 93。"
+    },
+    {
+      "id": "m2-040",
+      "subject": "数学",
+      "stem": "39 + 45 = ?",
+      "options": [
+        "83",
+        "86",
+        "94",
+        "84"
+      ],
+      "answerIndex": 3,
+      "explanation": "39 + 45 = 84。"
+    },
+    {
+      "id": "m2-041",
+      "subject": "数学",
+      "stem": "82 - 37 = ?",
+      "options": [
+        "45",
+        "44",
+        "55",
+        "47"
+      ],
+      "answerIndex": 0,
+      "explanation": "82 - 37 = 45。"
+    },
+    {
+      "id": "m2-042",
+      "subject": "数学",
+      "stem": "71 + 28 = ?",
+      "options": [
+        "98",
+        "99",
+        "109",
+        "101"
+      ],
+      "answerIndex": 1,
+      "explanation": "71 + 28 = 99。"
+    },
+    {
+      "id": "m2-043",
+      "subject": "数学",
+      "stem": "90 - 46 = ?",
+      "options": [
+        "54",
+        "46",
+        "44",
+        "43"
+      ],
+      "answerIndex": 2,
+      "explanation": "90 - 46 = 44。"
+    },
+    {
+      "id": "m2-044",
+      "subject": "数学",
+      "stem": "63 + 25 = ?",
+      "options": [
+        "87",
+        "90",
+        "88",
+        "98"
+      ],
+      "answerIndex": 2,
+      "explanation": "63 + 25 = 88。"
+    },
+    {
+      "id": "m2-045",
+      "subject": "数学",
+      "stem": "54 + 19 = ?",
+      "options": [
+        "73",
+        "83",
+        "72",
+        "75"
+      ],
+      "answerIndex": 0,
+      "explanation": "54 + 19 = 73。"
+    },
+    {
+      "id": "m2-046",
+      "subject": "数学",
+      "stem": "1 米等于多少厘米？",
+      "options": [
+        "100 厘米",
+        "50 厘米",
+        "10 厘米",
+        "1000 厘米"
+      ],
+      "answerIndex": 0,
+      "explanation": "1 米 = 10 分米 = 100 厘米。"
+    },
+    {
+      "id": "m2-047",
+      "subject": "数学",
+      "stem": "1 小时等于多少分钟？",
+      "options": [
+        "60 分钟",
+        "100 分钟",
+        "30 分钟",
+        "50 分钟"
+      ],
+      "answerIndex": 0,
+      "explanation": "1 小时 = 60 分钟。"
+    },
+    {
+      "id": "m2-048",
+      "subject": "数学",
+      "stem": "有 24 个苹果，平均放在 4 个盘子里，每个盘子放几个？",
+      "options": [
+        "5 个",
+        "6 个",
+        "7 个",
+        "8 个"
+      ],
+      "answerIndex": 1,
+      "explanation": "24 ÷ 4 = 6（个）。"
+    },
+    {
+      "id": "m2-049",
+      "subject": "数学",
+      "stem": "一只青蛙 4 条腿，7 只青蛙几条腿？",
+      "options": [
+        "21 条",
+        "28 条",
+        "24 条",
+        "32 条"
+      ],
+      "answerIndex": 1,
+      "explanation": "4 × 7 = 28（条）。"
+    },
+    {
+      "id": "m2-050",
+      "subject": "数学",
+      "stem": "直角三角板上有几个直角？",
+      "options": [
+        "3 个",
+        "1 个",
+        "0 个",
+        "2 个"
+      ],
+      "answerIndex": 1,
+      "explanation": "每个直角三角板有 1 个直角和 2 个锐角。"
+    },
+    {
+      "id": "m2-051",
+      "subject": "数学",
+      "stem": "35 ÷ 5 = ?",
+      "options": [
+        "8",
+        "7",
+        "5",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "五七三十五，35 ÷ 5 = 7。"
+    },
+    {
+      "id": "m2-052",
+      "subject": "数学",
+      "stem": "42 ÷ 6 = ?",
+      "options": [
+        "7",
+        "9",
+        "6",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "六七四十二，42 ÷ 6 = 7。"
+    },
+    {
+      "id": "m2-053",
+      "subject": "数学",
+      "stem": "把一根木头锯成 4 段，需要锯几次？",
+      "options": [
+        "5 次",
+        "2 次",
+        "3 次",
+        "4 次"
+      ],
+      "answerIndex": 2,
+      "explanation": "段数 = 锯的次数 + 1，所以需要锯 3 次。"
+    },
+    {
+      "id": "m2-054",
+      "subject": "数学",
+      "stem": "二（1）班有男生 23 人，女生 19 人，全班共有多少人？",
+      "options": [
+        "41 人",
+        "32 人",
+        "42 人",
+        "43 人"
+      ],
+      "answerIndex": 2,
+      "explanation": "23 + 19 = 42（人）。"
+    },
+    {
+      "id": "m2-055",
+      "subject": "数学",
+      "stem": "7 个 8 相加的和是多少？",
+      "options": [
+        "15",
+        "56",
+        "48",
+        "64"
+      ],
+      "answerIndex": 1,
+      "explanation": "7 × 8 = 56。"
+    },
+    {
+      "id": "m2-056",
+      "subject": "数学",
+      "stem": "54 里面有几个 9？",
+      "options": [
+        "8 个",
+        "5 个",
+        "6 个",
+        "7 个"
+      ],
+      "answerIndex": 2,
+      "explanation": "54 ÷ 9 = 6。"
+    },
+    {
+      "id": "m2-057",
+      "subject": "数学",
+      "stem": "钝角比直角大还是小？",
+      "options": [
+        "比直角小",
+        "不一定",
+        "比直角大",
+        "一样大"
+      ],
+      "answerIndex": 2,
+      "explanation": "锐角 < 直角 < 钝角。"
+    },
+    {
+      "id": "m2-058",
+      "subject": "数学",
+      "stem": "一本书有 60 页，小红每天看 8 页，看了 5 天后还剩多少页？",
+      "options": [
+        "20 页",
+        "18 页",
+        "25 页",
+        "40 页"
+      ],
+      "answerIndex": 0,
+      "explanation": "60 - 8 × 5 = 20（页）。"
+    },
+    {
+      "id": "m2-059",
+      "subject": "数学",
+      "stem": "最大的两位数是几？",
+      "options": [
+        "90",
+        "100",
+        "98",
+        "99"
+      ],
+      "answerIndex": 3,
+      "explanation": "最大的两位数是 99。"
+    },
+    {
+      "id": "m2-060",
+      "subject": "数学",
+      "stem": "8 × 9 - 12 = ?",
+      "options": [
+        "62",
+        "72",
+        "58",
+        "60"
+      ],
+      "answerIndex": 3,
+      "explanation": "72 - 12 = 60。"
+    }
+  ]
+}

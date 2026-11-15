@@ -1,0 +1,66 @@
+QuizGate TV · VIDAA Edition
+Copyright 2026 qualified12
+
+This distribution is a derivative work of QuizGate TV
+(https://github.com/mtvtopcom/quizgate-tv), Copyright the QuizGate TV
+authors, and is distributed under the Apache License, Version 2.0.
+
+Upstream project:  https://github.com/mtvtopcom/quizgate-tv
+This fork:         https://github.com/qualified12/quizgate-tv-vidaa
+
+===============================================================================
+MODIFICATIONS IN THIS FORK
+===============================================================================
+
+Every source file that differs from upstream carries a header comment
+beginning with "Modified from the original QuizGate TV project".
+The following files were modified or added:
+
+  Modified:
+    app/src/main/java/app/quizgate/tv/BootReceiver.java
+    app/src/main/java/app/quizgate/tv/GateService.java
+    app/src/main/java/app/quizgate/tv/MainActivity.java
+    app/src/main/java/app/quizgate/tv/MaskView.java
+    app/src/main/java/app/quizgate/tv/NotifProbe.java
+    app/src/main/java/app/quizgate/tv/Prefs.java
+    app/src/main/java/app/quizgate/tv/Core.java
+    app/src/main/java/app/quizgate/tv/Updater.java
+    app/src/main/java/app/quizgate/tv/QuizBank.java
+    app/src/main/res/drawable/*
+    app/src/main/assets/quiz/*
+
+  Added:
+    app/src/main/java/app/quizgate/tv/LanServer.java
+    app/src/main/java/app/quizgate/tv/WrongBookView.java
+    app/src/main/java/app/quizgate/tv/MultiSelectPanel.java
+
+Summary of changes:
+
+  - Window-focus arbitration fix for Hisense VIDAA (FLAG_ALT_FOCUSABLE_IM,
+    removal of FLAG_DIM_BEHIND, in-place MaskView reattach, exponential backoff).
+  - Audio focus preemption (AUDIOFOCUS_GAIN_TRANSIENT_EXCLUSIVE), media pause
+    dispatch, and STREAM_MUSIC muting while the gate is shown.
+  - Multi-grade (1-9, bitmask) and multi-subject quiz selection.
+  - Expanded offline question bank under app/src/main/assets/quiz/.
+  - Daily screen-time cap, night curfew, eye-rest reminders.
+  - Anti-guessing guards: minimum read time, wrong-answer cooldown.
+  - Wrong-answer workbook and star points.
+  - Adult (bypass) mode with automatic restore on next boot.
+  - Idle / screen-off re-lock.
+  - Local-area parent console listening on TCP port 8787.
+
+===============================================================================
+TRADEMARK
+===============================================================================
+
+The names "QuizGate" and "答题续时" are used here only to describe the origin
+of this work, as permitted by Apache License 2.0, Section 6. This fork is not
+endorsed by the upstream authors.
+
+===============================================================================
+QUESTION BANK CONTENT
+===============================================================================
+
+Question bank JSON assets under app/src/main/assets/quiz/ are licensed
+separately under Creative Commons Attribution-ShareAlike 4.0 International
+(CC BY-SA 4.0). See LICENSE-CONTENT.
