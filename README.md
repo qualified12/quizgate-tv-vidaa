@@ -53,6 +53,7 @@
 - **作息边界**：每日总时长上限（默认 90 分钟，跨重启累计、零点重置）、
   夜间宵禁（默认 21:00–次日 07:00）、护眼强制远眺休息（每 30 分钟休息 60 秒）
 - **激励与复盘**：错题记录本（题干 / 错选 / 正解 / 解析）、星星积分银行
+- **错题精讲**（v1.6.7）：答错弹全屏解析面板，错选与正解对照 + 知识点讲解，确认看懂才进下一题；动态题也自带分步解析
 
 ### 4. 题库
 
@@ -94,7 +95,7 @@ adb connect <电视IP>:5555
 # 海信 VIDAA 建议先抑制系统语音助手（否则容易抢焦点）
 adb shell appops set com.keylab.speech.view.vidaa SYSTEM_ALERT_WINDOW ignore
 
-adb install -r quizgate-vidaa-pro-1.6.3.apk
+adb install -r quizgate-vidaa-pro-1.6.7.apk
 
 # 三项授权（必需）
 adb shell appops set app.quizgate.tv SYSTEM_ALERT_WINDOW allow

@@ -44,7 +44,9 @@ Summary of changes:
   - Expanded offline question bank under app/src/main/assets/quiz/.
   - Daily screen-time cap, night curfew, eye-rest reminders.
   - Anti-guessing guards: minimum read time, wrong-answer cooldown.
-  - Wrong-answer workbook and star points.
+  - Wrong-answer workbook and star points
+  - Full-screen wrong-answer explainer overlay with per-question
+    subject/grade badges and dynamic-question step-by-step explanations (v1.6.7).
   - Adult (bypass) mode with automatic restore on next boot.
   - Idle / screen-off re-lock.
   - Local-area parent console listening on TCP port 8787.

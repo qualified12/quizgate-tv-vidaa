@@ -1,631 +1,512 @@
 {
-  "version": 2,
-  "subject": "英语",
   "grade": 8,
+  "subject": "english",
   "items": [
     {
-      "id": "e8-001",
-      "subject": "英语",
-      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "stem": "复合不定代词与形容词位置：\"Is there ______ in today's newspaper?\"",
       "options": [
-        "橘子",
-        "香蕉",
-        "苹果",
-        "葡萄"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"apple\" 意为“苹果”。"
-    },
-    {
-      "id": "e8-002",
-      "subject": "英语",
-      "stem": "英语单词 \"banana\" 的中文意思是什么？",
-      "options": [
-        "苹果",
-        "香蕉",
-        "草莓",
-        "西瓜"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"banana\" 意为“香蕉”。"
-    },
-    {
-      "id": "e8-003",
-      "subject": "英语",
-      "stem": "英语单词 \"orange\" 的中文意思是什么？",
-      "options": [
-        "柠檬",
-        "橙子/橘子",
-        "桃子",
-        "梨"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"orange\" 意为“橙子/橘子”。"
-    },
-    {
-      "id": "e8-004",
-      "subject": "英语",
-      "stem": "英语单词 \"water\" 的中文意思是什么？",
-      "options": [
-        "水",
-        "果汁",
-        "牛奶",
-        "茶"
+        "anything важных → anything important",
+        "important anything",
+        "something important",
+        "important something"
       ],
       "answerIndex": 0,
-      "explanation": "\"water\" 意为“水”。"
+      "explanation": "【不定代词两大考点】① 疑问句中用 anything；② 形容词修饰 something/anything/nothing 等复合不定代词时，形容词必须后置（anything important / something new）。"
     },
     {
-      "id": "e8-005",
-      "subject": "英语",
-      "stem": "英语单词 \"milk\" 的中文意思是什么？",
+      "stem": "过去进行时（when vs while）：\"I ______ my homework when the rainstorm suddenly came.\"",
       "options": [
-        "牛奶",
-        "咖啡",
-        "水",
-        "面包"
+        "was doing",
+        "did",
+        "am doing",
+        "have done"
       ],
       "answerIndex": 0,
-      "explanation": "\"milk\" 意为“牛奶”。"
+      "explanation": "【过去进行时】“when + 一般过去时（暴风雨突然来临时）”表示过去某个时间点，主句动作在该时刻正在进行，用过去进行时 was/were + doing。"
     },
     {
-      "id": "e8-006",
-      "subject": "英语",
-      "stem": "英语单词 \"bread\" 的中文意思是什么？",
+      "stem": "现在完成时（have been to vs have gone to）：\"Where is Mr. Wang?\" — \"He ______ Shanghai. He will be back next week.\"",
       "options": [
-        "蛋糕",
-        "米饭",
-        "面包",
-        "面条"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"bread\" 意为“面包”。"
-    },
-    {
-      "id": "e8-007",
-      "subject": "英语",
-      "stem": "英语单词 \"book\" 的中文意思是什么？",
-      "options": [
-        "书包",
-        "尺子",
-        "钢笔",
-        "书"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"book\" 意为“书”。"
-    },
-    {
-      "id": "e8-008",
-      "subject": "英语",
-      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
-      "options": [
-        "铅笔",
-        "椅子",
-        "橡皮",
-        "课桌"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"pencil\" 意为“铅笔”。"
-    },
-    {
-      "id": "e8-009",
-      "subject": "英语",
-      "stem": "英语单词 \"school\" 的中文意思是什么？",
-      "options": [
-        "学校",
-        "公园",
-        "超市",
-        "医院"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"school\" 意为“学校”。"
-    },
-    {
-      "id": "e8-010",
-      "subject": "英语",
-      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
-      "options": [
-        "医生",
-        "农民",
-        "司机",
-        "老师"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"teacher\" 意为“老师”。"
-    },
-    {
-      "id": "e8-011",
-      "subject": "英语",
-      "stem": "英语单词 \"student\" 的中文意思是什么？",
-      "options": [
-        "警察",
-        "老师",
-        "护士",
-        "学生"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"student\" 意为“学生”。"
-    },
-    {
-      "id": "e8-012",
-      "subject": "英语",
-      "stem": "英语单词 \"family\" 的中文意思是什么？",
-      "options": [
-        "同学",
-        "家庭",
-        "朋友",
-        "邻居"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"family\" 意为“家庭”。"
-    },
-    {
-      "id": "e8-013",
-      "subject": "英语",
-      "stem": "英语单词 \"mother\" 的中文意思是什么？",
-      "options": [
-        "姐妹",
-        "兄弟",
-        "母亲",
-        "父亲"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"mother\" 意为“母亲”。"
-    },
-    {
-      "id": "e8-014",
-      "subject": "英语",
-      "stem": "英语单词 \"father\" 的中文意思是什么？",
-      "options": [
-        "母亲",
-        "父亲",
-        "阿姨",
-        "叔叔"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"father\" 意为“父亲”。"
-    },
-    {
-      "id": "e8-015",
-      "subject": "英语",
-      "stem": "英语单词 \"morning\" 的中文意思是什么？",
-      "options": [
-        "早晨/上午",
-        "下午",
-        "晚上",
-        "中午"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"morning\" 意为“早晨/上午”。"
-    },
-    {
-      "id": "e8-016",
-      "subject": "英语",
-      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
-      "options": [
-        "早晨",
-        "夜晚",
-        "下午",
-        "昨天"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"afternoon\" 意为“下午”。"
-    },
-    {
-      "id": "e8-017",
-      "subject": "英语",
-      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
-      "options": [
-        "星期五",
-        "星期一",
-        "星期日",
-        "星期二"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"Monday\" 意为“星期一”。"
-    },
-    {
-      "id": "e8-018",
-      "subject": "英语",
-      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
-      "options": [
-        "星期五",
-        "星期六",
-        "星期四",
-        "星期三"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"Friday\" 意为“星期五”。"
-    },
-    {
-      "id": "e8-019",
-      "subject": "英语",
-      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
-      "options": [
-        "星期六",
-        "星期日",
-        "星期二",
-        "星期一"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"Sunday\" 意为“星期日”。"
-    },
-    {
-      "id": "e8-020",
-      "subject": "英语",
-      "stem": "英语单词 \"spring\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "夏天",
-        "春天",
-        "秋天"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"spring\" 意为“春天”。"
-    },
-    {
-      "id": "e8-021",
-      "subject": "英语",
-      "stem": "英语单词 \"summer\" 的中文意思是什么？",
-      "options": [
-        "春天",
-        "夏天",
-        "冬天",
-        "秋天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"summer\" 意为“夏天”。"
-    },
-    {
-      "id": "e8-022",
-      "subject": "英语",
-      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
-      "options": [
-        "夏天",
-        "秋天",
-        "春天",
-        "冬天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"autumn\" 意为“秋天”。"
-    },
-    {
-      "id": "e8-023",
-      "subject": "英语",
-      "stem": "英语单词 \"winter\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "夏天",
-        "秋天",
-        "春天"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"winter\" 意为“冬天”。"
-    },
-    {
-      "id": "e8-024",
-      "subject": "英语",
-      "stem": "英语单词 \"library\" 的中文意思是什么？",
-      "options": [
-        "博物馆",
-        "体育馆",
-        "图书馆",
-        "电影院"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"library\" 意为“图书馆”。"
-    },
-    {
-      "id": "e8-025",
-      "subject": "英语",
-      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
-      "options": [
-        "银行",
-        "邮局",
-        "学校",
-        "医院"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"hospital\" 意为“医院”。"
-    },
-    {
-      "id": "e8-026",
-      "subject": "英语",
-      "stem": "英语单词 \"science\" 的中文意思是什么？",
-      "options": [
-        "音乐",
-        "历史",
-        "科学",
-        "数学"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"science\" 意为“科学”。"
-    },
-    {
-      "id": "e8-027",
-      "subject": "英语",
-      "stem": "英语单词 \"computer\" 的中文意思是什么？",
-      "options": [
-        "电脑",
-        "相机",
-        "电视",
-        "电话"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"computer\" 意为“电脑”。"
-    },
-    {
-      "id": "e8-028",
-      "subject": "英语",
-      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
-      "options": [
-        "杂志",
-        "报纸",
-        "笔记本",
-        "词典"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"dictionary\" 意为“词典”。"
-    },
-    {
-      "id": "e8-029",
-      "subject": "英语",
-      "stem": "英语单词 \"environment\" 的中文意思是什么？",
-      "options": [
-        "温度",
-        "环境",
-        "政府",
-        "实验"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"environment\" 意为“环境”。"
-    },
-    {
-      "id": "e8-030",
-      "subject": "英语",
-      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
-      "options": [
-        "距离",
-        "季节",
-        "天气",
-        "温度"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"temperature\" 意为“温度”。"
-    },
-    {
-      "id": "e8-031",
-      "subject": "英语",
-      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
-      "options": [
-        "语言",
-        "自然",
-        "文化",
-        "知识"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"knowledge\" 意为“知识”。"
-    },
-    {
-      "id": "e8-032",
-      "subject": "英语",
-      "stem": "英语单词 \"experience\" 的中文意思是什么？",
-      "options": [
-        "经验/经历",
-        "运动",
-        "实验",
-        "解释"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"experience\" 意为“经验/经历”。"
-    },
-    {
-      "id": "e8-033",
-      "subject": "英语",
-      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
-      "options": [
-        "I'm fine.",
-        "Goodbye.",
-        "You're welcome.",
-        "Nice to meet you."
-      ],
-      "answerIndex": 2,
-      "explanation": "回应感谢常用 You're welcome（不客气）。"
-    },
-    {
-      "id": "e8-034",
-      "subject": "英语",
-      "stem": "早上见到老师时，应该用哪句英语问好？",
-      "options": [
-        "Good morning!",
-        "Good afternoon!",
-        "Good night!",
-        "See you!"
-      ],
-      "answerIndex": 0,
-      "explanation": "早上问好使用 Good morning!"
-    },
-    {
-      "id": "e8-035",
-      "subject": "英语",
-      "stem": "\"How old are you?\" 是在询问什么？",
-      "options": [
-        "你几岁了？",
-        "你在哪里？",
-        "你好吗？",
-        "你是谁？"
-      ],
-      "answerIndex": 0,
-      "explanation": "How old 用来询问年龄。"
-    },
-    {
-      "id": "e8-036",
-      "subject": "英语",
-      "stem": "填空：I ___ a student.",
-      "options": [
-        "be",
-        "is",
-        "are",
-        "am"
-      ],
-      "answerIndex": 3,
-      "explanation": "第一人称单数 I 搭配 be 动词 am。"
-    },
-    {
-      "id": "e8-037",
-      "subject": "英语",
-      "stem": "填空：She ___ reading books every day.",
-      "options": [
-        "like",
-        "likes",
-        "liking",
-        "to like"
-      ],
-      "answerIndex": 1,
-      "explanation": "第三人称单数一般现在时动词加 -s。"
-    },
-    {
-      "id": "e8-038",
-      "subject": "英语",
-      "stem": "填空：There ___ an apple and two pears on the table.",
-      "options": [
-        "are",
-        "am",
-        "is",
-        "be"
-      ],
-      "answerIndex": 2,
-      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
-    },
-    {
-      "id": "e8-039",
-      "subject": "英语",
-      "stem": "\"child\"（孩子）的复数形式是什么？",
-      "options": [
-        "childrens",
-        "children",
-        "childs",
-        "childes"
-      ],
-      "answerIndex": 1,
-      "explanation": "child 的不规则复数是 children。"
-    },
-    {
-      "id": "e8-040",
-      "subject": "英语",
-      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
-      "options": [
-        "teethes",
-        "toothes",
-        "tooths",
-        "teeth"
-      ],
-      "answerIndex": 3,
-      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
-    },
-    {
-      "id": "e8-041",
-      "subject": "英语",
-      "stem": "动词 \"go\" 的过去式是什么？",
-      "options": [
-        "gone",
-        "goed",
-        "going",
+        "has gone to",
+        "has been to",
+        "has been in",
         "went"
       ],
-      "answerIndex": 3,
-      "explanation": "go - went - gone 是不规则动词变化。"
+      "answerIndex": 0,
+      "explanation": "【现在完成时高频辨析】① have/has gone to 表示“去了某地还没回来”（人在途中或在目的地，符合“下周才回来”语境）；② have/has been to 表示“曾经去过某地（现在已经回来了）”；③ have/has been in + 地点 + for 时间段 表示“在某地待了多久”。"
     },
     {
-      "id": "e8-042",
-      "subject": "英语",
-      "stem": "动词 \"buy\"（买）的过去式是什么？",
+      "stem": "现在完成时（瞬间动词与延续性动词转换）：\"His grandfather ______ for five years.\"（他爷爷去世五年了）",
       "options": [
-        "buying",
-        "buyed",
-        "bought",
-        "brought"
+        "has been dead",
+        "has died",
+        "died",
+        "was dead"
       ],
-      "answerIndex": 2,
-      "explanation": "buy 的过去式和过去分词都是 bought。"
+      "answerIndex": 0,
+      "explanation": "【延续性动词铁律】句末有时间段“for five years”，谓语必须用现在完成时的“延续性状态”：die（瞬间动词）➔ be dead；buy ➔ have；borrow ➔ keep；leave ➔ be away。"
     },
     {
-      "id": "e8-043",
-      "subject": "英语",
-      "stem": "填空：He has lived in Beijing ___ 2020.",
+      "stem": "状语从句“主将从现”原则：\"We will go hiking tomorrow if it ______.\"",
       "options": [
-        "for",
-        "at",
-        "in",
-        "since"
+        "doesn't rain",
+        "won't rain",
+        "isn't rain",
+        "didn't rain"
       ],
-      "answerIndex": 3,
-      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+      "answerIndex": 0,
+      "explanation": "【主将从现原则】在 if（如果）、unless（除非）、as soon as（一……就……）、when 引导的条件或时间状语从句中，主句用一般将来时（will go），从句必须用“一般现在时（doesn't rain）”表将来！"
     },
     {
-      "id": "e8-044",
-      "subject": "英语",
-      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "stem": "形容词比较级结构：\"______ books you read, ______ you will become.\"（你读的书越多，你就会变得越聪明）",
       "options": [
-        "interested; interesting",
-        "interesting; interested",
-        "interest; interesting",
-        "interesting; interest"
+        "The more; the wiser",
+        "More; wiser",
+        "The most; the wisest",
+        "The more; the more wise"
       ],
-      "answerIndex": 1,
-      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+      "answerIndex": 0,
+      "explanation": "【越……就越……句型】固定结构“The + 比较级 ..., the + 比较级 ...”表示“越……，就越……”，故填 The more; the wiser。"
     },
     {
-      "id": "e8-045",
-      "subject": "英语",
-      "stem": "填空：If it ___ tomorrow, we will stay at home.",
+      "stem": "非谓语动词搭配：\"My parents always encourage me ______ more books and advise me not ______ up easily.\"",
       "options": [
-        "rained",
-        "rains",
-        "will rain",
-        "rain"
+        "to read; to give",
+        "reading; giving",
+        "to read; give",
+        "read; to give"
       ],
-      "answerIndex": 1,
-      "explanation": "if 引导的条件状语从句遵循“主将从现”，从句用一般现在时 rains。"
+      "answerIndex": 0,
+      "explanation": "【动词不定式补语】encourage sb. to do sth.（鼓励某人做某事）；advise/tell/ask sb. (not) to do sth.（建议/告诉/要求某人不要做某事），不定式否定形式是在 to 前加 not。"
     },
     {
-      "id": "e8-046",
-      "subject": "英语",
-      "stem": "填空：English ___ all over the world today.",
+      "stem": "情态动词问答：\"Must I hand in the report right now?\" — \"No, you ______. You can hand it in tomorrow.\"",
       "options": [
-        "was speaking",
-        "speaks",
-        "is spoken",
-        "spoke"
+        "needn't（或 don't have to）",
+        "mustn't",
+        "can't",
+        "shouldn't"
       ],
-      "answerIndex": 2,
-      "explanation": "英语是“被讲”，一般现在时被动语态 is spoken。"
+      "answerIndex": 0,
+      "explanation": "【Must 提问的否定回答】以“Must I...?”（我必须……吗？）提问，否定回答意思是“不，你不必”，必须用“No, you needn't.”或“No, you don't have to.”；绝对不能用 mustn't（mustn't 表示“严禁、禁止”）！"
     },
     {
-      "id": "e8-047",
-      "subject": "英语",
-      "stem": "填空：Could you tell me where ___?",
+      "stem": "介词短语辨析：\"______ the heavy rain, the sports meeting was put off.\"",
       "options": [
-        "is the post office",
-        "the post office was",
-        "the post office is",
-        "was the post office"
+        "Because of",
+        "Because",
+        "Thanks for",
+        "Instead"
       ],
-      "answerIndex": 2,
-      "explanation": "宾语从句必须使用陈述句语序（主语+谓语）。"
+      "answerIndex": 0,
+      "explanation": "【because vs because of】because 是连词，后面必须接完整的句子（主语+谓语）；because of 是介词短语，后面接名词或名词短语（the heavy rain）。"
     },
     {
-      "id": "e8-048",
-      "subject": "英语",
-      "stem": "填空：Look! The children ___ basketball on the playground.",
+      "stem": "反意疑问句与 used to 辨析：\"He used to shy, but now he is used to ______ in front of the whole class.\"",
       "options": [
-        "played",
-        "plays",
-        "are playing",
-        "play"
+        "be; speaking",
+        "being; speak",
+        "be; speak",
+        "being; speaking"
       ],
-      "answerIndex": 2,
-      "explanation": "Look! 提示动作正在发生，用现在进行时 are playing。"
+      "answerIndex": 0,
+      "explanation": "【used to 三剑客】① used to do sth. = 过去常常做某事（to后接动词原形 be）；② be/get used to doing sth. = 习惯于做某事（to是介词，后接动名词 speaking）；③ be used to do sth. = 被用来做某事。"
+    },
+    {
+      "stem": "英语词汇：单词 \"decide\" 的中文意思是什么？",
+      "options": [
+        "决定",
+        "犹豫",
+        "拒绝",
+        "同意"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：decide to do sth. = 决定做某事（名词 decision）。"
+    },
+    {
+      "stem": "汉译英：「决定」对应的英文单词是哪一个？",
+      "options": [
+        "decide",
+        "successful",
+        "compare",
+        "develop"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：decide to do sth. = 决定做某事（名词 decision）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"enjoyable\" 的中文意思是什么？",
+      "options": [
+        "令人愉快的",
+        "枯燥的",
+        "痛苦的",
+        "困难的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：enjoy + -able = 令人愉快的。"
+    },
+    {
+      "stem": "汉译英：「令人愉快的」对应的英文单词是哪一个？",
+      "options": [
+        "enjoyable",
+        "achieve",
+        "creative",
+        "serious"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：enjoy + -able = 令人愉快的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"necessary\" 的中文意思是什么？",
+      "options": [
+        "必要的 / 必需的",
+        "多余的",
+        "可能的",
+        "普通的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】高频句型：It is necessary for sb. to do sth.。"
+    },
+    {
+      "stem": "汉译英：「必要的 / 必需的」对应的英文单词是哪一个？",
+      "options": [
+        "necessary",
+        "encourage",
+        "successful",
+        "environment"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】高频句型：It is necessary for sb. to do sth.。"
+    },
+    {
+      "stem": "英语词汇：单词 \"serious\" 的中文意思是什么？",
+      "options": [
+        "严肃的 / 认真的 / 严重的",
+        "幽默的",
+        "随意的",
+        "粗心的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：take sth. seriously = 认真对待某事。"
+    },
+    {
+      "stem": "汉译英：「严肃的 / 认真的 / 严重的」对应的英文单词是哪一个？",
+      "options": [
+        "serious",
+        "creative",
+        "environment",
+        "encourage"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：take sth. seriously = 认真对待某事。"
+    },
+    {
+      "stem": "英语词汇：单词 \"successful\" 的中文意思是什么？",
+      "options": [
+        "成功的",
+        "失败的",
+        "幸运的",
+        "骄傲的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】词性转换：success(n.) ➔ succeed(v.) ➔ successful(adj.)。"
+    },
+    {
+      "stem": "汉译英：「成功的」对应的英文单词是哪一个？",
+      "options": [
+        "successful",
+        "decide",
+        "compare",
+        "necessary"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】词性转换：success(n.) ➔ succeed(v.) ➔ successful(adj.)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"creative\" 的中文意思是什么？",
+      "options": [
+        "有创造力的",
+        "保守的",
+        "安静的",
+        "诚实的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】词性转换：create(创造) ➔ creative(有创造力的)。"
+    },
+    {
+      "stem": "汉译英：「有创造力的」对应的英文单词是哪一个？",
+      "options": [
+        "creative",
+        "serious",
+        "opinion",
+        "environment"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】词性转换：create(创造) ➔ creative(有创造力的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"improve\" 的中文意思是什么？",
+      "options": [
+        "提高 / 改善",
+        "破坏",
+        "保持",
+        "降低"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：improve English = 提高英语水平。"
+    },
+    {
+      "stem": "汉译英：「提高 / 改善」对应的英文单词是哪一个？",
+      "options": [
+        "improve",
+        "communicate",
+        "necessary",
+        "serious"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：improve English = 提高英语水平。"
+    },
+    {
+      "stem": "英语词汇：单词 \"environment\" 的中文意思是什么？",
+      "options": [
+        "环境",
+        "自然",
+        "污染",
+        "资源"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】环保高频词：protect the environment = 保护环境。"
+    },
+    {
+      "stem": "汉译英：「环境」对应的英文单词是哪一个？",
+      "options": [
+        "environment",
+        "decide",
+        "achieve",
+        "develop"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】环保高频词：protect the environment = 保护环境。"
+    },
+    {
+      "stem": "英语词汇：单词 \"communicate\" 的中文意思是什么？",
+      "options": [
+        "交流 / 沟通",
+        "争吵",
+        "倾听",
+        "理解"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：communicate with sb.（名词 communication）。"
+    },
+    {
+      "stem": "汉译英：「交流 / 沟通」对应的英文单词是哪一个？",
+      "options": [
+        "communicate",
+        "compare",
+        "serious",
+        "decide"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：communicate with sb.（名词 communication）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"encourage\" 的中文意思是什么？",
+      "options": [
+        "鼓励",
+        "批评",
+        "惩罚",
+        "阻止"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：encourage sb. to do sth.。"
+    },
+    {
+      "stem": "汉译英：「鼓励」对应的英文单词是哪一个？",
+      "options": [
+        "encourage",
+        "compare",
+        "creative",
+        "opinion"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：encourage sb. to do sth.。"
+    },
+    {
+      "stem": "英语词汇：单词 \"achieve\" 的中文意思是什么？",
+      "options": [
+        "实现 / 达到（目标）",
+        "放弃",
+        "计划",
+        "等待"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：achieve one's dream = 实现梦想。"
+    },
+    {
+      "stem": "汉译英：「实现 / 达到（目标）」对应的英文单词是哪一个？",
+      "options": [
+        "achieve",
+        "necessary",
+        "pressure",
+        "enjoyable"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：achieve one's dream = 实现梦想。"
+    },
+    {
+      "stem": "英语词汇：单词 \"independent\" 的中文意思是什么？",
+      "options": [
+        "独立的",
+        "依赖的",
+        "自私的",
+        "耐心的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】词汇拓展：depend(依靠) ➔ independent(独立的)。"
+    },
+    {
+      "stem": "汉译英：「独立的」对应的英文单词是哪一个？",
+      "options": [
+        "independent",
+        "necessary",
+        "creative",
+        "opinion"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】词汇拓展：depend(依靠) ➔ independent(独立的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"pressure\" 的中文意思是什么？",
+      "options": [
+        "压力",
+        "动力",
+        "休息",
+        "快乐"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】生活词：under too much pressure = 压力太大。"
+    },
+    {
+      "stem": "汉译英：「压力」对应的英文单词是哪一个？",
+      "options": [
+        "pressure",
+        "compare",
+        "improve",
+        "serious"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】生活词：under too much pressure = 压力太大。"
+    },
+    {
+      "stem": "英语词汇：单词 \"opinion\" 的中文意思是什么？",
+      "options": [
+        "观点 / 看法",
+        "事实",
+        "原因",
+        "结果"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：in my opinion = 在我看来。"
+    },
+    {
+      "stem": "汉译英：「观点 / 看法」对应的英文单词是哪一个？",
+      "options": [
+        "opinion",
+        "creative",
+        "encourage",
+        "achieve"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：in my opinion = 在我看来。"
+    },
+    {
+      "stem": "英语词汇：单词 \"compare\" 的中文意思是什么？",
+      "options": [
+        "比较 / 对比",
+        "连接",
+        "模仿",
+        "选择"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：compare A with B = 把 A 和 B 作比较。"
+    },
+    {
+      "stem": "汉译英：「比较 / 对比」对应的英文单词是哪一个？",
+      "options": [
+        "compare",
+        "opinion",
+        "pressure",
+        "develop"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：compare A with B = 把 A 和 B 作比较。"
+    },
+    {
+      "stem": "英语词汇：单词 \"develop\" 的中文意思是什么？",
+      "options": [
+        "发展 / 养成（习惯）",
+        "减少",
+        "停止",
+        "忘记"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】搭配：develop a good habit = 养成好习惯。"
+    },
+    {
+      "stem": "汉译英：「发展 / 养成（习惯）」对应的英文单词是哪一个？",
+      "options": [
+        "develop",
+        "encourage",
+        "successful",
+        "pressure"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】搭配：develop a good habit = 养成好习惯。"
+    },
+    {
+      "stem": "【八年级英语·最高级句型必考】\"Mount Qomolangma is one of ______ in the world.\"",
+      "options": [
+        "the highest mountains",
+        "highest mountain",
+        "the higher mountains",
+        "the highest mountain"
+      ],
+      "answerIndex": 0,
+      "explanation": "【八下 Unit 7 必考】固定结构“one of the + 形容词最高级 + 可数名词复数（……中最……之一）”，mountain 必须用复数！"
+    },
+    {
+      "stem": "【八年级英语·现在完成时 for vs since 必考】\"He has lived in Beijing ______ ten years / ______ 2016.\"",
+      "options": [
+        "for; since",
+        "since; for",
+        "in; at",
+        "for; in"
+      ],
+      "answerIndex": 0,
+      "explanation": "【八下 Unit 8-10 必考】“for + 一段时间（ten years）”；“since + 过去时间点（2016 / five years ago / 一般过去时从句）”。"
+    },
+    {
+      "stem": "【八年级英语·提建议句型必考】\"Why don't you ______ a talk with your parents?\" 与 \"How about ______ a talk?\" 分别填？",
+      "options": [
+        "have; having",
+        "having; have",
+        "to have; having",
+        "have; to have"
+      ],
+      "answerIndex": 0,
+      "explanation": "【八下 Unit 4 必考】Why don't you / Why not + 动词原形（have）；What/How about + 动名词（having）。"
+    },
+    {
+      "stem": "【八年级英语·连词引导时间状语从句必考】\"While I ______（看书）, my brother ______（突然敲门）.\"",
+      "options": [
+        "was reading; knocked",
+        "read; was knocking",
+        "am reading; knocked",
+        "was reading; was knocking"
+      ],
+      "answerIndex": 0,
+      "explanation": "【八下 Unit 5 必考】while 后通常接延续性动词的过去进行时（was reading），突然发生的短暂动作 knock 用一般过去时（knocked）。"
     }
   ]
 }

@@ -4,6 +4,7 @@
  * Modified from the original QuizGate TV project by qualified12.
  * See NOTICE for the full list of changes.
  */
+
 package app.quizgate.tv;
 
 import android.content.Context;
@@ -16,6 +17,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -51,6 +53,13 @@ public class MaskView extends FrameLayout {
     private QuizBank.Q q;
     private PinPadView pin;
     private RecoveryFlow recovery;
+    private FrameLayout explainOverlay;
+    private ScrollView explainScroll;
+    private TextView explainBtn;
+    private TextView explainTipView;
+    private boolean explainVisible = false;
+    private long explainUnlockAt = 0L;
+
     private boolean pinVisible = false;
     private boolean answering = false;
     private int sel = 0;
@@ -77,6 +86,27 @@ public class MaskView extends FrameLayout {
                 feedback.setTextColor(Ui.OK);
                 feedback.setText("请让孩子离开屏幕远眺窗外，倒计时结束后自动恢复播放");
                 postDelayed(this, 500L);
+                return;
+            }
+            if (explainVisible && explainBtn != null) {
+                long waitMs = explainUnlockAt - now;
+                if (waitMs > 0L) {
+                    int sec = (int) ((waitMs + 999L) / 1000L);
+                    boolean isGuessCooldown = (cooldownUntil > now && cooldownUntil >= explainUnlockAt);
+                    explainBtn.setText(isGuessCooldown
+                            ? ("⏳ 连续答错防瞎蒙冷却中，请认真研读上方图文解析（剩余 " + sec + " 秒）")
+                            : ("⏳ 请先认真看懂上方图文解析（还需阅读 " + sec + " 秒后可继续…）"));
+                    explainBtn.setTextColor(Ui.ACCENT);
+                    explainBtn.setBackground(explainBtnWaitBg());
+                    postDelayed(this, 300L);
+                } else {
+                    explainBtn.setText("✓ 我已看懂本题解析，按 OK 键进入下一题 ›");
+                    explainBtn.setTextColor(0xFFFFFFFF);
+                    explainBtn.setBackground(explainBtnReadyBg());
+                    if (explainTipView != null) {
+                        explainTipView.setText("已读完解析！请按遥控器「OK / 确认键」进入下一题");
+                    }
+                }
                 return;
             }
             if (lockMode == Prefs.LOCK_QUIZ && !answering && !pinVisible && recovery == null) {
@@ -242,12 +272,14 @@ public class MaskView extends FrameLayout {
     }
 
     public void nextQuestion() {
+        hideExplainOverlay();
         q = bank.nextFromPrefs(prefs, rnd);
         answering = false;
         questionShownAt = SystemClock.uptimeMillis();
-        String badge = (q.badge == null || q.badge.isEmpty()) ? "" : ("【" + q.badge + "】 · ");
+        String badge = (q.badge == null || q.badge.isEmpty()) ? "" : ("【" + q.badge + "】");
+        String scope = prefs.gradesSummary();
         String prog = "已答对 " + correctCount + " / " + targetCount + " 题";
-        kickerView.setText(prog + " · " + badge + "后台音视频已静音");
+        kickerView.setText(prog + " · 本题：" + badge + "（抽题范围：" + scope + "）");
         starView.setText("★ 积分：" + prefs.stars());
         stemView.setText(q.stem);
         String[] prefixes = {"① ", "② ", "③ ", "④ "};
@@ -291,13 +323,29 @@ public class MaskView extends FrameLayout {
         return d;
     }
 
+    private GradientDrawable cardBoxBg(int fill, int strokeColor, int strokeDp, int radiusDp) {
+        GradientDrawable d = new GradientDrawable();
+        d.setColor(fill);
+        d.setStroke(Ui.dp(getContext(), strokeDp), strokeColor);
+        d.setCornerRadius(Ui.dp(getContext(), radiusDp));
+        return d;
+    }
+
+    private GradientDrawable explainBtnWaitBg() {
+        return cardBoxBg(0xFF282218, Ui.ACCENT, 2, 14);
+    }
+
+    private GradientDrawable explainBtnReadyBg() {
+        return cardBoxBg(0xFF1F6F45, Ui.ACCENT, 3, 14);
+    }
+
     private void select(int i) {
         sel = Math.max(0, Math.min(3, i));
         paintSelection();
     }
 
     private void moveSel(int dx, int dy) {
-        if (answering || lockMode != Prefs.LOCK_QUIZ) return;
+        if (answering || explainVisible || lockMode != Prefs.LOCK_QUIZ) return;
         int col = sel % 2, row = sel / 2;
         col = (col + dx + 2) % 2;
         row = (row + dy + 2) % 2;
@@ -305,7 +353,7 @@ public class MaskView extends FrameLayout {
     }
 
     private void answer(int i) {
-        if (lockMode != Prefs.LOCK_QUIZ || answering || pinVisible || q == null) return;
+        if (lockMode != Prefs.LOCK_QUIZ || answering || explainVisible || pinVisible || q == null) return;
         long now = SystemClock.uptimeMillis();
         if (cooldownUntil > now) {
             int sec = (int) ((cooldownUntil - now + 999L) / 1000L);
@@ -356,15 +404,268 @@ public class MaskView extends FrameLayout {
             }
             opts[i].setBackgroundColor(0x8C6B1D1D);
             opts[q.answer].setBackgroundColor(0xFF1F6F45);
-            feedback.setTextColor(Ui.BAD);
-            String penTip = penaltyPerWrong > 0 ? ("（加罚 " + penaltyPerWrong + " 题，共需 " + targetCount + " 题）") : "";
-            String ex = (q.explain == null || q.explain.isEmpty()) ? "" : (" " + q.explain);
-            feedback.setText("✗ 答错了，正解「" + q.options[q.answer] + "」" + penTip + ex);
-            postDelayed(new Runnable() {
-                @Override public void run() { nextQuestion(); }
-            }, 2100);
+            // 弹出「错题图文精讲与确认看懂面板」，必须孩子看懂确认后才进入下一题！
+            showExplainOverlay(i);
         }
     }
+
+    // ---------- 错题图文精讲与确认看懂弹窗 ----------
+
+    private LinearLayout buildVisualDiagramCard(Context c, QuizBank.Q item, int wrongIdx) {
+        LinearLayout card = Ui.col(c);
+        card.setBackground(cardBoxBg(0xFF141A24, 0x44FFC24A, 1, 14));
+        card.setPadding(Ui.dp(c, 18), Ui.dp(c, 14), Ui.dp(c, 18), Ui.dp(c, 14));
+
+        String sKey = item.subjectKey == null ? "math" : item.subjectKey;
+        String diagTitle;
+        String step1Title, step1Body;
+        String step2Title, step2Body;
+        String diagramArt;
+
+        if ("math".equals(sKey)) {
+            if (item.stem.contains("长方形") || item.stem.contains("正方形") || item.stem.contains("周长") || item.stem.contains("面积")
+                    || item.stem.contains("三角形") || item.stem.contains("梯形") || item.stem.contains("圆") || item.stem.contains("棱长")) {
+                diagTitle = "★ 数学几何图形与公式拆解图谱";
+                if (item.stem.contains("三角形")) {
+                    diagramArt = "      /\\  ← 顶点\n     / | \\  高 h\n    /  |  \\\n   /___|___\\ 底 b\n  [S = 底×高÷2 | 内角和=180°]";
+                } else if (item.stem.contains("圆")) {
+                    diagramArt = "     ╭───╮\n   ╭─╯ ● ╰─╮  r (半径)\n   ╰─╮   ╭─╯\n     ╰───╯\n  [C = 2πr | S = πr²]";
+                } else {
+                    diagramArt = "  ┌───────────┐\n  │  图形区域 │ 宽/边长\n  └───────────┘\n      长/底边\n  [周长=(长+宽)×2 | 面积=长×宽]";
+                }
+                step1Title = "① 提取图形条件";
+                step1Body = "从题干提取已知边长、半径、角度或高";
+                step2Title = "② 代入几何公式";
+                step2Body = "严格区分周长（一圈长度）与面积（平铺大小）";
+            } else {
+                diagTitle = "★ 数学算理与分步推导天平图";
+                diagramArt = " ┌──────────┐     ┌──────────┐\n │ 已知条件 │ ══▶ │ 运算规律 │\n └──────────┘     └────┬─────┘\n                       ▼\n              ┏━━━━━━━━━━━━━━━━┓\n              ┃ 唯一正解：" + item.options[item.answer] + " ┃\n              ┗━━━━━━━━━━━━━━━━┛";
+                step1Title = "① 审清运算顺序";
+                step1Body = "先看括号与乘方，再算乘除，最后算加减/移项";
+                step2Title = "② 逆向验算核对";
+                step2Body = "把结果代回原式检验左右两边是否相等";
+            }
+        } else if ("chinese".equals(sKey)) {
+            diagTitle = "★ 语文诗文典故与字词结构图谱";
+            diagramArt = " ╔══════════════════════╗\n ║ 【篇目/出处】锁定语境 ║\n ║          ⇓           ║\n ║ 【关键字义】古今辨析 ║\n ║          ⇓           ║\n ║ 【千古名句】精准对应 ║\n ╚══════════════════════╝";
+            step1Title = "① 定位诗文出处";
+            step1Body = "结合朝代、作者、题目与前后句意境联想";
+            step2Title = "② 辨析关键字义";
+            step2Body = "注意古今异义词、通假字与托物言志主旨";
+        } else if ("english".equals(sKey)) {
+            diagTitle = "★ 英语语法标志词与句型结构图";
+            diagramArt = " [Signal 信号词/语境]\n         │\n         ▼\n [Grammar 语法/词性规则]\n         │\n         ▼\n [Target 正确搭配: " + item.options[item.answer] + "]";
+            step1Title = "① 圈出时间/语境词";
+            step1Body = "找准主语单复数（三单）、时间状语或介词搭配";
+            step2Title = "② 匹配句法结构";
+            step2Body = "核对时态变化、冠词 a/an/the 及交际应答习惯";
+        } else {
+            diagTitle = "★ 科学实验现象与原理机制图";
+            diagramArt = " ╭──────────────╮\n │ 自然/实验现象 │\n ╰──────┬───────╯\n        ▼ 物理/生物/化学规律\n ╭──────────────╮\n │ 科学必然结论 │\n ╰──────────────╯";
+            step1Title = "① 观察实验现象";
+            step1Body = "明确实验中的控制变量与客观自然条件";
+            step2Title = "② 对应科学定律";
+            step2Body = "从声、光、热、力、电或生物结构原理推导结论";
+        }
+
+        TextView head = Ui.label(c, diagTitle, 18f, Ui.ACCENT);
+        head.setTypeface(Typeface.DEFAULT_BOLD);
+        card.addView(head);
+
+        TextView artView = Ui.label(c, diagramArt, 15f, 0xFF7CE38B);
+        artView.setTypeface(Typeface.MONOSPACE, Typeface.BOLD);
+        artView.setBackground(cardBoxBg(0xFF0C1017, 0x337CE38B, 1, 10));
+        artView.setPadding(Ui.dp(c, 14), Ui.dp(c, 10), Ui.dp(c, 14), Ui.dp(c, 10));
+        LinearLayout.LayoutParams alp = new LinearLayout.LayoutParams(-1, -2);
+        alp.topMargin = Ui.dp(c, 10);
+        card.addView(artView, alp);
+
+        LinearLayout s1 = Ui.col(c);
+        s1.setBackground(cardBoxBg(0xFF1C2536, 0x4458A6FF, 1, 10));
+        s1.setPadding(Ui.dp(c, 12), Ui.dp(c, 8), Ui.dp(c, 12), Ui.dp(c, 8));
+        s1.addView(Ui.label(c, step1Title, 15f, 0xFF58A6FF));
+        s1.addView(Ui.label(c, step1Body, 14f, Ui.TEXT));
+        LinearLayout.LayoutParams s1lp = new LinearLayout.LayoutParams(-1, -2);
+        s1lp.topMargin = Ui.dp(c, 10);
+        card.addView(s1, s1lp);
+
+        LinearLayout s2 = Ui.col(c);
+        s2.setBackground(cardBoxBg(0xFF1B2A22, 0x443FB950, 1, 10));
+        s2.setPadding(Ui.dp(c, 12), Ui.dp(c, 8), Ui.dp(c, 12), Ui.dp(c, 8));
+        s2.addView(Ui.label(c, step2Title, 15f, Ui.OK));
+        s2.addView(Ui.label(c, step2Body, 14f, Ui.TEXT));
+        LinearLayout.LayoutParams s2lp = new LinearLayout.LayoutParams(-1, -2);
+        s2lp.topMargin = Ui.dp(c, 8);
+        card.addView(s2, s2lp);
+
+        return card;
+    }
+
+    private void showExplainOverlay(int wrongIdx) {
+        hideExplainOverlay();
+        Context c = getContext();
+        explainVisible = true;
+        long now = SystemClock.uptimeMillis();
+        // 至少阅读 4 秒解析（若触发了防瞎蒙冷却则等待冷却结束）才能按 OK 进入下一题
+        long minExplainWait = now + 4000L;
+        explainUnlockAt = Math.max(minExplainWait, cooldownUntil);
+
+        explainOverlay = new FrameLayout(c);
+        explainOverlay.setBackgroundColor(0xF20B0E14);
+        explainOverlay.setClickable(true);
+        explainOverlay.setFocusable(true);
+
+        LinearLayout panel = Ui.col(c);
+        panel.setBackground(Ui.panelBg(c));
+        panel.setPadding(Ui.dp(c, 42), Ui.dp(c, 26), Ui.dp(c, 42), Ui.dp(c, 26));
+
+        // 1. 顶部标题栏
+        LinearLayout topBar = Ui.row(c);
+        topBar.setGravity(Gravity.CENTER_VERTICAL);
+        String badgeStr = (q.badge == null || q.badge.isEmpty()) ? "错题精讲" : q.badge;
+        TextView titleTv = Ui.label(c, "✗ 本题答错了 · 错题图文精讲（" + badgeStr + "）", 24f, Ui.BAD);
+        titleTv.setTypeface(Typeface.DEFAULT_BOLD);
+        topBar.addView(titleTv, new LinearLayout.LayoutParams(0, -2, 1f));
+
+        String penStr = penaltyPerWrong > 0
+                ? ("答错加罚 +" + penaltyPerWrong + " 题 · 进度：" + correctCount + " / " + targetCount + " 题")
+                : ("当前进度：" + correctCount + " / " + targetCount + " 题");
+        TextView penTv = Ui.label(c, penStr, 17f, Ui.ACCENT);
+        topBar.addView(penTv);
+        panel.addView(topBar);
+
+        // 2. 原题干展示
+        TextView stemBox = Ui.label(c, "【原题】 " + q.stem, 21f, Ui.TEXT);
+        stemBox.setTypeface(Typeface.DEFAULT_BOLD);
+        stemBox.setBackground(cardBoxBg(0xFF161B22, 0x33FFFFFF, 1, 12));
+        stemBox.setPadding(Ui.dp(c, 18), Ui.dp(c, 12), Ui.dp(c, 18), Ui.dp(c, 12));
+        LinearLayout.LayoutParams stLp = new LinearLayout.LayoutParams(-1, -2);
+        stLp.topMargin = Ui.dp(c, 14);
+        panel.addView(stemBox, stLp);
+
+        // 3. 你的错选 vs 正确答案 并排对比框
+        LinearLayout cmpRow = Ui.row(c);
+        LinearLayout.LayoutParams cmpLp = new LinearLayout.LayoutParams(-1, -2);
+        cmpLp.topMargin = Ui.dp(c, 12);
+
+        TextView wrongBox = Ui.label(c, "✗ 你的错选：" + q.options[wrongIdx], 19f, 0xFFFF8B8B);
+        wrongBox.setTypeface(Typeface.DEFAULT_BOLD);
+        wrongBox.setBackground(cardBoxBg(0x446B1D1D, Ui.BAD, 2, 12));
+        wrongBox.setPadding(Ui.dp(c, 16), Ui.dp(c, 10), Ui.dp(c, 16), Ui.dp(c, 10));
+        LinearLayout.LayoutParams wlp = new LinearLayout.LayoutParams(0, -2, 1f);
+        wlp.rightMargin = Ui.dp(c, 8);
+        cmpRow.addView(wrongBox, wlp);
+
+        TextView rightBox = Ui.label(c, "✓ 正确答案：" + q.options[q.answer], 19f, 0xFF7CE38B);
+        rightBox.setTypeface(Typeface.DEFAULT_BOLD);
+        rightBox.setBackground(cardBoxBg(0x441F6F45, Ui.OK, 2, 12));
+        rightBox.setPadding(Ui.dp(c, 16), Ui.dp(c, 10), Ui.dp(c, 16), Ui.dp(c, 10));
+        LinearLayout.LayoutParams rlp = new LinearLayout.LayoutParams(0, -2, 1f);
+        rlp.leftMargin = Ui.dp(c, 8);
+        cmpRow.addView(rightBox, rlp);
+        panel.addView(cmpRow, cmpLp);
+
+        // 4. 左右双栏：左侧「图文推导图谱」 + 右侧「详细解析与避坑指南」
+        LinearLayout bodyRow = Ui.row(c);
+        explainScroll = new ScrollView(c);
+        explainScroll.setFillViewport(true);
+        LinearLayout.LayoutParams bodyLp = new LinearLayout.LayoutParams(-1, 0, 1f);
+        bodyLp.topMargin = Ui.dp(c, 10);
+
+        LinearLayout leftDiagram = buildVisualDiagramCard(c, q, wrongIdx);
+        LinearLayout.LayoutParams leftLp = new LinearLayout.LayoutParams(0, -2, 4f);
+        leftLp.rightMargin = Ui.dp(c, 10);
+        bodyRow.addView(leftDiagram, leftLp);
+
+        LinearLayout rightExplain = Ui.col(c);
+        rightExplain.setBackground(cardBoxBg(0xFF141A24, 0x33FFFFFF, 1, 14));
+        rightExplain.setPadding(Ui.dp(c, 20), Ui.dp(c, 14), Ui.dp(c, 20), Ui.dp(c, 14));
+
+        TextView expHead = Ui.label(c, "★ 逐步文字详解与记忆要点", 19f, Ui.ACCENT);
+        expHead.setTypeface(Typeface.DEFAULT_BOLD);
+        rightExplain.addView(expHead);
+
+        String rawExp = (q.explain == null || q.explain.isEmpty())
+                ? ("本题正确答案为「" + q.options[q.answer] + "」。")
+                : q.explain;
+        TextView expContent = Ui.label(c, rawExp, 18f, Ui.TEXT);
+        LinearLayout.LayoutParams eclp = new LinearLayout.LayoutParams(-1, -2);
+        eclp.topMargin = Ui.dp(c, 10);
+        rightExplain.addView(expContent, eclp);
+
+        String memoryTip = "★ 避坑与巩固：你刚才误选了「" + q.options[wrongIdx]
+                + "」，请重点记住本题核心结论「" + q.options[q.answer]
+                + "」。本题已自动收入错题本，方便日后复习巩固。";
+        TextView tipBox = Ui.label(c, memoryTip, 16f, 0xFFD2A8FF);
+        tipBox.setBackground(cardBoxBg(0x228957E5, 0x448957E5, 1, 10));
+        tipBox.setPadding(Ui.dp(c, 14), Ui.dp(c, 10), Ui.dp(c, 14), Ui.dp(c, 10));
+        LinearLayout.LayoutParams tplp = new LinearLayout.LayoutParams(-1, -2);
+        tplp.topMargin = Ui.dp(c, 12);
+        rightExplain.addView(tipBox, tplp);
+
+        LinearLayout.LayoutParams rightLp = new LinearLayout.LayoutParams(0, -1, 6f);
+        rightLp.leftMargin = Ui.dp(c, 10);
+        bodyRow.addView(rightExplain, rightLp);
+        explainScroll.addView(bodyRow, new FrameLayout.LayoutParams(-1, -2));
+        panel.addView(explainScroll, bodyLp);
+
+        // 5. 底部确认看懂按钮
+        explainBtn = Ui.label(c, "", 20f, Ui.ACCENT);
+        explainBtn.setTypeface(Typeface.DEFAULT_BOLD);
+        explainBtn.setGravity(Gravity.CENTER);
+        explainBtn.setPadding(Ui.dp(c, 24), Ui.dp(c, 14), Ui.dp(c, 24), Ui.dp(c, 14));
+        explainBtn.setBackground(explainBtnWaitBg());
+        explainBtn.setOnClickListener(new OnClickListener() {
+            @Override public void onClick(View v) {
+                tryConfirmExplain();
+            }
+        });
+        LinearLayout.LayoutParams btnLp = new LinearLayout.LayoutParams(-1, -2);
+        btnLp.topMargin = Ui.dp(c, 16);
+        panel.addView(explainBtn, btnLp);
+
+        explainTipView = Ui.label(c, "必须认真看懂上方错题解析并按「OK 键」确认后，才能继续做下一题", 15f, Ui.DIM);
+        explainTipView.setGravity(Gravity.CENTER);
+        LinearLayout.LayoutParams etLp = new LinearLayout.LayoutParams(-1, -2);
+        etLp.topMargin = Ui.dp(c, 8);
+        panel.addView(explainTipView, etLp);
+
+        int w = (int) (c.getResources().getDisplayMetrics().widthPixels * 0.92f);
+        int h = (int) (c.getResources().getDisplayMetrics().heightPixels * 0.90f);
+        explainOverlay.addView(panel, new FrameLayout.LayoutParams(w, h, Gravity.CENTER));
+        addView(explainOverlay, new FrameLayout.LayoutParams(-1, -1));
+
+        removeCallbacks(guardTick);
+        post(guardTick);
+    }
+
+    private void tryConfirmExplain() {
+        if (!explainVisible) return;
+        long now = SystemClock.uptimeMillis();
+        if (now < explainUnlockAt) {
+            int sec = (int) ((explainUnlockAt - now + 999L) / 1000L);
+            if (explainTipView != null) {
+                explainTipView.setTextColor(Ui.BAD);
+                explainTipView.setText("⚠ 请先不要急着按键！认真看完上方图文解析，还需 " + sec + " 秒后才能进入下一题");
+            }
+            return;
+        }
+        hideExplainOverlay();
+        nextQuestion();
+    }
+
+    private void hideExplainOverlay() {
+        explainVisible = false;
+        if (explainOverlay != null) {
+            if (explainOverlay.getParent() != null) removeView(explainOverlay);
+            explainOverlay = null;
+            explainScroll = null;
+            explainBtn = null;
+            explainTipView = null;
+        }
+    }
+
+    // ---------- 家长口令与恢复码 ----------
 
     private void showPin() {
         if (pinVisible) return;
@@ -437,6 +738,32 @@ public class MaskView extends FrameLayout {
             }
             return true;
         }
+        if (explainVisible) {
+            if (e.getAction() == KeyEvent.ACTION_DOWN) {
+                if (k == KeyEvent.KEYCODE_MENU || k == KeyEvent.KEYCODE_SETTINGS || k == KeyEvent.KEYCODE_BOOKMARK) {
+                    showPin();
+                    return true;
+                }
+                if (k == KeyEvent.KEYCODE_DPAD_UP && explainScroll != null) {
+                    explainScroll.smoothScrollBy(0, 0 - Ui.dp(getContext(), 90));
+                    return true;
+                }
+                if (k == KeyEvent.KEYCODE_DPAD_DOWN && explainScroll != null) {
+                    explainScroll.smoothScrollBy(0, Ui.dp(getContext(), 90));
+                    return true;
+                }
+                if (k == KeyEvent.KEYCODE_DPAD_CENTER || k == KeyEvent.KEYCODE_ENTER
+                        || k == KeyEvent.KEYCODE_NUMPAD_ENTER) {
+                    tryConfirmExplain();
+                    return true;
+                }
+                if (k == KeyEvent.KEYCODE_BACK) {
+                    tryConfirmExplain();
+                    return true;
+                }
+            }
+            return true;
+        }
         if (e.getAction() == KeyEvent.ACTION_DOWN) {
             if (k == KeyEvent.KEYCODE_BACK) return true;
             if (k == KeyEvent.KEYCODE_MENU || k == KeyEvent.KEYCODE_SETTINGS || k == KeyEvent.KEYCODE_BOOKMARK) {
@@ -448,6 +775,14 @@ public class MaskView extends FrameLayout {
                 if (k == KeyEvent.KEYCODE_DPAD_RIGHT) { moveSel(1, 0); return true; }
                 if (k == KeyEvent.KEYCODE_DPAD_UP) { moveSel(0, -1); return true; }
                 if (k == KeyEvent.KEYCODE_DPAD_DOWN) { moveSel(0, 1); return true; }
+                if (k == KeyEvent.KEYCODE_DPAD_UP && explainScroll != null) {
+                    explainScroll.smoothScrollBy(0, 0 - Ui.dp(getContext(), 90));
+                    return true;
+                }
+                if (k == KeyEvent.KEYCODE_DPAD_DOWN && explainScroll != null) {
+                    explainScroll.smoothScrollBy(0, Ui.dp(getContext(), 90));
+                    return true;
+                }
                 if (k == KeyEvent.KEYCODE_DPAD_CENTER || k == KeyEvent.KEYCODE_ENTER
                         || k == KeyEvent.KEYCODE_NUMPAD_ENTER) {
                     answer(sel);
@@ -456,29 +791,11 @@ public class MaskView extends FrameLayout {
                 int d = PinPadView.digitOf(e);
                 if (d >= 1 && d <= 4) {
                     select(d - 1);
-                    answer(sel);
+                    answer(d - 1);
                     return true;
                 }
             }
-            if (swallow(k)) return true;
         }
-        return super.dispatchKeyEvent(e);
-    }
-
-    private boolean swallow(int k) {
-        return k == KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE
-            || k == KeyEvent.KEYCODE_MEDIA_PLAY
-            || k == KeyEvent.KEYCODE_MEDIA_PAUSE
-            || k == KeyEvent.KEYCODE_MEDIA_NEXT
-            || k == KeyEvent.KEYCODE_MEDIA_PREVIOUS
-            || k == KeyEvent.KEYCODE_MEDIA_STOP
-            || k == KeyEvent.KEYCODE_MEDIA_REWIND
-            || k == KeyEvent.KEYCODE_MEDIA_FAST_FORWARD
-            || k == KeyEvent.KEYCODE_TV_INPUT
-            || k == KeyEvent.KEYCODE_TV
-            || k == KeyEvent.KEYCODE_GUIDE
-            || k == KeyEvent.KEYCODE_INFO
-            || k == KeyEvent.KEYCODE_VOICE_ASSIST
-            || k == KeyEvent.KEYCODE_SEARCH;
+        return true;
     }
 }

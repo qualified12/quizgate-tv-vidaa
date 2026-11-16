@@ -2,8 +2,8 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 MODE="${1:-debug}"
-VERSION_NAME="${QUIZGATE_VERSION_NAME:-1.6.3-VIDAA}"
-VERSION_CODE="${QUIZGATE_VERSION_CODE:-10603}"
+VERSION_NAME="${QUIZGATE_VERSION_NAME:-1.6.7-VIDAA}"
+VERSION_CODE="${QUIZGATE_VERSION_CODE:-10607}"
 SDK="${ANDROID_HOME:-$HOME/android-dev/sdk}"
 JAVA_HOME="${JAVA_HOME:-/usr/lib/jvm/java-17-openjdk-amd64}"
 BT="$SDK/build-tools/35.0.0"

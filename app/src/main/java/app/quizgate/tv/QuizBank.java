@@ -4,9 +4,11 @@
  * Modified from the original QuizGate TV project by qualified12.
  * See NOTICE for the full list of changes.
  */
+
 package app.quizgate.tv;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.util.Log;
 
@@ -24,7 +26,7 @@ import java.util.Random;
 
 public final class QuizBank {
     private static final String TAG = "QuizGate";
-    private static final int RECENT_LIMIT = 48;
+    private static final int RECENT_LIMIT = 240;
 
     public static final class Q {
         public String stem = "";
@@ -32,14 +34,49 @@ public final class QuizBank {
         public int answer = 0;
         public String explain = "";
         public String badge = "";
+        public int grade = 3;
+        public String subjectKey = "math";
     }
 
     private final Context ctx;
+    private final SharedPreferences historySp;
     private final Map<String, List<Q>> cache = new HashMap<String, List<Q>>();
     private final LinkedList<String> recentStems = new LinkedList<String>();
 
+    private final List<Integer> gradeBag = new ArrayList<Integer>();
+    private int lastGradeMask = -1;
+    private int lastPickedGrade = -1;
+
+    private final List<Integer> subjectBag = new ArrayList<Integer>();
+    private int lastSubjectMask = -1;
+    private int lastPickedSubject = -1;
+
     public QuizBank(Context ctx) {
         this.ctx = ctx.getApplicationContext();
+        this.historySp = this.ctx.getSharedPreferences("quiz_history", Context.MODE_PRIVATE);
+        loadRecentFromDisk();
+    }
+
+    private void loadRecentFromDisk() {
+        try {
+            String raw = historySp.getString("recent", "");
+            if (raw != null && !raw.isEmpty()) {
+                JSONArray arr = new JSONArray(raw);
+                for (int i = 0; i < arr.length() && i < RECENT_LIMIT; i++) {
+                    recentStems.addLast(arr.getString(i));
+                }
+            }
+        } catch (Throwable ignore) {}
+    }
+
+    private void saveRecentToDisk() {
+        try {
+            JSONArray arr = new JSONArray();
+            for (int i = 0; i < recentStems.size(); i++) {
+                arr.put(recentStems.get(i));
+            }
+            historySp.edit().putString("recent", arr.toString()).apply();
+        } catch (Throwable ignore) {}
     }
 
     public static int shuffle(String[] opts, int answerIdx, Random r) {
@@ -54,45 +91,102 @@ public final class QuizBank {
         return 0;
     }
 
-    /**
-     * 从家长勾选的多个年级 + 多个学科（或全科随机）池中随机抽题。
-     */
-    public Q nextFromPrefs(Prefs prefs, Random r) {
+    private int nextGradeFromBag(Prefs prefs, Random r) {
+        int mask = prefs.gradeMask();
         int[] grades = prefs.selectedGrades();
+        if (grades.length == 0) return 3;
+        if (grades.length == 1) {
+            lastGradeMask = mask;
+            lastPickedGrade = grades[0];
+            return grades[0];
+        }
+        if (mask != lastGradeMask || gradeBag.isEmpty()) {
+            lastGradeMask = mask;
+            gradeBag.clear();
+            int[] copy = grades.clone();
+            for (int i = copy.length - 1; i > 0; i--) {
+                int j = r.nextInt(i + 1);
+                int t = copy[i]; copy[i] = copy[j]; copy[j] = t;
+            }
+            if (copy.length > 1 && copy[0] == lastPickedGrade) {
+                int t = copy[0];
+                copy[0] = copy[copy.length - 1];
+                copy[copy.length - 1] = t;
+            }
+            for (int i = 0; i < copy.length; i++) {
+                gradeBag.add(copy[i]);
+            }
+        }
+        int g = gradeBag.remove(0);
+        lastPickedGrade = g;
+        return g;
+    }
+
+    private int nextSubjectFromBag(Prefs prefs, Random r) {
+        int mask = prefs.subjectMask();
         int[] subjs = prefs.selectedSubjects();
-        int g = grades[r.nextInt(grades.length)];
-        int sIdx = subjs[r.nextInt(subjs.length)];
+        if (subjs.length == 0) return Prefs.SUBJECT_MATH;
+        if (subjs.length == 1) {
+            lastSubjectMask = mask;
+            lastPickedSubject = subjs[0];
+            return subjs[0];
+        }
+        if (mask != lastSubjectMask || subjectBag.isEmpty()) {
+            lastSubjectMask = mask;
+            subjectBag.clear();
+            int[] copy = subjs.clone();
+            for (int i = copy.length - 1; i > 0; i--) {
+                int j = r.nextInt(i + 1);
+                int t = copy[i]; copy[i] = copy[j]; copy[j] = t;
+            }
+            if (copy.length > 1 && copy[0] == lastPickedSubject) {
+                int t = copy[0];
+                copy[0] = copy[copy.length - 1];
+                copy[copy.length - 1] = t;
+            }
+            for (int i = 0; i < copy.length; i++) {
+                subjectBag.add(copy[i]);
+            }
+        }
+        int s = subjectBag.remove(0);
+        lastPickedSubject = s;
+        return s;
+    }
+
+    public Q nextFromPrefs(Prefs prefs, Random r) {
+        int g = nextGradeFromBag(prefs, r);
+        int sIdx = nextSubjectFromBag(prefs, r);
         String sKey = Prefs.SUBJECT_KEYS[sIdx];
         String sName = Prefs.SUBJECT_NAMES[sIdx];
 
-        // 数学学科有 25% 概率直接生成动态随机算术/方程/几何题，保证题源永远刷不完
         if ("math".equals(sKey) && r.nextInt(4) == 0) {
-            return Core.arithmetic(g, r);
+            Q mq = Core.arithmetic(g, r);
+            mq.grade = g;
+            mq.subjectKey = sKey;
+            return mq;
         }
 
-        // 先从选定年级加载，若为空则在已选年级中轮询
-        for (int attempt = 0; attempt < grades.length; attempt++) {
-            int curG = grades[(attempt + g) % grades.length];
-            List<Q> list = load(sKey, curG);
-            if (!list.isEmpty()) {
-                Q src = pickNonRepeating(list, r);
-                if (src != null) {
-                    Q out = new Q();
-                    out.stem = src.stem;
-                    out.options = src.options.clone();
-                    out.answer = shuffle(out.options, src.answer, r);
-                    out.explain = src.explain;
-                    out.badge = sName + " · " + gradeLabel(curG);
-                    return out;
-                }
+        List<Q> list = load(sKey, g);
+        if (!list.isEmpty()) {
+            Q src = pickNonRepeating(list, r);
+            if (src != null) {
+                Q out = new Q();
+                out.stem = src.stem;
+                out.options = src.options.clone();
+                out.answer = shuffle(out.options, src.answer, r);
+                out.explain = src.explain;
+                out.badge = sName + " · " + gradeLabel(g);
+                out.grade = g;
+                out.subjectKey = sKey;
+                return out;
             }
         }
-        return next(sKey, g, 1, r);
+        return next(sKey, g, g, r);
     }
 
     public static String gradeLabel(int g) {
         if (g >= 7 && g <= 9) {
-            String[] cn = {"初一", "初二", "初三"};
+            String[] cn = {"初一(7年级)", "初二(8年级)", "初三(9年级)"};
             return cn[g - 7];
         }
         return g + "年级";
@@ -119,19 +213,37 @@ public final class QuizBank {
             out.answer = shuffle(out.options, src.answer, r);
             out.explain = src.explain;
             out.badge = sName + " · " + gradeLabel(cur);
+            out.grade = cur;
+            out.subjectKey = subjectKey;
             return out;
         }
-        return Core.arithmetic(g, r);
+        Q mq = Core.arithmetic(g, r);
+        mq.grade = g;
+        mq.subjectKey = subjectKey;
+        return mq;
     }
 
     private Q pickNonRepeating(List<Q> list, Random r) {
         if (list.isEmpty()) return null;
-        for (int attempt = 0; attempt < 12; attempt++) {
+        // 优先随机尝试 24 次避开最近 240 道题，若全撞则全盘扫描找未出现过的题
+        for (int attempt = 0; attempt < 24; attempt++) {
             Q q = list.get(r.nextInt(list.size()));
             if (!recentStems.contains(q.stem)) {
                 recordRecent(q.stem);
                 return q;
             }
+        }
+        List<Q> unseen = new ArrayList<Q>();
+        for (int i = 0; i < list.size(); i++) {
+            Q cand = list.get(i);
+            if (!recentStems.contains(cand.stem)) {
+                unseen.add(cand);
+            }
+        }
+        if (!unseen.isEmpty()) {
+            Q q = unseen.get(r.nextInt(unseen.size()));
+            recordRecent(q.stem);
+            return q;
         }
         Q q = list.get(r.nextInt(list.size()));
         recordRecent(q.stem);
@@ -143,6 +255,7 @@ public final class QuizBank {
         while (recentStems.size() > RECENT_LIMIT) {
             recentStems.removeFirst();
         }
+        saveRecentToDisk();
     }
 
     private List<Q> load(String subjectKey, int grade) {
@@ -175,6 +288,8 @@ public final class QuizBank {
                     q.answer = o.getInt("answerIndex");
                     if (q.answer < 0 || q.answer > 3) continue;
                     q.explain = o.optString("explanation", "");
+                    q.grade = grade;
+                    q.subjectKey = subjectKey;
                     list.add(q);
                 }
             }

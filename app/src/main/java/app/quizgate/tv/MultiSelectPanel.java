@@ -4,6 +4,7 @@
  * NEW FILE added by qualified12; not present in upstream.
  * See NOTICE for the full list of changes.
  */
+
 package app.quizgate.tv;
 
 import android.content.Context;
@@ -17,7 +18,8 @@ import android.widget.TextView;
 
 /**
  * 遥控器友好的多选面板（用于「多年级联合出题」与「多学科随机出题」）。
- * 全自绘焦点与按键路由，完全不依赖系统焦点树，适配海信 VIDAA 与 Android 11/14。
+ * - 每次勾选/取消或点击快捷预设时【实时自动保存】到 SharedPreferences；
+ * - 按遥控器「返回键（BACK）」或点击底部「✓ 确认保存」均会保存当前多选结果并退出，绝不丢失勾选！
  */
 public class MultiSelectPanel extends FrameLayout {
     public interface OnConfirm {
@@ -29,6 +31,7 @@ public class MultiSelectPanel extends FrameLayout {
     private final int[] presetMasks;
     private final int cols;
     private int mask;
+    private final int initialSavedMask;
     private final int allMask;
     private final OnConfirm onConfirm;
     private final Runnable onCancel;
@@ -36,7 +39,7 @@ public class MultiSelectPanel extends FrameLayout {
     private final TextView[] itemViews;
     private final TextView[] actionViews;
     private final TextView statusView;
-    private int sel = 0; // 0..itemLabels.length-1 are items, followed by presets + confirm + cancel
+    private int sel = 0;
 
     public MultiSelectPanel(Context c, String title, String subtitle,
                             String[] itemLabels, int initialMask,
@@ -49,6 +52,7 @@ public class MultiSelectPanel extends FrameLayout {
         this.cols = Math.max(1, cols);
         this.allMask = (1 << itemLabels.length) - 1;
         this.mask = (initialMask & allMask) == 0 ? allMask : (initialMask & allMask);
+        this.initialSavedMask = this.mask;
         this.onConfirm = onConfirm;
         this.onCancel = onCancel;
 
@@ -63,7 +67,7 @@ public class MultiSelectPanel extends FrameLayout {
 
         box.addView(Ui.title(c, title, 28f));
 
-        TextView sub = Ui.label(c, subtitle, 16f, Ui.DIM);
+        TextView sub = Ui.label(c, subtitle + "（勾选即自动生效，按返回键或点确认均可保存）", 16f, Ui.DIM);
         LinearLayout.LayoutParams slp = new LinearLayout.LayoutParams(-2, -2);
         slp.topMargin = Ui.dp(c, 6);
         box.addView(sub, slp);
@@ -99,7 +103,7 @@ public class MultiSelectPanel extends FrameLayout {
         stlp.topMargin = Ui.dp(c, 14);
         box.addView(statusView, stlp);
 
-        int actionCount = presetLabels.length + 2; // presets + 确定保存 + 取消
+        int actionCount = presetLabels.length + 2;
         actionViews = new TextView[actionCount];
         LinearLayout actRow = Ui.row(c);
         actRow.setGravity(Gravity.CENTER);
@@ -111,8 +115,8 @@ public class MultiSelectPanel extends FrameLayout {
             final int globalIdx = itemLabels.length + i;
             String lb;
             if (i < presetLabels.length) lb = presetLabels[i];
-            else if (i == presetLabels.length) lb = "✓ 确认保存";
-            else lb = "取消";
+            else if (i == presetLabels.length) lb = "✓ 保存并返回";
+            else lb = "还原取消";
 
             TextView ab = Ui.key(c, lb);
             ab.setFocusable(false);
@@ -131,7 +135,6 @@ public class MultiSelectPanel extends FrameLayout {
 
         int w = (int) (c.getResources().getDisplayMetrics().widthPixels * 0.88f);
         addView(box, new FrameLayout.LayoutParams(w, -2, Gravity.CENTER));
-        // 默认把焦点放在「✓ 确认保存」或第一个勾选项
         sel = 0;
         paint();
     }
@@ -139,11 +142,10 @@ public class MultiSelectPanel extends FrameLayout {
     private void toggleItem(int idx) {
         int bit = 1 << idx;
         if ((mask & bit) != 0) {
-            // 至少保留 1 个勾选项
             if ((mask & ~bit) != 0) {
                 mask = mask & (~bit);
             } else {
-                statusView.setText("至少需保留 1 个选项！");
+                statusView.setText("⚠ 至少需保留 1 个勾选项！");
                 paint();
                 return;
             }
@@ -157,21 +159,26 @@ public class MultiSelectPanel extends FrameLayout {
         if (actIdx < presetMasks.length) {
             mask = presetMasks[actIdx] & allMask;
             if (mask == 0) mask = allMask;
-            // 点快捷预设后自动跳到「✓ 确认保存」按钮，再按一次 OK 即可保存
             sel = itemLabels.length + presetMasks.length;
             paint();
         } else if (actIdx == presetMasks.length) {
             if (onConfirm != null) onConfirm.onConfirmed(mask);
         } else {
+            mask = initialSavedMask;
             if (onCancel != null) onCancel.run();
         }
     }
 
     private void paint() {
         int selectedCount = 0;
+        StringBuilder pickedNames = new StringBuilder();
         for (int i = 0; i < itemLabels.length; i++) {
             boolean checked = (mask & (1 << i)) != 0;
-            if (checked) selectedCount++;
+            if (checked) {
+                selectedCount++;
+                if (pickedNames.length() > 0) pickedNames.append("、");
+                pickedNames.append(itemLabels[i]);
+            }
             boolean focused = (sel == i);
             itemViews[i].setText((checked ? "☑ " : "☐ ") + itemLabels[i]);
             GradientDrawable d = new GradientDrawable();
@@ -192,7 +199,7 @@ public class MultiSelectPanel extends FrameLayout {
             itemViews[i].setBackground(d);
         }
 
-        statusView.setText("已勾选 " + selectedCount + " 项（出题时将在所选项中随机抽取 · 按数字键 1-9 可快捷勾选）");
+        statusView.setText("当前已选 " + selectedCount + " 项：【" + pickedNames.toString() + "】（按返回键或点「✓ 保存并返回」立即生效）");
 
         for (int i = 0; i < actionViews.length; i++) {
             int gIdx = itemLabels.length + i;
@@ -223,7 +230,9 @@ public class MultiSelectPanel extends FrameLayout {
         int total = itemLabels.length + actionViews.length;
 
         if (k == KeyEvent.KEYCODE_BACK) {
-            if (onCancel != null) onCancel.run();
+            // 电视遥控器按返回键时自动保存当前多选结果！
+            if (onConfirm != null) onConfirm.onConfirmed(mask);
+            else if (onCancel != null) onCancel.run();
             return true;
         }
         int d = PinPadView.digitOf(e);
@@ -248,7 +257,7 @@ public class MultiSelectPanel extends FrameLayout {
             } else if (sel >= cols) {
                 sel = sel - cols;
             } else {
-                sel = itemLabels.length + presetLabels.length; // jump to confirm
+                sel = itemLabels.length + presetLabels.length;
             }
             paint();
             return true;
@@ -258,7 +267,7 @@ public class MultiSelectPanel extends FrameLayout {
                 if (sel + cols < itemLabels.length) {
                     sel = sel + cols;
                 } else {
-                    sel = itemLabels.length + presetLabels.length; // jump directly to confirm button!
+                    sel = itemLabels.length + presetLabels.length;
                 }
             } else {
                 sel = 0;

@@ -1,579 +1,622 @@
 {
-  "version": 2,
-  "subject": "英语",
   "grade": 4,
+  "subject": "english",
   "items": [
     {
-      "id": "e4-001",
-      "subject": "英语",
-      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "stem": "一年有四个季节，英文 \"spring, summer, autumn (fall), winter\" 依次对应？",
       "options": [
-        "香蕉",
-        "葡萄",
-        "橘子",
-        "苹果"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"apple\" 意为“苹果”。"
-    },
-    {
-      "id": "e4-002",
-      "subject": "英语",
-      "stem": "英语单词 \"banana\" 的中文意思是什么？",
-      "options": [
-        "苹果",
-        "香蕉",
-        "草莓",
-        "西瓜"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"banana\" 意为“香蕉”。"
-    },
-    {
-      "id": "e4-003",
-      "subject": "英语",
-      "stem": "英语单词 \"orange\" 的中文意思是什么？",
-      "options": [
-        "梨",
-        "柠檬",
-        "桃子",
-        "橙子/橘子"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"orange\" 意为“橙子/橘子”。"
-    },
-    {
-      "id": "e4-004",
-      "subject": "英语",
-      "stem": "英语单词 \"water\" 的中文意思是什么？",
-      "options": [
-        "茶",
-        "牛奶",
-        "水",
-        "果汁"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"water\" 意为“水”。"
-    },
-    {
-      "id": "e4-005",
-      "subject": "英语",
-      "stem": "英语单词 \"milk\" 的中文意思是什么？",
-      "options": [
-        "牛奶",
-        "咖啡",
-        "水",
-        "面包"
+        "春、夏、秋、冬",
+        "夏、春、秋、冬",
+        "春、秋、夏、冬",
+        "冬、秋、夏、春"
       ],
       "answerIndex": 0,
-      "explanation": "\"milk\" 意为“牛奶”。"
+      "explanation": "【季节词汇】spring = 春天，summer = 夏天，autumn/fall = 秋天，winter = 冬天。"
     },
     {
-      "id": "e4-006",
-      "subject": "英语",
-      "stem": "英语单词 \"bread\" 的中文意思是什么？",
+      "stem": "天气问答：\"What's the weather like today?\" — \"It's ______ and cold. Put on your coat.\" 刮风又冷应填？",
       "options": [
-        "蛋糕",
-        "面包",
-        "米饭",
-        "面条"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"bread\" 意为“面包”。"
-    },
-    {
-      "id": "e4-007",
-      "subject": "英语",
-      "stem": "英语单词 \"book\" 的中文意思是什么？",
-      "options": [
-        "钢笔",
-        "尺子",
-        "书包",
-        "书"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"book\" 意为“书”。"
-    },
-    {
-      "id": "e4-008",
-      "subject": "英语",
-      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
-      "options": [
-        "铅笔",
-        "橡皮",
-        "课桌",
-        "椅子"
+        "windy（多风的）",
+        "sunny（晴朗的）",
+        "warm（温暖的）",
+        "hot（炎热的）"
       ],
       "answerIndex": 0,
-      "explanation": "\"pencil\" 意为“铅笔”。"
+      "explanation": "【天气形容词】名词加 -y 构成天气形容词：sun➔sunny(晴)，rain➔rainy(雨)，wind➔windy(风)，snow➔snowy(雪)，cloud➔cloudy(多云)。"
     },
     {
-      "id": "e4-009",
-      "subject": "英语",
-      "stem": "英语单词 \"school\" 的中文意思是什么？",
+      "stem": "现在进行时：\"Look! The children ______ football on the playground.\" 横线处应填？",
       "options": [
-        "学校",
-        "公园",
-        "医院",
-        "超市"
+        "are playing",
+        "play",
+        "plays",
+        "is playing"
       ],
       "answerIndex": 0,
-      "explanation": "\"school\" 意为“学校”。"
+      "explanation": "【现在进行时】信号词“Look!（看！）”提示动作正在发生，结构为“be (am/is/are) + 动词-ing”。主语 The children 是复数，故用 are playing。"
     },
     {
-      "id": "e4-010",
-      "subject": "英语",
-      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
+      "stem": "询问「这件毛衣是谁的？」，英文应该说 \"______ sweater is this?\"",
+      "options": [
+        "Whose",
+        "Who",
+        "What",
+        "Where"
+      ],
+      "answerIndex": 0,
+      "explanation": "【疑问词辨析】Whose 意思是“谁的”，后面紧跟名词 sweater（Whose sweater = 谁的毛衣）；Who 是“谁”（Who is he?）。"
+    },
+    {
+      "stem": "服装店买鞋时，因为鞋子（shoes）和裤子（pants）成双成对，询问价格应说？",
+      "options": [
+        "How much are these shoes?",
+        "How much is this shoes?",
+        "How many are these shoes?",
+        "What time are these shoes?"
+      ],
+      "answerIndex": 0,
+      "explanation": "【单复数一致】shoes（鞋子）、pants（裤子）、glasses（眼镜）、socks（袜子）常以复数形式出现，谓语动词用复数 are。"
+    },
+    {
+      "stem": "询问当前时间「现在几点了？」，标准的英语表达是？",
+      "options": [
+        "What time is it now?",
+        "What day is it today?",
+        "What's the date today?",
+        "How old is it?"
+      ],
+      "answerIndex": 0,
+      "explanation": "【时间句型辨析】What time is it? 问具体钟点（几点了）；What day is it? 问星期几；What's the date? 问几月几日。"
+    },
+    {
+      "stem": "到了吃晚饭的时间了：\"It's 6:30 p.m. It's time ______ dinner.\" 横线处应填哪个介词？",
+      "options": [
+        "for（或 to have）",
+        "to",
+        "at",
+        "in"
+      ],
+      "answerIndex": 0,
+      "explanation": "【核心固定搭配】It's time for + 名词（It's time for dinner / school）；It's time to + 动词原形（It's time to go to school）。"
+    },
+    {
+      "stem": "职业词汇：在医院里救死扶伤的「医生」和「护士」英文分别是？",
+      "options": [
+        "doctor 和 nurse",
+        "teacher 和 student",
+        "driver 和 farmer",
+        "cook 和 policeman"
+      ],
+      "answerIndex": 0,
+      "explanation": "【职业词汇】doctor = 医生，nurse = 护士，driver = 司机，farmer = 农民，cook = 厨师。"
+    },
+    {
+      "stem": "农场里有很多绵羊，单词 \"sheep\" 的复数形式是什么？",
+      "options": [
+        "sheep（单复数同形）",
+        "sheeps",
+        "sheepes",
+        "sheves"
+      ],
+      "answerIndex": 0,
+      "explanation": "【名词复数特殊变化】sheep（绵羊）、deer（鹿）、fish（鱼，指条数时）属于单复数同形，one sheep ➔ ten sheep，不加 s！"
+    },
+    {
+      "stem": "打电话用语：英语中在电话里说「我是小明」，应该怎么说？",
+      "options": [
+        "This is Xiaoming (speaking).",
+        "I am Xiaoming.",
+        "My name Xiaoming.",
+        "Are you Xiaoming?"
+      ],
+      "answerIndex": 0,
+      "explanation": "【电话交际习惯】英语打电话自我介绍用“This is... (speaking)”，询问对方是谁用“Who's that?”，不用“I am... / Who are you?”。"
+    },
+    {
+      "stem": "英语词汇：单词 \"sunny\" 的中文意思是什么？",
+      "options": [
+        "晴朗的",
+        "多云的",
+        "下雪的",
+        "有风的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】天气词：sun(太阳) ➔ sunny(晴朗的)。"
+    },
+    {
+      "stem": "汉译英：「晴朗的」对应的英文单词是哪一个？",
+      "options": [
+        "sunny",
+        "rainy",
+        "jacket",
+        "warm"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】天气词：sun(太阳) ➔ sunny(晴朗的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"cloudy\" 的中文意思是什么？",
+      "options": [
+        "多云的",
+        "晴朗的",
+        "下雪的",
+        "炎热的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】天气词：cloud(云) ➔ cloudy(多云的)。"
+    },
+    {
+      "stem": "汉译英：「多云的」对应的英文单词是哪一个？",
+      "options": [
+        "cloudy",
+        "sweater",
+        "horse",
+        "nurse"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】天气词：cloud(云) ➔ cloudy(多云的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"rainy\" 的中文意思是什么？",
+      "options": [
+        "下雨的",
+        "下雪的",
+        "刮风的",
+        "温暖的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】天气词：rain(雨) ➔ rainy(下雨的)。"
+    },
+    {
+      "stem": "汉译英：「下雨的」对应的英文单词是哪一个？",
+      "options": [
+        "rainy",
+        "carrot",
+        "skirt",
+        "cloudy"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】天气词：rain(雨) ➔ rainy(下雨的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"snowy\" 的中文意思是什么？",
+      "options": [
+        "下雪的",
+        "晴朗的",
+        "炎热的",
+        "潮湿的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】天气词：snow(雪) ➔ snowy(下雪的)。"
+    },
+    {
+      "stem": "汉译英：「下雪的」对应的英文单词是哪一个？",
+      "options": [
+        "snowy",
+        "sweater",
+        "shirt",
+        "cook"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】天气词：snow(雪) ➔ snowy(下雪的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"warm\" 的中文意思是什么？",
+      "options": [
+        "温暖的",
+        "炎热的",
+        "寒冷的",
+        "凉爽的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】温度词：spring is warm（春天温暖）。"
+    },
+    {
+      "stem": "汉译英：「温暖的」对应的英文单词是哪一个？",
+      "options": [
+        "warm",
+        "carrot",
+        "snowy",
+        "cheap"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】温度词：spring is warm（春天温暖）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"cool\" 的中文意思是什么？",
+      "options": [
+        "凉爽的",
+        "温暖的",
+        "炎热的",
+        "冰冷的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】温度词：autumn is cool（秋天凉爽）。"
+    },
+    {
+      "stem": "汉译英：「凉爽的」对应的英文单词是哪一个？",
+      "options": [
+        "cool",
+        "sunny",
+        "glasses",
+        "snowy"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】温度词：autumn is cool（秋天凉爽）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"shirt\" 的中文意思是什么？",
+      "options": [
+        "衬衫",
+        "裙子",
+        "毛衣",
+        "外套"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】服饰词：shirt = 男式衬衫（T-shirt = T恤）。"
+    },
+    {
+      "stem": "汉译英：「衬衫」对应的英文单词是哪一个？",
+      "options": [
+        "shirt",
+        "skirt",
+        "homework",
+        "carrot"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】服饰词：shirt = 男式衬衫（T-shirt = T恤）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"skirt\" 的中文意思是什么？",
+      "options": [
+        "短裙",
+        "裤子",
+        "衬衫",
+        "夹克"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】服饰词：skirt = 短裙，dress = 连衣裙。"
+    },
+    {
+      "stem": "汉译英：「短裙」对应的英文单词是哪一个？",
+      "options": [
+        "skirt",
+        "sweater",
+        "sunny",
+        "warm"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】服饰词：skirt = 短裙，dress = 连衣裙。"
+    },
+    {
+      "stem": "英语词汇：单词 \"sweater\" 的中文意思是什么？",
+      "options": [
+        "毛衣",
+        "大衣",
+        "帽子",
+        "围巾"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】服饰词：sweater = 毛衣。"
+    },
+    {
+      "stem": "汉译英：「毛衣」对应的英文单词是哪一个？",
+      "options": [
+        "sweater",
+        "carrot",
+        "nurse",
+        "homework"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】服饰词：sweater = 毛衣。"
+    },
+    {
+      "stem": "英语词汇：单词 \"jacket\" 的中文意思是什么？",
+      "options": [
+        "夹克衫",
+        "短裤",
+        "袜子",
+        "鞋子"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】服饰词：jacket = 夹克。"
+    },
+    {
+      "stem": "汉译英：「夹克衫」对应的英文单词是哪一个？",
+      "options": [
+        "jacket",
+        "sunny",
+        "carrot",
+        "horse"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】服饰词：jacket = 夹克。"
+    },
+    {
+      "stem": "英语词汇：单词 \"trousers / pants\" 的中文意思是什么？",
+      "options": [
+        "长裤",
+        "短裙",
+        "手套",
+        "眼镜"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】服饰词：trousers / pants = 裤子（常用复数）。"
+    },
+    {
+      "stem": "汉译英：「长裤」对应的英文单词是哪一个？",
+      "options": [
+        "trousers / pants",
+        "playground",
+        "shirt",
+        "skirt"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】服饰词：trousers / pants = 裤子（常用复数）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"glasses\" 的中文意思是什么？",
+      "options": [
+        "眼镜",
+        "玻璃杯",
+        "手套",
+        "袜子"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】日常词：a pair of glasses = 一副眼镜。"
+    },
+    {
+      "stem": "汉译英：「眼镜」对应的英文单词是哪一个？",
+      "options": [
+        "glasses",
+        "homework",
+        "rainy",
+        "nurse"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】日常词：a pair of glasses = 一副眼镜。"
+    },
+    {
+      "stem": "英语词汇：单词 \"farmer\" 的中文意思是什么？",
       "options": [
         "农民",
-        "老师",
+        "工人",
         "医生",
-        "司机"
+        "厨师"
       ],
-      "answerIndex": 1,
-      "explanation": "\"teacher\" 意为“老师”。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】职业词：farm(农场) + -er = farmer(农民)。"
     },
     {
-      "id": "e4-011",
-      "subject": "英语",
-      "stem": "英语单词 \"student\" 的中文意思是什么？",
+      "stem": "汉译英：「农民」对应的英文单词是哪一个？",
       "options": [
-        "学生",
-        "警察",
+        "farmer",
+        "cloudy",
+        "expensive",
+        "cook"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】职业词：farm(农场) + -er = farmer(农民)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"driver\" 的中文意思是什么？",
+      "options": [
+        "司机",
+        "老师",
         "护士",
-        "老师"
+        "警察"
       ],
       "answerIndex": 0,
-      "explanation": "\"student\" 意为“学生”。"
+      "explanation": "【英译汉精析】职业词：drive(驾驶) + -r = driver(司机)。"
     },
     {
-      "id": "e4-012",
-      "subject": "英语",
-      "stem": "英语单词 \"family\" 的中文意思是什么？",
+      "stem": "汉译英：「司机」对应的英文单词是哪一个？",
       "options": [
-        "家庭",
-        "同学",
-        "邻居",
-        "朋友"
+        "driver",
+        "snowy",
+        "sweater",
+        "jacket"
       ],
       "answerIndex": 0,
-      "explanation": "\"family\" 意为“家庭”。"
+      "explanation": "【汉译英拼写记忆】职业词：drive(驾驶) + -r = driver(司机)。"
     },
     {
-      "id": "e4-013",
-      "subject": "英语",
-      "stem": "英语单词 \"mother\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"cook\" 的中文意思是什么？",
       "options": [
-        "父亲",
-        "姐妹",
-        "兄弟",
-        "母亲"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"mother\" 意为“母亲”。"
-    },
-    {
-      "id": "e4-014",
-      "subject": "英语",
-      "stem": "英语单词 \"father\" 的中文意思是什么？",
-      "options": [
-        "母亲",
-        "阿姨",
-        "父亲",
-        "叔叔"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"father\" 意为“父亲”。"
-    },
-    {
-      "id": "e4-015",
-      "subject": "英语",
-      "stem": "英语单词 \"morning\" 的中文意思是什么？",
-      "options": [
-        "下午",
-        "中午",
-        "早晨/上午",
-        "晚上"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"morning\" 意为“早晨/上午”。"
-    },
-    {
-      "id": "e4-016",
-      "subject": "英语",
-      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
-      "options": [
-        "早晨",
-        "夜晚",
-        "下午",
-        "昨天"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"afternoon\" 意为“下午”。"
-    },
-    {
-      "id": "e4-017",
-      "subject": "英语",
-      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
-      "options": [
-        "星期二",
-        "星期日",
-        "星期五",
-        "星期一"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"Monday\" 意为“星期一”。"
-    },
-    {
-      "id": "e4-018",
-      "subject": "英语",
-      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
-      "options": [
-        "星期四",
-        "星期三",
-        "星期六",
-        "星期五"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"Friday\" 意为“星期五”。"
-    },
-    {
-      "id": "e4-019",
-      "subject": "英语",
-      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
-      "options": [
-        "星期二",
-        "星期日",
-        "星期六",
-        "星期一"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"Sunday\" 意为“星期日”。"
-    },
-    {
-      "id": "e4-020",
-      "subject": "英语",
-      "stem": "英语单词 \"spring\" 的中文意思是什么？",
-      "options": [
-        "春天",
-        "冬天",
-        "夏天",
-        "秋天"
+        "厨师 / 烹饪",
+        "服务员",
+        "画家",
+        "歌手"
       ],
       "answerIndex": 0,
-      "explanation": "\"spring\" 意为“春天”。"
+      "explanation": "【英译汉精析】职业词：cook 作名词是“厨师”，cooker 是“炊具”！"
     },
     {
-      "id": "e4-021",
-      "subject": "英语",
-      "stem": "英语单词 \"summer\" 的中文意思是什么？",
+      "stem": "汉译英：「厨师 / 烹饪」对应的英文单词是哪一个？",
       "options": [
-        "秋天",
-        "夏天",
-        "冬天",
-        "春天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"summer\" 意为“夏天”。"
-    },
-    {
-      "id": "e4-022",
-      "subject": "英语",
-      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
-      "options": [
-        "春天",
-        "冬天",
-        "秋天",
-        "夏天"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"autumn\" 意为“秋天”。"
-    },
-    {
-      "id": "e4-023",
-      "subject": "英语",
-      "stem": "英语单词 \"winter\" 的中文意思是什么？",
-      "options": [
-        "夏天",
-        "冬天",
-        "春天",
-        "秋天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"winter\" 意为“冬天”。"
-    },
-    {
-      "id": "e4-024",
-      "subject": "英语",
-      "stem": "英语单词 \"library\" 的中文意思是什么？",
-      "options": [
-        "电影院",
-        "博物馆",
-        "体育馆",
-        "图书馆"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"library\" 意为“图书馆”。"
-    },
-    {
-      "id": "e4-025",
-      "subject": "英语",
-      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
-      "options": [
-        "银行",
-        "学校",
-        "邮局",
-        "医院"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"hospital\" 意为“医院”。"
-    },
-    {
-      "id": "e4-026",
-      "subject": "英语",
-      "stem": "英语单词 \"science\" 的中文意思是什么？",
-      "options": [
-        "历史",
-        "科学",
-        "数学",
-        "音乐"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"science\" 意为“科学”。"
-    },
-    {
-      "id": "e4-027",
-      "subject": "英语",
-      "stem": "英语单词 \"computer\" 的中文意思是什么？",
-      "options": [
-        "电脑",
-        "电视",
-        "电话",
-        "相机"
+        "cook",
+        "cloudy",
+        "trousers / pants",
+        "carrot"
       ],
       "answerIndex": 0,
-      "explanation": "\"computer\" 意为“电脑”。"
+      "explanation": "【汉译英拼写记忆】职业词：cook 作名词是“厨师”，cooker 是“炊具”！"
     },
     {
-      "id": "e4-028",
-      "subject": "英语",
-      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"nurse\" 的中文意思是什么？",
       "options": [
-        "词典",
-        "杂志",
-        "笔记本",
-        "报纸"
+        "护士",
+        "医生",
+        "病人",
+        "药店"
       ],
       "answerIndex": 0,
-      "explanation": "\"dictionary\" 意为“词典”。"
+      "explanation": "【英译汉精析】职业词：nurse = 护士。"
     },
     {
-      "id": "e4-029",
-      "subject": "英语",
-      "stem": "英语单词 \"environment\" 的中文意思是什么？",
+      "stem": "汉译英：「护士」对应的英文单词是哪一个？",
       "options": [
-        "温度",
-        "政府",
-        "环境",
-        "实验"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"environment\" 意为“环境”。"
-    },
-    {
-      "id": "e4-030",
-      "subject": "英语",
-      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
-      "options": [
-        "温度",
-        "天气",
-        "距离",
-        "季节"
+        "nurse",
+        "cool",
+        "trousers / pants",
+        "horse"
       ],
       "answerIndex": 0,
-      "explanation": "\"temperature\" 意为“温度”。"
+      "explanation": "【汉译英拼写记忆】职业词：nurse = 护士。"
     },
     {
-      "id": "e4-031",
-      "subject": "英语",
-      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"homework\" 的中文意思是什么？",
       "options": [
-        "知识",
-        "自然",
-        "文化",
-        "语言"
+        "家庭作业",
+        "家务劳动",
+        "课堂笔记",
+        "考试"
       ],
       "answerIndex": 0,
-      "explanation": "\"knowledge\" 意为“知识”。"
+      "explanation": "【英译汉精析】学习词：homework = 家庭作业（housework 是家务）。"
     },
     {
-      "id": "e4-032",
-      "subject": "英语",
-      "stem": "英语单词 \"experience\" 的中文意思是什么？",
+      "stem": "汉译英：「家庭作业」对应的英文单词是哪一个？",
       "options": [
-        "运动",
-        "解释",
-        "实验",
-        "经验/经历"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"experience\" 意为“经验/经历”。"
-    },
-    {
-      "id": "e4-033",
-      "subject": "英语",
-      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
-      "options": [
-        "Nice to meet you.",
-        "Goodbye.",
-        "I'm fine.",
-        "You're welcome."
-      ],
-      "answerIndex": 3,
-      "explanation": "回应感谢常用 You're welcome（不客气）。"
-    },
-    {
-      "id": "e4-034",
-      "subject": "英语",
-      "stem": "早上见到老师时，应该用哪句英语问好？",
-      "options": [
-        "Good morning!",
-        "Good afternoon!",
-        "See you!",
-        "Good night!"
+        "homework",
+        "carrot",
+        "glasses",
+        "cheap"
       ],
       "answerIndex": 0,
-      "explanation": "早上问好使用 Good morning!"
+      "explanation": "【汉译英拼写记忆】学习词：homework = 家庭作业（housework 是家务）。"
     },
     {
-      "id": "e4-035",
-      "subject": "英语",
-      "stem": "\"How old are you?\" 是在询问什么？",
+      "stem": "英语词汇：单词 \"expensive\" 的中文意思是什么？",
       "options": [
-        "你是谁？",
-        "你几岁了？",
-        "你在哪里？",
-        "你好吗？"
+        "昂贵的",
+        "便宜的",
+        "漂亮的",
+        "沉重的"
       ],
-      "answerIndex": 1,
-      "explanation": "How old 用来询问年龄。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】购物词：expensive(昂贵的) ↔ cheap(便宜的)。"
     },
     {
-      "id": "e4-036",
-      "subject": "英语",
-      "stem": "填空：I ___ a student.",
+      "stem": "汉译英：「昂贵的」对应的英文单词是哪一个？",
       "options": [
-        "be",
-        "am",
-        "are",
-        "is"
+        "expensive",
+        "jacket",
+        "snowy",
+        "warm"
       ],
-      "answerIndex": 1,
-      "explanation": "第一人称单数 I 搭配 be 动词 am。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】购物词：expensive(昂贵的) ↔ cheap(便宜的)。"
     },
     {
-      "id": "e4-037",
-      "subject": "英语",
-      "stem": "填空：She ___ reading books every day.",
+      "stem": "英语词汇：单词 \"cheap\" 的中文意思是什么？",
       "options": [
-        "to like",
-        "likes",
-        "like",
-        "liking"
+        "便宜的",
+        "昂贵的",
+        "巨大的",
+        "崭新的"
       ],
-      "answerIndex": 1,
-      "explanation": "第三人称单数一般现在时动词加 -s。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】购物词：cheap = 便宜的。"
     },
     {
-      "id": "e4-038",
-      "subject": "英语",
-      "stem": "填空：There ___ an apple and two pears on the table.",
+      "stem": "汉译英：「便宜的」对应的英文单词是哪一个？",
       "options": [
-        "be",
-        "are",
-        "is",
-        "am"
+        "cheap",
+        "carrot",
+        "warm",
+        "snowy"
       ],
-      "answerIndex": 2,
-      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】购物词：cheap = 便宜的。"
     },
     {
-      "id": "e4-039",
-      "subject": "英语",
-      "stem": "\"child\"（孩子）的复数形式是什么？",
+      "stem": "英语词汇：单词 \"horse\" 的中文意思是什么？",
       "options": [
-        "childs",
-        "children",
-        "childes",
-        "childrens"
+        "马",
+        "牛",
+        "羊",
+        "驴"
       ],
-      "answerIndex": 1,
-      "explanation": "child 的不规则复数是 children。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】农场动物：horse = 马，cow = 奶牛。"
     },
     {
-      "id": "e4-040",
-      "subject": "英语",
-      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
+      "stem": "汉译英：「马」对应的英文单词是哪一个？",
       "options": [
-        "tooths",
-        "teethes",
-        "teeth",
-        "toothes"
+        "horse",
+        "sweater",
+        "cheap",
+        "rainy"
       ],
-      "answerIndex": 2,
-      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】农场动物：horse = 马，cow = 奶牛。"
     },
     {
-      "id": "e4-041",
-      "subject": "英语",
-      "stem": "动词 \"go\" 的过去式是什么？",
+      "stem": "英语词汇：单词 \"carrot\" 的中文意思是什么？",
       "options": [
-        "gone",
-        "goed",
-        "went",
-        "going"
+        "胡萝卜",
+        "土豆",
+        "西红柿",
+        "洋葱"
       ],
-      "answerIndex": 2,
-      "explanation": "go - went - gone 是不规则动词变化。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】蔬菜词：carrot = 胡萝卜。"
     },
     {
-      "id": "e4-042",
-      "subject": "英语",
-      "stem": "动词 \"buy\"（买）的过去式是什么？",
+      "stem": "汉译英：「胡萝卜」对应的英文单词是哪一个？",
       "options": [
-        "brought",
-        "buying",
-        "buyed",
-        "bought"
+        "carrot",
+        "homework",
+        "snowy",
+        "playground"
       ],
-      "answerIndex": 3,
-      "explanation": "buy 的过去式和过去分词都是 bought。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】蔬菜词：carrot = 胡萝卜。"
     },
     {
-      "id": "e4-043",
-      "subject": "英语",
-      "stem": "填空：He has lived in Beijing ___ 2020.",
+      "stem": "【四年级英语·天气与穿衣必考】\"It's 38℃ outside. It's very ______. You can't wear your sweater.\"",
       "options": [
-        "at",
-        "for",
-        "in",
-        "since"
+        "hot（炎热的）",
+        "cold（寒冷的）",
+        "snowy（下雪的）",
+        "cool（凉爽的）"
       ],
-      "answerIndex": 3,
-      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+      "answerIndex": 0,
+      "explanation": "【Unit 3 必考】38℃ 非常炎热（hot），不能穿毛衣。"
     },
     {
-      "id": "e4-044",
-      "subject": "英语",
-      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "stem": "【四年级英语·时间介词必考】\"I get up ______ 6:30 a.m. and go to bed ______ 9:00 p.m.\"",
       "options": [
-        "interest; interesting",
-        "interested; interesting",
-        "interesting; interested",
-        "interesting; interest"
+        "at; at",
+        "in; on",
+        "on; at",
+        "for; to"
       ],
-      "answerIndex": 2,
-      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+      "answerIndex": 0,
+      "explanation": "【Unit 2 必考】具体钟点时刻前面一律用介词 at（at 6:30）。"
+    },
+    {
+      "stem": "【四年级英语·所有格必考】\"Whose pants are these?\" — \"They are ______.\"",
+      "options": [
+        "my father's（我爸爸的）",
+        "my father",
+        "he",
+        "him"
+      ],
+      "answerIndex": 0,
+      "explanation": "【Unit 5 必考】Whose 问“谁的”，回答要在人名或身份后加 's 表示“……的”。"
+    },
+    {
+      "stem": "【四年级英语·指示代词复数必考】询问远处的那些西红柿是什么：\"What are ______?\" — \"______ are tomatoes.\"",
+      "options": [
+        "those; They",
+        "these; This",
+        "that; It",
+        "this; They"
+      ],
+      "answerIndex": 0,
+      "explanation": "【Unit 4 必考】远处复数用 those（那些），回答一律用人称代词复数 They（它们）。"
     }
   ]
 }

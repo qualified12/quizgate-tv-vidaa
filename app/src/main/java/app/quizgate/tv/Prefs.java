@@ -4,6 +4,7 @@
  * Modified from the original QuizGate TV project by qualified12.
  * See NOTICE for the full list of changes.
  */
+
 package app.quizgate.tv;
 
 import android.content.Context;

@@ -1,605 +1,600 @@
 {
-  "version": 2,
-  "subject": "英语",
   "grade": 6,
+  "subject": "english",
   "items": [
     {
-      "id": "e6-001",
-      "subject": "英语",
-      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "stem": "形容词比较级：\"An elephant is ______ and ______ than a monkey.\"（大象比猴子更高、更重），应填？",
       "options": [
-        "葡萄",
-        "香蕉",
-        "橘子",
-        "苹果"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"apple\" 意为“苹果”。"
-    },
-    {
-      "id": "e6-002",
-      "subject": "英语",
-      "stem": "英语单词 \"banana\" 的中文意思是什么？",
-      "options": [
-        "香蕉",
-        "西瓜",
-        "苹果",
-        "草莓"
+        "taller, heavier",
+        "tall, heavy",
+        "tallest, heaviest",
+        "more tall, more heavy"
       ],
       "answerIndex": 0,
-      "explanation": "\"banana\" 意为“香蕉”。"
+      "explanation": "【比较级变形规则】句中有标志词 than（比），用比较级：tall 直接加 -er ➔ taller；heavy 是“辅音字母+y”结尾，变 y 为 i 再加 -er ➔ heavier。"
     },
     {
-      "id": "e6-003",
-      "subject": "英语",
-      "stem": "英语单词 \"orange\" 的中文意思是什么？",
+      "stem": "一般过去时：\"What did you do last weekend?\" — \"I ______ a film and ______ my grandparents.\" 应填过去式？",
       "options": [
-        "柠檬",
-        "梨",
-        "桃子",
-        "橙子/橘子"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"orange\" 意为“橙子/橘子”。"
-    },
-    {
-      "id": "e6-004",
-      "subject": "英语",
-      "stem": "英语单词 \"water\" 的中文意思是什么？",
-      "options": [
-        "果汁",
-        "茶",
-        "牛奶",
-        "水"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"water\" 意为“水”。"
-    },
-    {
-      "id": "e6-005",
-      "subject": "英语",
-      "stem": "英语单词 \"milk\" 的中文意思是什么？",
-      "options": [
-        "水",
-        "咖啡",
-        "面包",
-        "牛奶"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"milk\" 意为“牛奶”。"
-    },
-    {
-      "id": "e6-006",
-      "subject": "英语",
-      "stem": "英语单词 \"bread\" 的中文意思是什么？",
-      "options": [
-        "蛋糕",
-        "面包",
-        "面条",
-        "米饭"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"bread\" 意为“面包”。"
-    },
-    {
-      "id": "e6-007",
-      "subject": "英语",
-      "stem": "英语单词 \"book\" 的中文意思是什么？",
-      "options": [
-        "书",
-        "书包",
-        "钢笔",
-        "尺子"
+        "saw, visited",
+        "see, visit",
+        "saw, visit",
+        "seeing, visiting"
       ],
       "answerIndex": 0,
-      "explanation": "\"book\" 意为“书”。"
+      "explanation": "【一般过去时】last weekend（上周末）是过去时间标志，并列谓语动词都要用过去式：see 的不规则过去式是 saw，visit 的规则过去式是 visited。"
     },
     {
-      "id": "e6-008",
-      "subject": "英语",
-      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
+      "stem": "一般将来时：\"We ______ going to take a trip to Beijing next month.\" 横线处应填？",
       "options": [
-        "课桌",
-        "铅笔",
-        "椅子",
-        "橡皮"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"pencil\" 意为“铅笔”。"
-    },
-    {
-      "id": "e6-009",
-      "subject": "英语",
-      "stem": "英语单词 \"school\" 的中文意思是什么？",
-      "options": [
-        "超市",
-        "医院",
-        "公园",
-        "学校"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"school\" 意为“学校”。"
-    },
-    {
-      "id": "e6-010",
-      "subject": "英语",
-      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
-      "options": [
-        "农民",
-        "老师",
-        "医生",
-        "司机"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"teacher\" 意为“老师”。"
-    },
-    {
-      "id": "e6-011",
-      "subject": "英语",
-      "stem": "英语单词 \"student\" 的中文意思是什么？",
-      "options": [
-        "护士",
-        "学生",
-        "警察",
-        "老师"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"student\" 意为“学生”。"
-    },
-    {
-      "id": "e6-012",
-      "subject": "英语",
-      "stem": "英语单词 \"family\" 的中文意思是什么？",
-      "options": [
-        "家庭",
-        "邻居",
-        "同学",
-        "朋友"
+        "are",
+        "is",
+        "will",
+        "do"
       ],
       "answerIndex": 0,
-      "explanation": "\"family\" 意为“家庭”。"
+      "explanation": "【将来时结构】“be going to + 动词原形”表示计划或打算做某事，主语 We 是复数，故 be 动词填 are（若用 will 则直接说 will take，不加 going to）。"
     },
     {
-      "id": "e6-013",
-      "subject": "英语",
-      "stem": "英语单词 \"mother\" 的中文意思是什么？",
+      "stem": "交通方式表达：\"My father goes to work ______ subway, and I go to school ______ foot.\" 应填哪两个介词？",
       "options": [
-        "兄弟",
-        "父亲",
-        "母亲",
-        "姐妹"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"mother\" 意为“母亲”。"
-    },
-    {
-      "id": "e6-014",
-      "subject": "英语",
-      "stem": "英语单词 \"father\" 的中文意思是什么？",
-      "options": [
-        "父亲",
-        "母亲",
-        "阿姨",
-        "叔叔"
+        "by, on",
+        "by, by",
+        "on, by",
+        "in, on"
       ],
       "answerIndex": 0,
-      "explanation": "\"father\" 意为“父亲”。"
+      "explanation": "【交通工具介词】“by + 交通工具名词单数（中间无冠词）”如 by bus / by subway / by plane；唯独“步行”固定用“on foot”。"
     },
     {
-      "id": "e6-015",
-      "subject": "英语",
-      "stem": "英语单词 \"morning\" 的中文意思是什么？",
+      "stem": "问路指路句型：\"______ me, how can I get to the science museum?\" — \"Turn left ______ the bookstore.\" 应填？",
       "options": [
-        "中午",
-        "下午",
-        "晚上",
-        "早晨/上午"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"morning\" 意为“早晨/上午”。"
-    },
-    {
-      "id": "e6-016",
-      "subject": "英语",
-      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
-      "options": [
-        "下午",
-        "早晨",
-        "夜晚",
-        "昨天"
+        "Excuse, at",
+        "Sorry, on",
+        "Excuse, to",
+        "Hello, in"
       ],
       "answerIndex": 0,
-      "explanation": "\"afternoon\" 意为“下午”。"
+      "explanation": "【问路交际】打扰别人问路先说“Excuse me（劳驾/打扰一下）”；“在某处左转/右转”用介词 at：“Turn left/right at the + 地点”。"
     },
     {
-      "id": "e6-017",
-      "subject": "英语",
-      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
+      "stem": "过去与现在对比：\"There ______ no library in my old school five years ago, but now there ______ a big one.\"",
       "options": [
-        "星期一",
-        "星期日",
-        "星期五",
-        "星期二"
+        "was, is",
+        "is, was",
+        "were, are",
+        "had, has"
       ],
       "answerIndex": 0,
-      "explanation": "\"Monday\" 意为“星期一”。"
+      "explanation": "【There be 时态对比】five years ago（五年前）用过去时且 library 是单数，填 was；now（现在）用一般现在时且 a big one 是单数，填 is。"
     },
     {
-      "id": "e6-018",
-      "subject": "英语",
-      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
+      "stem": "双写尾字母变形：动词 \"stop\"（停下）的过去式和形容词 \"big\"（大的）的比较级分别是？",
       "options": [
-        "星期六",
-        "星期三",
-        "星期五",
-        "星期四"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"Friday\" 意为“星期五”。"
-    },
-    {
-      "id": "e6-019",
-      "subject": "英语",
-      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
-      "options": [
-        "星期六",
-        "星期一",
-        "星期日",
-        "星期二"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"Sunday\" 意为“星期日”。"
-    },
-    {
-      "id": "e6-020",
-      "subject": "英语",
-      "stem": "英语单词 \"spring\" 的中文意思是什么？",
-      "options": [
-        "秋天",
-        "夏天",
-        "冬天",
-        "春天"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"spring\" 意为“春天”。"
-    },
-    {
-      "id": "e6-021",
-      "subject": "英语",
-      "stem": "英语单词 \"summer\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "春天",
-        "夏天",
-        "秋天"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"summer\" 意为“夏天”。"
-    },
-    {
-      "id": "e6-022",
-      "subject": "英语",
-      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
-      "options": [
-        "秋天",
-        "春天",
-        "夏天",
-        "冬天"
+        "stopped 和 bigger",
+        "stoped 和 biger",
+        "stopped 和 biger",
+        "stoped 和 bigger"
       ],
       "answerIndex": 0,
-      "explanation": "\"autumn\" 意为“秋天”。"
+      "explanation": "【重读闭音节双写规则】以“辅音+元音+辅音”结尾的重读闭音节词，双写末尾辅音字母再加后缀：stop➔stopped，plan➔planned，big➔bigger，thin➔thinner，hot➔hotter。"
     },
     {
-      "id": "e6-023",
-      "subject": "英语",
-      "stem": "英语单词 \"winter\" 的中文意思是什么？",
+      "stem": "感叹句辨析：\"______ clever boy he is!\" 与 \"______ fast he runs!\" 分别用什么引导？",
       "options": [
-        "冬天",
-        "夏天",
-        "秋天",
-        "春天"
+        "What a; How",
+        "How; What a",
+        "What; How",
+        "How a; What"
       ],
       "answerIndex": 0,
-      "explanation": "\"winter\" 意为“冬天”。"
+      "explanation": "【感叹句黄金法则】看主谓（he is / he runs）前面中心词的词性：中心词是可数名词单数 boy，用“What a/an + 形容词 + 单数名词 + 主谓!”；中心词是副词 fast，用“How + 形容词/副词 + 主谓!”。"
     },
     {
-      "id": "e6-024",
-      "subject": "英语",
-      "stem": "英语单词 \"library\" 的中文意思是什么？",
+      "stem": "动词搭配：\"He is good at ______ basketball, and he wants ______ a coach.\" 分别填什么形式？",
       "options": [
-        "图书馆",
-        "体育馆",
+        "playing, to be",
+        "play, be",
+        "to play, playing",
+        "playing, being"
+      ],
+      "answerIndex": 0,
+      "explanation": "【非谓语固定搭配】at 是介词，介词后面的动词必须用动名词（doing）：be good at playing；want 后面接动词不定式（want to do）：wants to be。"
+    },
+    {
+      "stem": "形容词最高级：\"The Changjiang River is ______ river in China.\"（长江是中国最长的河流），应填？",
+      "options": [
+        "the longest",
+        "longer",
+        "longest",
+        "the most long"
+      ],
+      "answerIndex": 0,
+      "explanation": "【最高级用法】表示在三个或以上范围内（in China）“最……”，单音节形容词加 -est，且最高级前必须加定冠词 the：the longest。"
+    },
+    {
+      "stem": "英语词汇：单词 \"museum\" 的中文意思是什么？",
+      "options": [
         "博物馆",
+        "电影院",
+        "医院",
+        "邮局"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】地点词：science museum = 科学博物馆。"
+    },
+    {
+      "stem": "汉译英：「博物馆」对应的英文单词是哪一个？",
+      "options": [
+        "museum",
+        "gym",
+        "post office",
+        "traffic lights"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】地点词：science museum = 科学博物馆。"
+    },
+    {
+      "stem": "英语词汇：单词 \"hospital\" 的中文意思是什么？",
+      "options": [
+        "医院",
+        "银行",
+        "书店",
+        "超市"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】地点词：hospital = 医院。"
+    },
+    {
+      "stem": "汉译英：「医院」对应的英文单词是哪一个？",
+      "options": [
+        "hospital",
+        "heavier",
+        "traffic lights",
+        "dining hall"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】地点词：hospital = 医院。"
+    },
+    {
+      "stem": "英语词汇：单词 \"post office\" 的中文意思是什么？",
+      "options": [
+        "邮局",
+        "警察局",
+        "火车站",
+        "图书馆"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】地点词：post office = 邮局。"
+    },
+    {
+      "stem": "汉译英：「邮局」对应的英文单词是哪一个？",
+      "options": [
+        "post office",
+        "subway",
+        "dictionary",
+        "worried"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】地点词：post office = 邮局。"
+    },
+    {
+      "stem": "英语词汇：单词 \"bookstore\" 的中文意思是什么？",
+      "options": [
+        "书店",
+        "图书馆",
+        "文具店",
         "电影院"
       ],
       "answerIndex": 0,
-      "explanation": "\"library\" 意为“图书馆”。"
+      "explanation": "【英译汉精析】地点词：bookstore = 书店（library 是借书的图书馆）。"
     },
     {
-      "id": "e6-025",
-      "subject": "英语",
-      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
+      "stem": "汉译英：「书店」对应的英文单词是哪一个？",
       "options": [
-        "银行",
-        "邮局",
-        "学校",
-        "医院"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"hospital\" 意为“医院”。"
-    },
-    {
-      "id": "e6-026",
-      "subject": "英语",
-      "stem": "英语单词 \"science\" 的中文意思是什么？",
-      "options": [
-        "历史",
-        "科学",
-        "数学",
-        "音乐"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"science\" 意为“科学”。"
-    },
-    {
-      "id": "e6-027",
-      "subject": "英语",
-      "stem": "英语单词 \"computer\" 的中文意思是什么？",
-      "options": [
-        "电脑",
-        "相机",
-        "电视",
-        "电话"
+        "bookstore",
+        "museum",
+        "postcard",
+        "tomorrow"
       ],
       "answerIndex": 0,
-      "explanation": "\"computer\" 意为“电脑”。"
+      "explanation": "【汉译英拼写记忆】地点词：bookstore = 书店（library 是借书的图书馆）。"
     },
     {
-      "id": "e6-028",
-      "subject": "英语",
-      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"dictionary\" 的中文意思是什么？",
       "options": [
-        "报纸",
-        "笔记本",
-        "杂志",
-        "词典"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"dictionary\" 意为“词典”。"
-    },
-    {
-      "id": "e6-029",
-      "subject": "英语",
-      "stem": "英语单词 \"environment\" 的中文意思是什么？",
-      "options": [
-        "实验",
-        "环境",
-        "政府",
-        "温度"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"environment\" 意为“环境”。"
-    },
-    {
-      "id": "e6-030",
-      "subject": "英语",
-      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
-      "options": [
-        "温度",
-        "天气",
-        "季节",
-        "距离"
+        "词典 / 字典",
+        "漫画书",
+        "明信片",
+        "报纸"
       ],
       "answerIndex": 0,
-      "explanation": "\"temperature\" 意为“温度”。"
+      "explanation": "【英译汉精析】书刊词：dictionary = 词典。"
     },
     {
-      "id": "e6-031",
-      "subject": "英语",
-      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
+      "stem": "汉译英：「词典 / 字典」对应的英文单词是哪一个？",
       "options": [
-        "语言",
-        "文化",
-        "知识",
-        "自然"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"knowledge\" 意为“知识”。"
-    },
-    {
-      "id": "e6-032",
-      "subject": "英语",
-      "stem": "英语单词 \"experience\" 的中文意思是什么？",
-      "options": [
-        "解释",
-        "经验/经历",
-        "实验",
-        "运动"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"experience\" 意为“经验/经历”。"
-    },
-    {
-      "id": "e6-033",
-      "subject": "英语",
-      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
-      "options": [
-        "Goodbye.",
-        "You're welcome.",
-        "I'm fine.",
-        "Nice to meet you."
-      ],
-      "answerIndex": 1,
-      "explanation": "回应感谢常用 You're welcome（不客气）。"
-    },
-    {
-      "id": "e6-034",
-      "subject": "英语",
-      "stem": "早上见到老师时，应该用哪句英语问好？",
-      "options": [
-        "Good afternoon!",
-        "See you!",
-        "Good night!",
-        "Good morning!"
-      ],
-      "answerIndex": 3,
-      "explanation": "早上问好使用 Good morning!"
-    },
-    {
-      "id": "e6-035",
-      "subject": "英语",
-      "stem": "\"How old are you?\" 是在询问什么？",
-      "options": [
-        "你几岁了？",
-        "你在哪里？",
-        "你好吗？",
-        "你是谁？"
+        "dictionary",
+        "scientist",
+        "coach",
+        "angry"
       ],
       "answerIndex": 0,
-      "explanation": "How old 用来询问年龄。"
+      "explanation": "【汉译英拼写记忆】书刊词：dictionary = 词典。"
     },
     {
-      "id": "e6-036",
-      "subject": "英语",
-      "stem": "填空：I ___ a student.",
+      "stem": "英语词汇：单词 \"postcard\" 的中文意思是什么？",
       "options": [
-        "am",
-        "are",
-        "is",
-        "be"
+        "明信片",
+        "信封",
+        "邮票",
+        "日记"
       ],
       "answerIndex": 0,
-      "explanation": "第一人称单数 I 搭配 be 动词 am。"
+      "explanation": "【英译汉精析】日常词：postcard = 明信片。"
     },
     {
-      "id": "e6-037",
-      "subject": "英语",
-      "stem": "填空：She ___ reading books every day.",
+      "stem": "汉译英：「明信片」对应的英文单词是哪一个？",
       "options": [
-        "liking",
-        "to like",
-        "like",
-        "likes"
-      ],
-      "answerIndex": 3,
-      "explanation": "第三人称单数一般现在时动词加 -s。"
-    },
-    {
-      "id": "e6-038",
-      "subject": "英语",
-      "stem": "填空：There ___ an apple and two pears on the table.",
-      "options": [
-        "is",
-        "am",
-        "are",
-        "be"
+        "postcard",
+        "yesterday",
+        "post office",
+        "afraid"
       ],
       "answerIndex": 0,
-      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
+      "explanation": "【汉译英拼写记忆】日常词：postcard = 明信片。"
     },
     {
-      "id": "e6-039",
-      "subject": "英语",
-      "stem": "\"child\"（孩子）的复数形式是什么？",
+      "stem": "英语词汇：单词 \"subway\" 的中文意思是什么？",
       "options": [
-        "children",
-        "childs",
-        "childrens",
-        "childes"
+        "地铁",
+        "火车",
+        "飞机",
+        "轮船"
       ],
       "answerIndex": 0,
-      "explanation": "child 的不规则复数是 children。"
+      "explanation": "【英译汉精析】交通词：by subway = 乘地铁。"
     },
     {
-      "id": "e6-040",
-      "subject": "英语",
-      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
+      "stem": "汉译英：「地铁」对应的英文单词是哪一个？",
       "options": [
-        "teeth",
-        "tooths",
-        "toothes",
-        "teethes"
+        "subway",
+        "museum",
+        "post office",
+        "stronger"
       ],
       "answerIndex": 0,
-      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
+      "explanation": "【汉译英拼写记忆】交通词：by subway = 乘地铁。"
     },
     {
-      "id": "e6-041",
-      "subject": "英语",
-      "stem": "动词 \"go\" 的过去式是什么？",
+      "stem": "英语词汇：单词 \"traffic lights\" 的中文意思是什么？",
       "options": [
-        "went",
-        "goed",
-        "going",
-        "gone"
+        "交通信号灯（红绿灯）",
+        "人行横道",
+        "停车场",
+        "十字路口"
       ],
       "answerIndex": 0,
-      "explanation": "go - went - gone 是不规则动词变化。"
+      "explanation": "【英译汉精析】交通词：traffic lights = 红绿灯（Red stop, green go）。"
     },
     {
-      "id": "e6-042",
-      "subject": "英语",
-      "stem": "动词 \"buy\"（买）的过去式是什么？",
+      "stem": "汉译英：「交通信号灯（红绿灯）」对应的英文单词是哪一个？",
       "options": [
-        "buyed",
-        "bought",
-        "brought",
-        "buying"
+        "traffic lights",
+        "dictionary",
+        "museum",
+        "gym"
       ],
-      "answerIndex": 1,
-      "explanation": "buy 的过去式和过去分词都是 bought。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】交通词：traffic lights = 红绿灯（Red stop, green go）。"
     },
     {
-      "id": "e6-043",
-      "subject": "英语",
-      "stem": "填空：He has lived in Beijing ___ 2020.",
+      "stem": "英语词汇：单词 \"scientist\" 的中文意思是什么？",
       "options": [
-        "at",
-        "since",
-        "in",
-        "for"
+        "科学家",
+        "飞行员",
+        "教练",
+        "商人"
       ],
-      "answerIndex": 1,
-      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】职业词：science ➔ scientist(科学家)。"
     },
     {
-      "id": "e6-044",
-      "subject": "英语",
-      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "stem": "汉译英：「科学家」对应的英文单词是哪一个？",
       "options": [
-        "interest; interesting",
-        "interesting; interest",
-        "interested; interesting",
-        "interesting; interested"
+        "scientist",
+        "postcard",
+        "gym",
+        "coach"
       ],
-      "answerIndex": 3,
-      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】职业词：science ➔ scientist(科学家)。"
     },
     {
-      "id": "e6-045",
-      "subject": "英语",
-      "stem": "填空：If it ___ tomorrow, we will stay at home.",
+      "stem": "英语词汇：单词 \"pilot\" 的中文意思是什么？",
       "options": [
-        "rain",
-        "rained",
-        "rains",
-        "will rain"
+        "飞行员",
+        "水手",
+        "司机",
+        "警察"
       ],
-      "answerIndex": 2,
-      "explanation": "if 引导的条件状语从句遵循“主将从现”，从句用一般现在时 rains。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】职业词：pilot = 飞行员。"
     },
     {
-      "id": "e6-046",
-      "subject": "英语",
-      "stem": "填空：English ___ all over the world today.",
+      "stem": "汉译英：「飞行员」对应的英文单词是哪一个？",
       "options": [
-        "spoke",
-        "was speaking",
-        "speaks",
-        "is spoken"
+        "pilot",
+        "traffic lights",
+        "postcard",
+        "stronger"
       ],
-      "answerIndex": 3,
-      "explanation": "英语是“被讲”，一般现在时被动语态 is spoken。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】职业词：pilot = 飞行员。"
+    },
+    {
+      "stem": "英语词汇：单词 \"coach\" 的中文意思是什么？",
+      "options": [
+        "教练",
+        "运动员",
+        "裁判",
+        "记者"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】职业词：coach = 教练（如 football coach）。"
+    },
+    {
+      "stem": "汉译英：「教练」对应的英文单词是哪一个？",
+      "options": [
+        "coach",
+        "tomorrow",
+        "stronger",
+        "gym"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】职业词：coach = 教练（如 football coach）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"worried\" 的中文意思是什么？",
+      "options": [
+        "担心的 / 焦虑的",
+        "兴奋的",
+        "生气的",
+        "开心的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】情绪词：be worried about = 为……担心。"
+    },
+    {
+      "stem": "汉译英：「担心的 / 焦虑的」对应的英文单词是哪一个？",
+      "options": [
+        "worried",
+        "coach",
+        "heavier",
+        "scientist"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】情绪词：be worried about = 为……担心。"
+    },
+    {
+      "stem": "英语词汇：单词 \"angry\" 的中文意思是什么？",
+      "options": [
+        "生气的",
+        "害怕的",
+        "难过的",
+        "惊讶的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】情绪词：be angry with sb. = 生某人的气。"
+    },
+    {
+      "stem": "汉译英：「生气的」对应的英文单词是哪一个？",
+      "options": [
+        "angry",
+        "pilot",
+        "dictionary",
+        "traffic lights"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】情绪词：be angry with sb. = 生某人的气。"
+    },
+    {
+      "stem": "英语词汇：单词 \"afraid\" 的中文意思是什么？",
+      "options": [
+        "害怕的",
+        "勇敢的",
+        "自豪的",
+        "无聊的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】情绪词：be afraid of = 害怕……。"
+    },
+    {
+      "stem": "汉译英：「害怕的」对应的英文单词是哪一个？",
+      "options": [
+        "afraid",
+        "stronger",
+        "museum",
+        "tomorrow"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】情绪词：be afraid of = 害怕……。"
+    },
+    {
+      "stem": "英语词汇：单词 \"dining hall\" 的中文意思是什么？",
+      "options": [
+        "餐厅 / 食堂",
+        "健身房",
+        "电脑室",
+        "礼堂"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】校园场所：dining hall = 食堂/餐厅。"
+    },
+    {
+      "stem": "汉译英：「餐厅 / 食堂」对应的英文单词是哪一个？",
+      "options": [
+        "dining hall",
+        "stronger",
+        "gym",
+        "heavier"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】校园场所：dining hall = 食堂/餐厅。"
+    },
+    {
+      "stem": "英语词汇：单词 \"gym\" 的中文意思是什么？",
+      "options": [
+        "体育馆 / 健身房",
+        "实验室",
+        "音乐室",
+        "操场"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】校园场所：gym = 体育馆。"
+    },
+    {
+      "stem": "汉译英：「体育馆 / 健身房」对应的英文单词是哪一个？",
+      "options": [
+        "gym",
+        "dictionary",
+        "bookstore",
+        "stronger"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】校园场所：gym = 体育馆。"
+    },
+    {
+      "stem": "英语词汇：单词 \"yesterday\" 的中文意思是什么？",
+      "options": [
+        "昨天",
+        "今天",
+        "明天",
+        "前天"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】时间词：yesterday(昨天) 用于一般过去时。"
+    },
+    {
+      "stem": "汉译英：「昨天」对应的英文单词是哪一个？",
+      "options": [
+        "yesterday",
+        "afraid",
+        "pilot",
+        "dictionary"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】时间词：yesterday(昨天) 用于一般过去时。"
+    },
+    {
+      "stem": "英语词汇：单词 \"tomorrow\" 的中文意思是什么？",
+      "options": [
+        "明天",
+        "昨天",
+        "上周",
+        "刚才"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】时间词：tomorrow(明天) 用于一般将来时。"
+    },
+    {
+      "stem": "汉译英：「明天」对应的英文单词是哪一个？",
+      "options": [
+        "tomorrow",
+        "dining hall",
+        "coach",
+        "traffic lights"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】时间词：tomorrow(明天) 用于一般将来时。"
+    },
+    {
+      "stem": "英语词汇：单词 \"heavier\" 的中文意思是什么？",
+      "options": [
+        "更重的（heavy 比较级）",
+        "更高的",
+        "更瘦的",
+        "更长的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】比较级：heavy ➔ heavier。"
+    },
+    {
+      "stem": "汉译英：「更重的（heavy 比较级）」对应的英文单词是哪一个？",
+      "options": [
+        "heavier",
+        "dining hall",
+        "angry",
+        "museum"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】比较级：heavy ➔ heavier。"
+    },
+    {
+      "stem": "英语词汇：单词 \"stronger\" 的中文意思是什么？",
+      "options": [
+        "更强壮的",
+        "更矮的",
+        "更年轻的",
+        "更老的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】比较级：strong ➔ stronger。"
+    },
+    {
+      "stem": "汉译英：「更强壮的」对应的英文单词是哪一个？",
+      "options": [
+        "stronger",
+        "gym",
+        "traffic lights",
+        "angry"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】比较级：strong ➔ stronger。"
+    },
+    {
+      "stem": "【六年级英语·交通规则必考】When you see a yellow light at the crossing, you must ______.",
+      "options": [
+        "slow down and stop",
+        "go straight fast",
+        "run across the street",
+        "turn left right away"
+      ],
+      "answerIndex": 0,
+      "explanation": "【六上 Unit 2 必考】红灯停（Stop and wait），黄灯减速停下（Slow down and stop），绿灯行（Go）。"
+    },
+    {
+      "stem": "【六年级英语·职业构词法必考】把动词 \"write\"（写）和名词 \"science\"（科学）变成表示职业的词，分别是？",
+      "options": [
+        "writer（作家）和 scientist（科学家）",
+        "writor 和 sciencer",
+        "writing 和 scientific",
+        "writes 和 sciences"
+      ],
+      "answerIndex": 0,
+      "explanation": "【六上 Unit 5 必考】常见职业后缀：-er (teacher, worker, writer), -ist (scientist, artist, pianist), -man (postman, businessman)。"
+    },
+    {
+      "stem": "【六年级英语·过去时与原形对比必考】\"Did you ______ your room last Sunday?\" — \"Yes, I ______ it with my sister.\"",
+      "options": [
+        "clean; cleaned",
+        "cleaned; cleaned",
+        "clean; clean",
+        "cleaning; cleaned"
+      ],
+      "answerIndex": 0,
+      "explanation": "【六下 Unit 2 必考】助动词 Did 像照妖镜，前面用了 Did，后面的实义动词必须恢复“原形（clean）”！肯定回答才用过去式 cleaned。"
+    },
+    {
+      "stem": "【六年级英语·比较级标志词必考】\"Who is ______, Sarah or Amy?\" — \"Sarah is 2 cm ______ than Amy.\"",
+      "options": [
+        "taller; taller",
+        "tall; taller",
+        "tallest; taller",
+        "the tallest; tall"
+      ],
+      "answerIndex": 0,
+      "explanation": "【六下 Unit 1 必考】两者之间比较（Sarah or Amy / ...than...）一律用形容词比较级 taller。"
     }
   ]
 }

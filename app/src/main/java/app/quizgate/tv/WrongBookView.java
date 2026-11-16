@@ -4,6 +4,7 @@
  * NEW FILE added by qualified12; not present in upstream.
  * See NOTICE for the full list of changes.
  */
+
 package app.quizgate.tv;
 
 import android.content.Context;

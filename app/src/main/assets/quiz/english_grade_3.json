@@ -1,579 +1,820 @@
 {
-  "version": 2,
-  "subject": "英语",
   "grade": 3,
+  "subject": "english",
   "items": [
     {
-      "id": "e3-001",
-      "subject": "英语",
-      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "stem": "询问「你有多少支铅笔？」时，询问可数名词复数的数量应该用哪个词组？",
       "options": [
-        "苹果",
-        "香蕉",
-        "葡萄",
-        "橘子"
+        "How many pencils do you have?",
+        "How much pencils do you have?",
+        "How old are the pencils?",
+        "Where are your pencils?"
       ],
       "answerIndex": 0,
-      "explanation": "\"apple\" 意为“苹果”。"
+      "explanation": "【核心句型】How many + 可数名词复数（询问数量“多少个”）；How much 用来询问价格或不可数名词的量。"
     },
     {
-      "id": "e3-002",
-      "subject": "英语",
-      "stem": "英语单词 \"banana\" 的中文意思是什么？",
+      "stem": "当你想借用同桌的橡皮，礼貌地问「我可以用一下你的橡皮吗？」，应说？",
       "options": [
-        "西瓜",
-        "苹果",
-        "草莓",
-        "香蕉"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"banana\" 意为“香蕉”。"
-    },
-    {
-      "id": "e3-003",
-      "subject": "英语",
-      "stem": "英语单词 \"orange\" 的中文意思是什么？",
-      "options": [
-        "桃子",
-        "梨",
-        "橙子/橘子",
-        "柠檬"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"orange\" 意为“橙子/橘子”。"
-    },
-    {
-      "id": "e3-004",
-      "subject": "英语",
-      "stem": "英语单词 \"water\" 的中文意思是什么？",
-      "options": [
-        "水",
-        "果汁",
-        "牛奶",
-        "茶"
+        "Can I use your eraser, please?",
+        "Give me your eraser!",
+        "Where is my ruler?",
+        "Is this a schoolbag?"
       ],
       "answerIndex": 0,
-      "explanation": "\"water\" 意为“水”。"
+      "explanation": "【情态动词 Can】“Can I...?”用于礼貌请求许可，eraser 意为“橡皮”（ruler=尺子，crayon=蜡笔，schoolbag=书包）。"
     },
     {
-      "id": "e3-005",
-      "subject": "英语",
-      "stem": "英语单词 \"milk\" 的中文意思是什么？",
+      "stem": "星期词汇：一周的第一天 \"Sunday\" 和紧接着的 \"Monday\" 分别是星期几？",
       "options": [
-        "牛奶",
-        "面包",
-        "咖啡",
-        "水"
+        "星期日 和 星期一",
+        "星期一 和 星期二",
+        "星期六 和 星期日",
+        "星期五 和 星期六"
       ],
       "answerIndex": 0,
-      "explanation": "\"milk\" 意为“牛奶”。"
+      "explanation": "【星期词汇】Sunday（周日）、Monday（周一）、Tuesday（周二）、Wednesday（周三）、Thursday（周四）、Friday（周五）、Saturday（周六）。"
     },
     {
-      "id": "e3-006",
-      "subject": "英语",
-      "stem": "英语单词 \"bread\" 的中文意思是什么？",
+      "stem": "方位介词辨析：\"The ball is under the chair.\" 意思是球在椅子的哪里？",
       "options": [
-        "米饭",
-        "蛋糕",
-        "面包",
-        "面条"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"bread\" 意为“面包”。"
-    },
-    {
-      "id": "e3-007",
-      "subject": "英语",
-      "stem": "英语单词 \"book\" 的中文意思是什么？",
-      "options": [
-        "书包",
-        "钢笔",
-        "尺子",
-        "书"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"book\" 意为“书”。"
-    },
-    {
-      "id": "e3-008",
-      "subject": "英语",
-      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
-      "options": [
-        "课桌",
-        "橡皮",
-        "铅笔",
-        "椅子"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"pencil\" 意为“铅笔”。"
-    },
-    {
-      "id": "e3-009",
-      "subject": "英语",
-      "stem": "英语单词 \"school\" 的中文意思是什么？",
-      "options": [
-        "公园",
-        "学校",
-        "超市",
-        "医院"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"school\" 意为“学校”。"
-    },
-    {
-      "id": "e3-010",
-      "subject": "英语",
-      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
-      "options": [
-        "老师",
-        "农民",
-        "医生",
-        "司机"
+        "在椅子下面",
+        "在椅子上面",
+        "在椅子里面",
+        "在椅子后面"
       ],
       "answerIndex": 0,
-      "explanation": "\"teacher\" 意为“老师”。"
+      "explanation": "【方位介词图解】in = 在……里面，on = 在……上面（有接触），under = 在……正下方，behind = 在……后面。"
     },
     {
-      "id": "e3-011",
-      "subject": "英语",
-      "stem": "英语单词 \"student\" 的中文意思是什么？",
+      "stem": "介绍自己的妈妈时說：\"______ is my mother. She is a teacher.\" 横线处应填？",
       "options": [
-        "学生",
-        "老师",
-        "护士",
-        "警察"
+        "This / She",
+        "He",
+        "It",
+        "We"
       ],
       "answerIndex": 0,
-      "explanation": "\"student\" 意为“学生”。"
+      "explanation": "【人称代词】女性“她”主格用 She（男性“他”用 He，动物或物品“它”用 It），近处介绍某人也可用“This is...”。"
     },
     {
-      "id": "e3-012",
-      "subject": "英语",
-      "stem": "英语单词 \"family\" 的中文意思是什么？",
+      "stem": "教室物品词汇：\"blackboard\"、\"window\" 和 \"desk\" 分别指什么？",
       "options": [
-        "家庭",
-        "邻居",
-        "同学",
-        "朋友"
+        "黑板、窗户 和 课桌",
+        "风扇、地板 和 椅子",
+        "电脑、讲台 和 书包",
+        "大门、电灯 和 图画"
       ],
       "answerIndex": 0,
-      "explanation": "\"family\" 意为“家庭”。"
+      "explanation": "【教室词汇】blackboard = 黑板，window = 窗户，door = 门，desk = 课桌，chair = 椅子，light = 电灯。"
     },
     {
-      "id": "e3-013",
-      "subject": "英语",
-      "stem": "英语单词 \"mother\" 的中文意思是什么？",
+      "stem": "句子 \"I can swim, ______ I can't fly.\" 中表示转折「但是」应填哪个连词？",
       "options": [
-        "兄弟",
-        "姐妹",
-        "父亲",
-        "母亲"
+        "but",
+        "and",
+        "or",
+        "so"
       ],
-      "answerIndex": 3,
-      "explanation": "\"mother\" 意为“母亲”。"
+      "answerIndex": 0,
+      "explanation": "【连词辨析】前半句“我会游泳”与后半句“我不会飞”是转折关系，用 but（但是）；并列用 and（和），选择用 or（或者）。"
     },
     {
-      "id": "e3-014",
-      "subject": "英语",
-      "stem": "英语单词 \"father\" 的中文意思是什么？",
+      "stem": "别人向你介绍新同学时说 \"Nice to meet you!\"，你应该怎么回应？",
       "options": [
-        "叔叔",
-        "母亲",
-        "阿姨",
-        "父亲"
+        "Nice to meet you, too!",
+        "Fine, thank you.",
+        "See you tomorrow!",
+        "Happy birthday!"
       ],
-      "answerIndex": 3,
-      "explanation": "\"father\" 意为“父亲”。"
+      "answerIndex": 0,
+      "explanation": "【情景交际】初次见面问候“Nice to meet you!（很高兴认识你）”，回答“Nice to meet you, too!（我也很高兴认识你）”，too 表示“也”。"
     },
     {
-      "id": "e3-015",
-      "subject": "英语",
-      "stem": "英语单词 \"morning\" 的中文意思是什么？",
+      "stem": "「她的头发很长」用英语表达是 \"______ hair is long.\" 横线处应填哪个物主代词？",
       "options": [
-        "晚上",
-        "早晨/上午",
-        "中午",
-        "下午"
+        "Her",
+        "She",
+        "His",
+        "He"
       ],
-      "answerIndex": 1,
-      "explanation": "\"morning\" 意为“早晨/上午”。"
+      "answerIndex": 0,
+      "explanation": "【物主代词】修饰名词 hair 需要用形容词性物主代词：女性“她的”用 Her（She 是主格“她”，His 是“他的”）。"
     },
     {
-      "id": "e3-016",
-      "subject": "英语",
-      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
+      "stem": "询问「我的铅笔盒在哪里？」应该用哪个疑问词开头？",
       "options": [
-        "昨天",
-        "下午",
-        "夜晚",
-        "早晨"
+        "Where is my pencil box?",
+        "What is my pencil box?",
+        "Who is my pencil box?",
+        "When is my pencil box?"
       ],
-      "answerIndex": 1,
-      "explanation": "\"afternoon\" 意为“下午”。"
+      "answerIndex": 0,
+      "explanation": "【疑问词辨析】Where 询问地点（在哪里），What 询问事物（什么），Who 询问人（谁），When 询问时间（什么时候）。"
     },
     {
-      "id": "e3-017",
-      "subject": "英语",
-      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"Tuesday\" 的中文意思是什么？",
       "options": [
-        "星期五",
+        "星期二",
         "星期一",
-        "星期日",
-        "星期二"
+        "星期三",
+        "星期四"
       ],
-      "answerIndex": 1,
-      "explanation": "\"Monday\" 意为“星期一”。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】星期词：Mon(一) Tue(二) Wed(三) Thu(四) Fri(五) Sat(六) Sun(日)。"
     },
     {
-      "id": "e3-018",
-      "subject": "英语",
-      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
+      "stem": "汉译英：「星期二」对应的英文单词是哪一个？",
       "options": [
-        "星期五",
-        "星期六",
+        "Tuesday",
+        "bedroom",
+        "library",
+        "playground"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】星期词：Mon(一) Tue(二) Wed(三) Thu(四) Fri(五) Sat(六) Sun(日)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"Wednesday\" 的中文意思是什么？",
+      "options": [
+        "星期三",
+        "星期二",
         "星期四",
-        "星期三"
+        "星期五"
       ],
       "answerIndex": 0,
-      "explanation": "\"Friday\" 意为“星期五”。"
+      "explanation": "【英译汉精析】星期词：Wednesday = 星期三（注意 d 不发音）。"
     },
     {
-      "id": "e3-019",
-      "subject": "英语",
-      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
+      "stem": "汉译英：「星期三」对应的英文单词是哪一个？",
       "options": [
-        "星期日",
-        "星期一",
+        "Wednesday",
+        "noodles",
+        "kitchen",
+        "strong"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】星期词：Wednesday = 星期三（注意 d 不发音）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"Thursday\" 的中文意思是什么？",
+      "options": [
+        "星期四",
+        "星期二",
+        "星期三",
+        "星期五"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】星期词：Thursday = 星期四。"
+    },
+    {
+      "stem": "汉译英：「星期四」对应的英文单词是哪一个？",
+      "options": [
+        "Thursday",
+        "behind",
+        "bathroom",
+        "vegetable"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】星期词：Thursday = 星期四。"
+    },
+    {
+      "stem": "英语词汇：单词 \"Friday\" 的中文意思是什么？",
+      "options": [
+        "星期五",
+        "星期四",
         "星期六",
-        "星期二"
+        "星期日"
       ],
       "answerIndex": 0,
-      "explanation": "\"Sunday\" 意为“星期日”。"
+      "explanation": "【英译汉精析】星期词：Friday = 星期五。"
     },
     {
-      "id": "e3-020",
-      "subject": "英语",
-      "stem": "英语单词 \"spring\" 的中文意思是什么？",
+      "stem": "汉译英：「星期五」对应的英文单词是哪一个？",
       "options": [
-        "夏天",
-        "秋天",
-        "春天",
-        "冬天"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"spring\" 意为“春天”。"
-    },
-    {
-      "id": "e3-021",
-      "subject": "英语",
-      "stem": "英语单词 \"summer\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "秋天",
-        "春天",
-        "夏天"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"summer\" 意为“夏天”。"
-    },
-    {
-      "id": "e3-022",
-      "subject": "英语",
-      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
-      "options": [
-        "秋天",
-        "冬天",
-        "夏天",
-        "春天"
+        "Friday",
+        "Saturday",
+        "lunch",
+        "dinner"
       ],
       "answerIndex": 0,
-      "explanation": "\"autumn\" 意为“秋天”。"
+      "explanation": "【汉译英拼写记忆】星期词：Friday = 星期五。"
     },
     {
-      "id": "e3-023",
-      "subject": "英语",
-      "stem": "英语单词 \"winter\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"Saturday\" 的中文意思是什么？",
       "options": [
-        "冬天",
-        "夏天",
-        "春天",
-        "秋天"
+        "星期六",
+        "星期五",
+        "星期日",
+        "星期一"
       ],
       "answerIndex": 0,
-      "explanation": "\"winter\" 意为“冬天”。"
+      "explanation": "【英译汉精析】星期词：Saturday = 星期六。"
     },
     {
-      "id": "e3-024",
-      "subject": "英语",
-      "stem": "英语单词 \"library\" 的中文意思是什么？",
+      "stem": "汉译英：「星期六」对应的英文单词是哪一个？",
       "options": [
-        "电影院",
-        "博物馆",
+        "Saturday",
+        "lunch",
+        "behind",
+        "between"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】星期词：Saturday = 星期六。"
+    },
+    {
+      "stem": "英语词汇：单词 \"bedroom\" 的中文意思是什么？",
+      "options": [
+        "卧室",
+        "厨房",
+        "客厅",
+        "浴室"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】房间词：bed(床)+room(房间) = bedroom(卧室)。"
+    },
+    {
+      "stem": "汉译英：「卧室」对应的英文单词是哪一个？",
+      "options": [
+        "bedroom",
+        "Chinese",
+        "playground",
+        "noodles"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】房间词：bed(床)+room(房间) = bedroom(卧室)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"kitchen\" 的中文意思是什么？",
+      "options": [
+        "厨房",
+        "卧室",
+        "书房",
+        "花园"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】房间词：kitchen = 厨房。"
+    },
+    {
+      "stem": "汉译英：「厨房」对应的英文单词是哪一个？",
+      "options": [
+        "kitchen",
+        "between",
+        "bedroom",
+        "Friday"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】房间词：kitchen = 厨房。"
+    },
+    {
+      "stem": "英语词汇：单词 \"bathroom\" 的中文意思是什么？",
+      "options": [
+        "浴室 / 洗手间",
+        "餐厅",
+        "阳台",
+        "教室"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】房间词：bathroom = 浴室。"
+    },
+    {
+      "stem": "汉译英：「浴室 / 洗手间」对应的英文单词是哪一个？",
+      "options": [
+        "bathroom",
+        "Thursday",
+        "lunch",
+        "breakfast"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】房间词：bathroom = 浴室。"
+    },
+    {
+      "stem": "英语词汇：单词 \"living room\" 的中文意思是什么？",
+      "options": [
+        "客厅",
+        "书房",
+        "厨房",
+        "卧室"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】房间词：living room = 客厅/起居室。"
+    },
+    {
+      "stem": "汉译英：「客厅」对应的英文单词是哪一个？",
+      "options": [
+        "living room",
+        "kitchen",
+        "playground",
+        "breakfast"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】房间词：living room = 客厅/起居室。"
+    },
+    {
+      "stem": "英语词汇：单词 \"classroom\" 的中文意思是什么？",
+      "options": [
+        "教室",
         "图书馆",
-        "体育馆"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"library\" 意为“图书馆”。"
-    },
-    {
-      "id": "e3-025",
-      "subject": "英语",
-      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
-      "options": [
-        "医院",
-        "学校",
-        "邮局",
-        "银行"
+        "操场",
+        "办公室"
       ],
       "answerIndex": 0,
-      "explanation": "\"hospital\" 意为“医院”。"
+      "explanation": "【英译汉精析】学校词：classroom = 教室。"
     },
     {
-      "id": "e3-026",
-      "subject": "英语",
-      "stem": "英语单词 \"science\" 的中文意思是什么？",
+      "stem": "汉译英：「教室」对应的英文单词是哪一个？",
       "options": [
-        "历史",
-        "音乐",
+        "classroom",
+        "Thursday",
+        "behind",
+        "Saturday"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】学校词：classroom = 教室。"
+    },
+    {
+      "stem": "英语词汇：单词 \"library\" 的中文意思是什么？",
+      "options": [
+        "图书馆",
+        "体育馆",
+        "食堂",
+        "博物馆"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】学校词：library = 图书馆。"
+    },
+    {
+      "stem": "汉译英：「图书馆」对应的英文单词是哪一个？",
+      "options": [
+        "library",
+        "Tuesday",
+        "between",
+        "playground"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】学校词：library = 图书馆。"
+    },
+    {
+      "stem": "英语词汇：单词 \"playground\" 的中文意思是什么？",
+      "options": [
+        "操场",
+        "教室",
+        "公园",
+        "动物园"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】学校词：playground = 操场。"
+    },
+    {
+      "stem": "汉译英：「操场」对应的英文单词是哪一个？",
+      "options": [
+        "playground",
+        "Tuesday",
+        "Friday",
+        "breakfast"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】学校词：playground = 操场。"
+    },
+    {
+      "stem": "英语词汇：单词 \"Chinese\" 的中文意思是什么？",
+      "options": [
+        "语文 / 中国的",
         "数学",
+        "英语",
         "科学"
       ],
-      "answerIndex": 3,
-      "explanation": "\"science\" 意为“科学”。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】学科词：Chinese 语文，Math 数学，English 英语，Science 科学。"
     },
     {
-      "id": "e3-027",
-      "subject": "英语",
-      "stem": "英语单词 \"computer\" 的中文意思是什么？",
+      "stem": "汉译英：「语文 / 中国的」对应的英文单词是哪一个？",
       "options": [
-        "电话",
-        "电视",
-        "电脑",
-        "相机"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"computer\" 意为“电脑”。"
-    },
-    {
-      "id": "e3-028",
-      "subject": "英语",
-      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
-      "options": [
-        "词典",
-        "杂志",
-        "报纸",
-        "笔记本"
+        "Chinese",
+        "playground",
+        "lunch",
+        "clever"
       ],
       "answerIndex": 0,
-      "explanation": "\"dictionary\" 意为“词典”。"
+      "explanation": "【汉译英拼写记忆】学科词：Chinese 语文，Math 数学，English 英语，Science 科学。"
     },
     {
-      "id": "e3-029",
-      "subject": "英语",
-      "stem": "英语单词 \"environment\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"breakfast\" 的中文意思是什么？",
       "options": [
-        "温度",
-        "政府",
-        "实验",
-        "环境"
+        "早餐",
+        "午餐",
+        "晚餐",
+        "点心"
       ],
-      "answerIndex": 3,
-      "explanation": "\"environment\" 意为“环境”。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】三餐词：breakfast 早餐，lunch 午餐，dinner 晚餐。"
     },
     {
-      "id": "e3-030",
-      "subject": "英语",
-      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
+      "stem": "汉译英：「早餐」对应的英文单词是哪一个？",
       "options": [
-        "距离",
-        "温度",
-        "季节",
-        "天气"
+        "breakfast",
+        "helpful",
+        "behind",
+        "polite"
       ],
-      "answerIndex": 1,
-      "explanation": "\"temperature\" 意为“温度”。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】三餐词：breakfast 早餐，lunch 午餐，dinner 晚餐。"
     },
     {
-      "id": "e3-031",
-      "subject": "英语",
-      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"lunch\" 的中文意思是什么？",
       "options": [
-        "语言",
-        "自然",
-        "文化",
-        "知识"
+        "午餐",
+        "早餐",
+        "晚餐",
+        "夜宵"
       ],
-      "answerIndex": 3,
-      "explanation": "\"knowledge\" 意为“知识”。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】三餐词：lunch = 午餐。"
     },
     {
-      "id": "e3-032",
-      "subject": "英语",
-      "stem": "英语单词 \"experience\" 的中文意思是什么？",
+      "stem": "汉译英：「午餐」对应的英文单词是哪一个？",
       "options": [
-        "解释",
-        "运动",
-        "实验",
-        "经验/经历"
+        "lunch",
+        "noodles",
+        "library",
+        "Friday"
       ],
-      "answerIndex": 3,
-      "explanation": "\"experience\" 意为“经验/经历”。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】三餐词：lunch = 午餐。"
     },
     {
-      "id": "e3-033",
-      "subject": "英语",
-      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
+      "stem": "英语词汇：单词 \"dinner\" 的中文意思是什么？",
       "options": [
+        "晚餐 / 正餐",
+        "早餐",
+        "午餐",
+        "水果"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】三餐词：dinner = 晚餐。"
+    },
+    {
+      "stem": "汉译英：「晚餐 / 正餐」对应的英文单词是哪一个？",
+      "options": [
+        "dinner",
+        "lunch",
+        "between",
+        "kitchen"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】三餐词：dinner = 晚餐。"
+    },
+    {
+      "stem": "英语词汇：单词 \"behind\" 的中文意思是什么？",
+      "options": [
+        "在……后面",
+        "在……前面",
+        "在……上面",
+        "在……里面"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】方位介词：behind 在后面 ↔ in front of 在前面。"
+    },
+    {
+      "stem": "汉译英：「在……后面」对应的英文单词是哪一个？",
+      "options": [
+        "behind",
+        "Tuesday",
+        "dinner",
+        "living room"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】方位介词：behind 在后面 ↔ in front of 在前面。"
+    },
+    {
+      "stem": "英语词汇：单词 \"between\" 的中文意思是什么？",
+      "options": [
+        "在……（两者）之间",
+        "在……旁边",
+        "在……下面",
+        "在……上面"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】方位介词：between A and B = 在 A 和 B 之间。"
+    },
+    {
+      "stem": "汉译英：「在……（两者）之间」对应的英文单词是哪一个？",
+      "options": [
+        "between",
+        "behind",
+        "playground",
+        "helpful"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】方位介词：between A and B = 在 A 和 B 之间。"
+    },
+    {
+      "stem": "英语词汇：单词 \"clever\" 的中文意思是什么？",
+      "options": [
+        "聪明的",
+        "害羞的",
+        "懒惰的",
+        "严厉的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】性格词：clever = 聪明的。"
+    },
+    {
+      "stem": "汉译英：「聪明的」对应的英文单词是哪一个？",
+      "options": [
+        "clever",
+        "lunch",
+        "living room",
+        "Wednesday"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】性格词：clever = 聪明的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"helpful\" 的中文意思是什么？",
+      "options": [
+        "乐于助人的",
+        "礼貌的",
+        "有趣的",
+        "勤劳的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】性格词：help(帮助) + -ful = helpful(有帮助的/乐于助人的)。"
+    },
+    {
+      "stem": "汉译英：「乐于助人的」对应的英文单词是哪一个？",
+      "options": [
+        "helpful",
+        "Wednesday",
+        "Tuesday",
+        "bedroom"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】性格词：help(帮助) + -ful = helpful(有帮助的/乐于助人的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"polite\" 的中文意思是什么？",
+      "options": [
+        "有礼貌的",
+        "粗鲁的",
+        "害羞的",
+        "安静的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】性格词：polite = 有礼貌的。"
+    },
+    {
+      "stem": "汉译英：「有礼貌的」对应的英文单词是哪一个？",
+      "options": [
+        "polite",
+        "Saturday",
+        "bathroom",
+        "breakfast"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】性格词：polite = 有礼貌的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"strong\" 的中文意思是什么？",
+      "options": [
+        "强壮的",
+        "虚弱的",
+        "矮小的",
+        "友好的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】外貌词：strong = 强壮的。"
+    },
+    {
+      "stem": "汉译英：「强壮的」对应的英文单词是哪一个？",
+      "options": [
+        "strong",
+        "Saturday",
+        "playground",
+        "Tuesday"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】外貌词：strong = 强壮的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"noodles\" 的中文意思是什么？",
+      "options": [
+        "面条",
+        "米饭",
+        "饺子",
+        "三明治"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】食物词：noodles = 面条（常用复数）。"
+    },
+    {
+      "stem": "汉译英：「面条」对应的英文单词是哪一个？",
+      "options": [
+        "noodles",
+        "bedroom",
+        "clever",
+        "helpful"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】食物词：noodles = 面条（常用复数）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"vegetable\" 的中文意思是什么？",
+      "options": [
+        "蔬菜",
+        "水果",
+        "肉类",
+        "海鲜"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】食物词：vegetable = 蔬菜。"
+    },
+    {
+      "stem": "汉译英：「蔬菜」对应的英文单词是哪一个？",
+      "options": [
+        "vegetable",
+        "dinner",
+        "Friday",
+        "between"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】食物词：vegetable = 蔬菜。"
+    },
+    {
+      "stem": "【三年级英语·课程与星期必考】\"What do you have on Mondays?\" 的意思是？",
+      "options": [
+        "你星期一有什么课？",
+        "你星期一去哪里？",
+        "你喜欢星期一吗？",
+        "今天是星期几？"
+      ],
+      "answerIndex": 0,
+      "explanation": "【Unit 2 必考】“on + 星期复数（on Mondays）”表示“在每周一”；“What do you have...?”问课程安排。"
+    },
+    {
+      "stem": "【三年级英语·情态动词 can 必考】\"Can you play ping-pong?\" — \"Yes, ______. / No, ______.\"",
+      "options": [
+        "I can; I can't",
+        "I do; I don't",
+        "I am; I'm not",
+        "you can; you can't"
+      ],
+      "answerIndex": 0,
+      "explanation": "【情态动词问答必考】用 Can you...? 提问，必须用 Yes, I can. 或 No, I can't. 回答。"
+    },
+    {
+      "stem": "【三年级英语·礼貌点餐必考】服务员问 \"What would you like to eat?\"（你想吃点什么？），礼貌回答是？",
+      "options": [
+        "I'd like some beef noodles, please.",
+        "I like eat noodles.",
+        "Give me a noodles.",
+        "Yes, I do."
+      ],
+      "answerIndex": 0,
+      "explanation": "【Unit 3 必考】would like 想要，回答用“I'd like (I would like) + 食物, please.”。"
+    },
+    {
+      "stem": "【三年级英语·There be 句型必考】\"There ______ many tall buildings in the nature park.\"",
+      "options": [
+        "are",
+        "is",
+        "has",
+        "have"
+      ],
+      "answerIndex": 0,
+      "explanation": "【There be 必考】主语 many tall buildings 是复数，故 be 动词必须用 are（绝不能用 have！）。"
+    },
+    {
+      "stem": "【三年级英语·be动词口诀必考】用 am, is, are 填空：「I ______ a student. You ______ my friend. She ______ my sister.」",
+      "options": [
+        "am; are; is",
+        "is; are; am",
+        "am; is; are",
+        "are; is; am"
+      ],
+      "answerIndex": 0,
+      "explanation": "【be动词黄金口诀】“我(I)用 am，你(you)用 are，is 连着他(he)她(she)它(it)；单数名词用 is，复数名词全用 are！”"
+    },
+    {
+      "stem": "【三年级英语·课程与日常必考】\"We have English, maths and PE ______ Tuesdays.\" 星期几前面用什么介词？",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "for"
+      ],
+      "answerIndex": 0,
+      "explanation": "【介词必考】具体到某一天或星期几前面固定用介词 on（on Tuesday / on Tuesdays / on Sunday morning）。"
+    },
+    {
+      "stem": "【三年级英语·三餐饮食必考】\"What would you like to ______?\" — \"I'd like some water, please.\"",
+      "options": [
+        "drink（喝）",
+        "eat（吃）",
+        "play（玩）",
+        "read（读）"
+      ],
+      "answerIndex": 0,
+      "explanation": "【词汇辨析】回答是 water（水，饮品），所以问句应该问“想喝什么（drink）”，如果是食物才用 eat。"
+    },
+    {
+      "stem": "【三年级英语·自然公园必考】\"Is there a river in the forest?\" — \"______, there is. / ______, there isn't.\"",
+      "options": [
+        "Yes; No",
+        "No; Yes",
+        "Are; Aren't",
+        "Do; Don't"
+      ],
+      "answerIndex": 0,
+      "explanation": "【There be 疑问句回答】用“Is there...?”提问，肯定回答“Yes, there is.”，否定回答“No, there isn't.”。"
+    },
+    {
+      "stem": "【三年级英语·礼貌请求必考】\"Can I have some juice, please?\" — \"______.\"",
+      "options": [
+        "Sure, here you are.",
+        "Thank you.",
         "I'm fine.",
-        "Goodbye.",
-        "You're welcome.",
         "Nice to meet you."
       ],
-      "answerIndex": 2,
-      "explanation": "回应感谢常用 You're welcome（不客气）。"
+      "answerIndex": 0,
+      "explanation": "【情景交际必考】别人礼貌请求喝果汁时，递给他并说“Sure, here you are.（当然可以，给你）”。"
     },
     {
-      "id": "e3-034",
-      "subject": "英语",
-      "stem": "早上见到老师时，应该用哪句英语问好？",
+      "stem": "【三年级英语·感官动词必考】\"The ice cream tastes ______. I like it very much!\"",
       "options": [
-        "Good night!",
-        "Good morning!",
-        "Good afternoon!",
-        "See you!"
-      ],
-      "answerIndex": 1,
-      "explanation": "早上问好使用 Good morning!"
-    },
-    {
-      "id": "e3-035",
-      "subject": "英语",
-      "stem": "\"How old are you?\" 是在询问什么？",
-      "options": [
-        "你在哪里？",
-        "你好吗？",
-        "你是谁？",
-        "你几岁了？"
-      ],
-      "answerIndex": 3,
-      "explanation": "How old 用来询问年龄。"
-    },
-    {
-      "id": "e3-036",
-      "subject": "英语",
-      "stem": "填空：I ___ a student.",
-      "options": [
-        "is",
-        "be",
-        "am",
-        "are"
-      ],
-      "answerIndex": 2,
-      "explanation": "第一人称单数 I 搭配 be 动词 am。"
-    },
-    {
-      "id": "e3-037",
-      "subject": "英语",
-      "stem": "填空：She ___ reading books every day.",
-      "options": [
-        "to like",
-        "likes",
-        "like",
-        "liking"
-      ],
-      "answerIndex": 1,
-      "explanation": "第三人称单数一般现在时动词加 -s。"
-    },
-    {
-      "id": "e3-038",
-      "subject": "英语",
-      "stem": "填空：There ___ an apple and two pears on the table.",
-      "options": [
-        "am",
-        "are",
-        "be",
-        "is"
-      ],
-      "answerIndex": 3,
-      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
-    },
-    {
-      "id": "e3-039",
-      "subject": "英语",
-      "stem": "\"child\"（孩子）的复数形式是什么？",
-      "options": [
-        "childs",
-        "childrens",
-        "children",
-        "childes"
-      ],
-      "answerIndex": 2,
-      "explanation": "child 的不规则复数是 children。"
-    },
-    {
-      "id": "e3-040",
-      "subject": "英语",
-      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
-      "options": [
-        "toothes",
-        "teeth",
-        "teethes",
-        "tooths"
-      ],
-      "answerIndex": 1,
-      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
-    },
-    {
-      "id": "e3-041",
-      "subject": "英语",
-      "stem": "动词 \"go\" 的过去式是什么？",
-      "options": [
-        "went",
-        "going",
-        "gone",
-        "goed"
+        "sweet（甜的）",
+        "hot（辣的）",
+        "salty（咸的）",
+        "sour（酸的）"
       ],
       "answerIndex": 0,
-      "explanation": "go - went - gone 是不规则动词变化。"
+      "explanation": "【味道形容词必考】ice cream（冰淇淋）尝起来是甜的（sweet）；hot 辣/热，salty 咸，sour 酸。"
     },
     {
-      "id": "e3-042",
-      "subject": "英语",
-      "stem": "动词 \"buy\"（买）的过去式是什么？",
+      "stem": "【三年级英语·教室指令必考】老师说 \"Turn on the light.\" 和 \"Clean the blackboard.\" 分别是指？",
       "options": [
-        "brought",
-        "bought",
-        "buyed",
-        "buying"
+        "打开电灯；擦黑板",
+        "关掉电灯；擦窗户",
+        "打开门；扫地",
+        "关掉电脑；擦桌子"
       ],
-      "answerIndex": 1,
-      "explanation": "buy 的过去式和过去分词都是 bought。"
+      "answerIndex": 0,
+      "explanation": "【核心短语】turn on 打开（电器），turn off 关掉，clean the blackboard 擦黑板。"
     },
     {
-      "id": "e3-043",
-      "subject": "英语",
-      "stem": "填空：He has lived in Beijing ___ 2020.",
+      "stem": "【三年级英语·数量提问必考】\"______ books do you have in your schoolbag?\" — \"I have twelve.\"",
       "options": [
-        "in",
-        "for",
-        "since",
-        "at"
+        "How many",
+        "How much",
+        "How old",
+        "What color"
       ],
-      "answerIndex": 2,
-      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+      "answerIndex": 0,
+      "explanation": "【疑问词必考】对可数名词数量（12本）提问，必须用 How many + 复数名词（books）。"
     },
     {
-      "id": "e3-044",
-      "subject": "英语",
-      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "stem": "【三年级英语·水果喜好必考】\"I don't like oranges. ______\"（我也不喜欢橙子）应该选哪句？",
       "options": [
-        "interested; interesting",
-        "interesting; interest",
-        "interesting; interested",
-        "interest; interesting"
+        "Me, neither.",
+        "Me too.",
+        "Yes, I do.",
+        "I like them."
       ],
-      "answerIndex": 2,
-      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+      "answerIndex": 0,
+      "explanation": "【交际易错点】别人说“I like...（肯定）”你表示“我也是”用 Me too；别人说“I don't like...（否定）”你表示“我也不”用 Me, neither!"
+    },
+    {
+      "stem": "【三年级英语·外貌反义词必考】\"The giraffe is ______, and the bear is ______.\"",
+      "options": [
+        "tall; short",
+        "long; big",
+        "thin; small",
+        "new; old"
+      ],
+      "answerIndex": 0,
+      "explanation": "【形容词配对】长颈鹿高（tall），熊相对矮壮（short）。"
+    },
+    {
+      "stem": "【三年级英语·交通安全必考】\"Watch out! Look at the dog ______ the chair.\"",
+      "options": [
+        "behind / under",
+        "between",
+        "in front",
+        "at on"
+      ],
+      "answerIndex": 0,
+      "explanation": "【短语辨析】Watch out! 意为“小心！当心！”；介词 between 要跟两个事物，in front 后必须有 of（in front of）。"
+    },
+    {
+      "stem": "【三年级英语·数字运算必考】\"Eighteen minus six equals ______.\"",
+      "options": [
+        "twelve (12)",
+        "thirteen (13)",
+        "fourteen (14)",
+        "eleven (11)"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英文数字计算】eighteen = 18，minus = 减去，six = 6，18 - 6 = 12（twelve）。"
     }
   ]
 }

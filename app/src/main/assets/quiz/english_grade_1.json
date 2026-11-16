@@ -1,579 +1,798 @@
 {
-  "version": 2,
-  "subject": "英语",
   "grade": 1,
+  "subject": "english",
   "items": [
     {
-      "id": "e1-001",
-      "subject": "英语",
-      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "stem": "英语字母表中，一共有多少个元音字母？它们分别是？",
       "options": [
-        "香蕉",
-        "葡萄",
-        "苹果",
-        "橘子"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"apple\" 意为“苹果”。"
-    },
-    {
-      "id": "e1-002",
-      "subject": "英语",
-      "stem": "英语单词 \"banana\" 的中文意思是什么？",
-      "options": [
-        "苹果",
-        "草莓",
-        "西瓜",
-        "香蕉"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"banana\" 意为“香蕉”。"
-    },
-    {
-      "id": "e1-003",
-      "subject": "英语",
-      "stem": "英语单词 \"orange\" 的中文意思是什么？",
-      "options": [
-        "梨",
-        "橙子/橘子",
-        "桃子",
-        "柠檬"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"orange\" 意为“橙子/橘子”。"
-    },
-    {
-      "id": "e1-004",
-      "subject": "英语",
-      "stem": "英语单词 \"water\" 的中文意思是什么？",
-      "options": [
-        "牛奶",
-        "果汁",
-        "水",
-        "茶"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"water\" 意为“水”。"
-    },
-    {
-      "id": "e1-005",
-      "subject": "英语",
-      "stem": "英语单词 \"milk\" 的中文意思是什么？",
-      "options": [
-        "面包",
-        "水",
-        "咖啡",
-        "牛奶"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"milk\" 意为“牛奶”。"
-    },
-    {
-      "id": "e1-006",
-      "subject": "英语",
-      "stem": "英语单词 \"bread\" 的中文意思是什么？",
-      "options": [
-        "蛋糕",
-        "米饭",
-        "面包",
-        "面条"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"bread\" 意为“面包”。"
-    },
-    {
-      "id": "e1-007",
-      "subject": "英语",
-      "stem": "英语单词 \"book\" 的中文意思是什么？",
-      "options": [
-        "钢笔",
-        "书",
-        "尺子",
-        "书包"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"book\" 意为“书”。"
-    },
-    {
-      "id": "e1-008",
-      "subject": "英语",
-      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
-      "options": [
-        "铅笔",
-        "课桌",
-        "橡皮",
-        "椅子"
+        "5 个（A, E, I, O, U）",
+        "4 个（A, B, C, D）",
+        "6 个（A, E, I, O, U, Y）",
+        "3 个（A, E, O）"
       ],
       "answerIndex": 0,
-      "explanation": "\"pencil\" 意为“铅笔”。"
+      "explanation": "【字母精析】26 个英文字母中包含 5 个元音字母：Aa, Ee, Ii, Oo, Uu，其余 21 个为辅音字母。"
     },
     {
-      "id": "e1-009",
-      "subject": "英语",
-      "stem": "英语单词 \"school\" 的中文意思是什么？",
-      "options": [
-        "公园",
-        "学校",
-        "超市",
-        "医院"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"school\" 意为“学校”。"
-    },
-    {
-      "id": "e1-010",
-      "subject": "英语",
-      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
-      "options": [
-        "司机",
-        "老师",
-        "医生",
-        "农民"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"teacher\" 意为“老师”。"
-    },
-    {
-      "id": "e1-011",
-      "subject": "英语",
-      "stem": "英语单词 \"student\" 的中文意思是什么？",
-      "options": [
-        "老师",
-        "护士",
-        "学生",
-        "警察"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"student\" 意为“学生”。"
-    },
-    {
-      "id": "e1-012",
-      "subject": "英语",
-      "stem": "英语单词 \"family\" 的中文意思是什么？",
-      "options": [
-        "家庭",
-        "同学",
-        "邻居",
-        "朋友"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"family\" 意为“家庭”。"
-    },
-    {
-      "id": "e1-013",
-      "subject": "英语",
-      "stem": "英语单词 \"mother\" 的中文意思是什么？",
-      "options": [
-        "姐妹",
-        "母亲",
-        "兄弟",
-        "父亲"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"mother\" 意为“母亲”。"
-    },
-    {
-      "id": "e1-014",
-      "subject": "英语",
-      "stem": "英语单词 \"father\" 的中文意思是什么？",
-      "options": [
-        "母亲",
-        "叔叔",
-        "父亲",
-        "阿姨"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"father\" 意为“父亲”。"
-    },
-    {
-      "id": "e1-015",
-      "subject": "英语",
-      "stem": "英语单词 \"morning\" 的中文意思是什么？",
-      "options": [
-        "下午",
-        "早晨/上午",
-        "中午",
-        "晚上"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"morning\" 意为“早晨/上午”。"
-    },
-    {
-      "id": "e1-016",
-      "subject": "英语",
-      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
-      "options": [
-        "昨天",
-        "下午",
-        "早晨",
-        "夜晚"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"afternoon\" 意为“下午”。"
-    },
-    {
-      "id": "e1-017",
-      "subject": "英语",
-      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
-      "options": [
-        "星期一",
-        "星期二",
-        "星期日",
-        "星期五"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"Monday\" 意为“星期一”。"
-    },
-    {
-      "id": "e1-018",
-      "subject": "英语",
-      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
-      "options": [
-        "星期六",
-        "星期三",
-        "星期四",
-        "星期五"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"Friday\" 意为“星期五”。"
-    },
-    {
-      "id": "e1-019",
-      "subject": "英语",
-      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
-      "options": [
-        "星期一",
-        "星期日",
-        "星期六",
-        "星期二"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"Sunday\" 意为“星期日”。"
-    },
-    {
-      "id": "e1-020",
-      "subject": "英语",
-      "stem": "英语单词 \"spring\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "秋天",
-        "春天",
-        "夏天"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"spring\" 意为“春天”。"
-    },
-    {
-      "id": "e1-021",
-      "subject": "英语",
-      "stem": "英语单词 \"summer\" 的中文意思是什么？",
-      "options": [
-        "夏天",
-        "秋天",
-        "春天",
-        "冬天"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"summer\" 意为“夏天”。"
-    },
-    {
-      "id": "e1-022",
-      "subject": "英语",
-      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
-      "options": [
-        "夏天",
-        "冬天",
-        "春天",
-        "秋天"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"autumn\" 意为“秋天”。"
-    },
-    {
-      "id": "e1-023",
-      "subject": "英语",
-      "stem": "英语单词 \"winter\" 的中文意思是什么？",
-      "options": [
-        "秋天",
-        "春天",
-        "冬天",
-        "夏天"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"winter\" 意为“冬天”。"
-    },
-    {
-      "id": "e1-024",
-      "subject": "英语",
-      "stem": "英语单词 \"library\" 的中文意思是什么？",
-      "options": [
-        "图书馆",
-        "体育馆",
-        "博物馆",
-        "电影院"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"library\" 意为“图书馆”。"
-    },
-    {
-      "id": "e1-025",
-      "subject": "英语",
-      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
-      "options": [
-        "医院",
-        "学校",
-        "邮局",
-        "银行"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"hospital\" 意为“医院”。"
-    },
-    {
-      "id": "e1-026",
-      "subject": "英语",
-      "stem": "英语单词 \"science\" 的中文意思是什么？",
-      "options": [
-        "数学",
-        "历史",
-        "科学",
-        "音乐"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"science\" 意为“科学”。"
-    },
-    {
-      "id": "e1-027",
-      "subject": "英语",
-      "stem": "英语单词 \"computer\" 的中文意思是什么？",
-      "options": [
-        "电话",
-        "相机",
-        "电脑",
-        "电视"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"computer\" 意为“电脑”。"
-    },
-    {
-      "id": "e1-028",
-      "subject": "英语",
-      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
-      "options": [
-        "词典",
-        "笔记本",
-        "报纸",
-        "杂志"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"dictionary\" 意为“词典”。"
-    },
-    {
-      "id": "e1-029",
-      "subject": "英语",
-      "stem": "英语单词 \"environment\" 的中文意思是什么？",
-      "options": [
-        "实验",
-        "温度",
-        "环境",
-        "政府"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"environment\" 意为“环境”。"
-    },
-    {
-      "id": "e1-030",
-      "subject": "英语",
-      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
-      "options": [
-        "季节",
-        "温度",
-        "距离",
-        "天气"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"temperature\" 意为“温度”。"
-    },
-    {
-      "id": "e1-031",
-      "subject": "英语",
-      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
-      "options": [
-        "知识",
-        "自然",
-        "语言",
-        "文化"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"knowledge\" 意为“知识”。"
-    },
-    {
-      "id": "e1-032",
-      "subject": "英语",
-      "stem": "英语单词 \"experience\" 的中文意思是什么？",
-      "options": [
-        "解释",
-        "经验/经历",
-        "实验",
-        "运动"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"experience\" 意为“经验/经历”。"
-    },
-    {
-      "id": "e1-033",
-      "subject": "英语",
-      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
-      "options": [
-        "I'm fine.",
-        "Nice to meet you.",
-        "Goodbye.",
-        "You're welcome."
-      ],
-      "answerIndex": 3,
-      "explanation": "回应感谢常用 You're welcome（不客气）。"
-    },
-    {
-      "id": "e1-034",
-      "subject": "英语",
-      "stem": "早上见到老师时，应该用哪句英语问好？",
+      "stem": "早上见到老师和同学，应该用哪句英语打招呼？",
       "options": [
         "Good morning!",
         "Good night!",
         "Good afternoon!",
-        "See you!"
+        "Goodbye!"
       ],
       "answerIndex": 0,
-      "explanation": "早上问好使用 Good morning!"
+      "explanation": "【情景交际】morning 指早上/上午，“Good morning!”意为“早上好！”；Good afternoon 是下午好，Good night 是晚安。"
     },
     {
-      "id": "e1-035",
-      "subject": "英语",
-      "stem": "\"How old are you?\" 是在询问什么？",
+      "stem": "英语单词 \"cat\" 和 \"dog\" 分别是什么意思？",
       "options": [
-        "你好吗？",
-        "你是谁？",
-        "你几岁了？",
-        "你在哪里？"
+        "猫 和 狗",
+        "鸟 和 鱼",
+        "猪 和 鸭",
+        "熊 和 猴"
       ],
-      "answerIndex": 2,
-      "explanation": "How old 用来询问年龄。"
+      "answerIndex": 0,
+      "explanation": "【词汇记忆】cat = 猫，dog = 狗，bird = 鸟，fish = 鱼，是一年级动物核心词。"
     },
     {
-      "id": "e1-036",
-      "subject": "英语",
-      "stem": "填空：I ___ a student.",
+      "stem": "中国国宝「大熊猫」的英文单词是什么？",
       "options": [
-        "be",
-        "am",
-        "is",
-        "are"
+        "panda",
+        "tiger",
+        "monkey",
+        "elephant"
       ],
-      "answerIndex": 1,
-      "explanation": "第一人称单数 I 搭配 be 动词 am。"
+      "answerIndex": 0,
+      "explanation": "【词汇记忆】panda = 大熊猫，tiger = 老虎，monkey = 猴子，elephant = 大象。"
     },
     {
-      "id": "e1-037",
-      "subject": "英语",
-      "stem": "填空：She ___ reading books every day.",
+      "stem": "红色的英文是 \"red\"，那么「蓝色」和「黄色」的英文分别是？",
       "options": [
-        "to like",
-        "liking",
-        "likes",
-        "like"
+        "blue 和 yellow",
+        "green 和 black",
+        "white 和 orange",
+        "pink 和 brown"
       ],
-      "answerIndex": 2,
-      "explanation": "第三人称单数一般现在时动词加 -s。"
+      "answerIndex": 0,
+      "explanation": "【颜色词汇】red（红）、yellow（黄）、blue（蓝）、green（绿）、black（黑）、white（白）。"
     },
     {
-      "id": "e1-038",
-      "subject": "英语",
-      "stem": "填空：There ___ an apple and two pears on the table.",
+      "stem": "数字口算：英文 \"three + five\" 等于哪个英文数字？",
       "options": [
-        "be",
-        "is",
-        "am",
-        "are"
+        "eight (8)",
+        "seven (7)",
+        "nine (9)",
+        "six (6)"
       ],
-      "answerIndex": 1,
-      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
+      "answerIndex": 0,
+      "explanation": "【数字词汇】three 是 3，five 是 5，3 + 5 = 8，8 的英文是 eight（seven=7, nine=9, six=6）。"
     },
     {
-      "id": "e1-039",
-      "subject": "英语",
-      "stem": "\"child\"（孩子）的复数形式是什么？",
+      "stem": "当别人对你说 \"Thank you!\" 时，你应该礼貌地回答什么？",
       "options": [
-        "childrens",
-        "childs",
-        "childes",
-        "children"
+        "You're welcome!",
+        "I'm sorry.",
+        "Fine, thank you.",
+        "Goodbye!"
       ],
-      "answerIndex": 3,
-      "explanation": "child 的不规则复数是 children。"
+      "answerIndex": 0,
+      "explanation": "【情景交际】收到“Thank you!（谢谢你）”时，标准回答是“You're welcome!（不用谢/不客气）”。"
     },
     {
-      "id": "e1-040",
-      "subject": "英语",
-      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
+      "stem": "老师在课堂上说 \"Stand up, please.\" 是让大家做什么动作？",
       "options": [
-        "tooths",
-        "teethes",
-        "toothes",
-        "teeth"
+        "请起立",
+        "请坐下",
+        "请打开书",
+        "请安静"
       ],
-      "answerIndex": 3,
-      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
+      "answerIndex": 0,
+      "explanation": "【课堂指令】Stand up = 起立，Sit down = 坐下，Open your book = 打开书。"
     },
     {
-      "id": "e1-041",
-      "subject": "英语",
-      "stem": "动词 \"go\" 的过去式是什么？",
+      "stem": "询问别人「你叫什么名字？」的英文句子是？",
       "options": [
-        "going",
-        "goed",
-        "went",
-        "gone"
+        "What's your name?",
+        "How are you?",
+        "How old are you?",
+        "What color is it?"
       ],
-      "answerIndex": 2,
-      "explanation": "go - went - gone 是不规则动词变化。"
+      "answerIndex": 0,
+      "explanation": "【句型精析】name 意思是“名字”，“What's your name?”即“你叫什么名字？”，回答可用“My name is...”。"
     },
     {
-      "id": "e1-042",
-      "subject": "英语",
-      "stem": "动词 \"buy\"（买）的过去式是什么？",
+      "stem": "睡前和爸爸妈妈道「晚安」，应该说哪句英语？",
       "options": [
-        "buyed",
-        "bought",
-        "buying",
-        "brought"
+        "Good night!",
+        "Good morning!",
+        "Good evening!",
+        "Hello!"
       ],
-      "answerIndex": 1,
-      "explanation": "buy 的过去式和过去分词都是 bought。"
+      "answerIndex": 0,
+      "explanation": "【情景交际】晚上睡前道晚安使用“Good night!”。"
     },
     {
-      "id": "e1-043",
-      "subject": "英语",
-      "stem": "填空：He has lived in Beijing ___ 2020.",
+      "stem": "英文单词 \"book\" 的中文意思是什么？",
       "options": [
-        "in",
-        "since",
-        "at",
-        "for"
+        "书本",
+        "铅笔",
+        "尺子",
+        "书包"
       ],
-      "answerIndex": 1,
-      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+      "answerIndex": 0,
+      "explanation": "【文具词汇】book = 书，pen = 钢笔，pencil = 铅笔，ruler = 尺子。"
     },
     {
-      "id": "e1-044",
-      "subject": "英语",
-      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "stem": "数字 \"ten\" 代表阿拉伯数字几？",
       "options": [
-        "interest; interesting",
-        "interested; interesting",
-        "interesting; interested",
-        "interesting; interest"
+        "10",
+        "2",
+        "8",
+        "9"
       ],
-      "answerIndex": 2,
-      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+      "answerIndex": 0,
+      "explanation": "【数字1-10】one(1), two(2), three(3), four(4), five(5), six(6), seven(7), eight(8), nine(9), ten(10)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"pen\" 的中文意思是什么？",
+      "options": [
+        "钢笔",
+        "铅笔",
+        "书包",
+        "橡皮"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】文具词：pen = 钢笔，pencil = 铅笔。"
+    },
+    {
+      "stem": "汉译英：「钢笔」对应的英文单词是哪一个？",
+      "options": [
+        "pen",
+        "tiger",
+        "eraser",
+        "bird"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】文具词：pen = 钢笔，pencil = 铅笔。"
+    },
+    {
+      "stem": "英语词汇：单词 \"pencil\" 的中文意思是什么？",
+      "options": [
+        "铅笔",
+        "钢笔",
+        "尺子",
+        "书本"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】文具词：pencil = 铅笔，ruler = 尺子。"
+    },
+    {
+      "stem": "汉译英：「铅笔」对应的英文单词是哪一个？",
+      "options": [
+        "pencil",
+        "fish",
+        "white",
+        "nose"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】文具词：pencil = 铅笔，ruler = 尺子。"
+    },
+    {
+      "stem": "英语词汇：单词 \"ruler\" 的中文意思是什么？",
+      "options": [
+        "尺子",
+        "橡皮",
+        "蜡笔",
+        "书桌"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】文具词：ruler = 尺子。"
+    },
+    {
+      "stem": "汉译英：「尺子」对应的英文单词是哪一个？",
+      "options": [
+        "ruler",
+        "hand",
+        "black",
+        "white"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】文具词：ruler = 尺子。"
+    },
+    {
+      "stem": "英语词汇：单词 \"eraser\" 的中文意思是什么？",
+      "options": [
+        "橡皮",
+        "铅笔盒",
+        "书包",
+        "黑板"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】文具词：eraser = 橡皮擦。"
+    },
+    {
+      "stem": "汉译英：「橡皮」对应的英文单词是哪一个？",
+      "options": [
+        "eraser",
+        "pen",
+        "ruler",
+        "face"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】文具词：eraser = 橡皮擦。"
+    },
+    {
+      "stem": "英语词汇：单词 \"bag\" 的中文意思是什么？",
+      "options": [
+        "书包 / 袋子",
+        "椅子",
+        "窗户",
+        "课本"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】日常词：bag = 包 / 书包（schoolbag）。"
+    },
+    {
+      "stem": "汉译英：「书包 / 袋子」对应的英文单词是哪一个？",
+      "options": [
+        "bag",
+        "eraser",
+        "bird",
+        "monkey"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】日常词：bag = 包 / 书包（schoolbag）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"red\" 的中文意思是什么？",
+      "options": [
+        "红色的",
+        "蓝色的",
+        "绿色的",
+        "黑色的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】颜色词：red = 红，blue = 蓝，green = 绿。"
+    },
+    {
+      "stem": "汉译英：「红色的」对应的英文单词是哪一个？",
+      "options": [
+        "red",
+        "pig",
+        "face",
+        "two"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】颜色词：red = 红，blue = 蓝，green = 绿。"
+    },
+    {
+      "stem": "英语词汇：单词 \"green\" 的中文意思是什么？",
+      "options": [
+        "绿色的",
+        "黄色的",
+        "白色的",
+        "橙色的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】颜色词：green = 绿色，yellow = 黄色。"
+    },
+    {
+      "stem": "汉译英：「绿色的」对应的英文单词是哪一个？",
+      "options": [
+        "green",
+        "face",
+        "mouth",
+        "pig"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】颜色词：green = 绿色，yellow = 黄色。"
+    },
+    {
+      "stem": "英语词汇：单词 \"black\" 的中文意思是什么？",
+      "options": [
+        "黑色的",
+        "白色的",
+        "粉色的",
+        "棕色的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】颜色词：black = 黑，white = 白。"
+    },
+    {
+      "stem": "汉译英：「黑色的」对应的英文单词是哪一个？",
+      "options": [
+        "black",
+        "seven",
+        "pen",
+        "head"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】颜色词：black = 黑，white = 白。"
+    },
+    {
+      "stem": "英语词汇：单词 \"white\" 的中文意思是什么？",
+      "options": [
+        "白色的",
+        "黑色的",
+        "紫色的",
+        "灰色的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】颜色词：white = 白色。"
+    },
+    {
+      "stem": "汉译英：「白色的」对应的英文单词是哪一个？",
+      "options": [
+        "white",
+        "face",
+        "one",
+        "duck"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】颜色词：white = 白色。"
+    },
+    {
+      "stem": "英语词汇：单词 \"bird\" 的中文意思是什么？",
+      "options": [
+        "小鸟",
+        "小鱼",
+        "小猫",
+        "小狗"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】动物词：bird = 鸟。"
+    },
+    {
+      "stem": "汉译英：「小鸟」对应的英文单词是哪一个？",
+      "options": [
+        "bird",
+        "seven",
+        "pencil",
+        "ruler"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动物词：bird = 鸟。"
+    },
+    {
+      "stem": "英语词汇：单词 \"fish\" 的中文意思是什么？",
+      "options": [
+        "鱼",
+        "鸭子",
+        "兔子",
+        "青蛙"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】动物词：fish = 鱼。"
+    },
+    {
+      "stem": "汉译英：「鱼」对应的英文单词是哪一个？",
+      "options": [
+        "fish",
+        "pencil",
+        "bird",
+        "face"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动物词：fish = 鱼。"
+    },
+    {
+      "stem": "英语词汇：单词 \"duck\" 的中文意思是什么？",
+      "options": [
+        "鸭子",
+        "小鸡",
+        "小猪",
+        "小羊"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】动物词：duck = 鸭子。"
+    },
+    {
+      "stem": "汉译英：「鸭子」对应的英文单词是哪一个？",
+      "options": [
+        "duck",
+        "head",
+        "nine",
+        "fish"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动物词：duck = 鸭子。"
+    },
+    {
+      "stem": "英语词汇：单词 \"pig\" 的中文意思是什么？",
+      "options": [
+        "小猪",
+        "奶牛",
+        "绵羊",
+        "老虎"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】动物词：pig = 猪。"
+    },
+    {
+      "stem": "汉译英：「小猪」对应的英文单词是哪一个？",
+      "options": [
+        "pig",
+        "pen",
+        "one",
+        "monkey"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动物词：pig = 猪。"
+    },
+    {
+      "stem": "英语词汇：单词 \"monkey\" 的中文意思是什么？",
+      "options": [
+        "猴子",
+        "大象",
+        "狮子",
+        "熊猫"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】动物词：monkey = 猴子。"
+    },
+    {
+      "stem": "汉译英：「猴子」对应的英文单词是哪一个？",
+      "options": [
+        "monkey",
+        "boy",
+        "fish",
+        "duck"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动物词：monkey = 猴子。"
+    },
+    {
+      "stem": "英语词汇：单词 \"tiger\" 的中文意思是什么？",
+      "options": [
+        "老虎",
+        "狐狸",
+        "熊",
+        "狼"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】动物词：tiger = 老虎。"
+    },
+    {
+      "stem": "汉译英：「老虎」对应的英文单词是哪一个？",
+      "options": [
+        "tiger",
+        "two",
+        "one",
+        "pencil"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动物词：tiger = 老虎。"
+    },
+    {
+      "stem": "英语词汇：单词 \"one\" 的中文意思是什么？",
+      "options": [
+        "数字 1",
+        "数字 2",
+        "数字 3",
+        "数字 4"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】基数词：one = 1。"
+    },
+    {
+      "stem": "汉译英：「数字 1」对应的英文单词是哪一个？",
+      "options": [
+        "one",
+        "pig",
+        "five",
+        "two"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】基数词：one = 1。"
+    },
+    {
+      "stem": "英语词汇：单词 \"two\" 的中文意思是什么？",
+      "options": [
+        "数字 2",
+        "数字 1",
+        "数字 5",
+        "数字 6"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】基数词：two = 2。"
+    },
+    {
+      "stem": "汉译英：「数字 2」对应的英文单词是哪一个？",
+      "options": [
+        "two",
+        "green",
+        "red",
+        "eraser"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】基数词：two = 2。"
+    },
+    {
+      "stem": "英语词汇：单词 \"five\" 的中文意思是什么？",
+      "options": [
+        "数字 5",
+        "数字 4",
+        "数字 7",
+        "数字 9"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】基数词：five = 5。"
+    },
+    {
+      "stem": "汉译英：「数字 5」对应的英文单词是哪一个？",
+      "options": [
+        "five",
+        "pig",
+        "seven",
+        "ruler"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】基数词：five = 5。"
+    },
+    {
+      "stem": "英语词汇：单词 \"seven\" 的中文意思是什么？",
+      "options": [
+        "数字 7",
+        "数字 6",
+        "数字 8",
+        "数字 10"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】基数词：seven = 7。"
+    },
+    {
+      "stem": "汉译英：「数字 7」对应的英文单词是哪一个？",
+      "options": [
+        "seven",
+        "bird",
+        "duck",
+        "tiger"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】基数词：seven = 7。"
+    },
+    {
+      "stem": "英语词汇：单词 \"nine\" 的中文意思是什么？",
+      "options": [
+        "数字 9",
+        "数字 8",
+        "数字 10",
+        "数字 3"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】基数词：nine = 9。"
+    },
+    {
+      "stem": "汉译英：「数字 9」对应的英文单词是哪一个？",
+      "options": [
+        "nine",
+        "white",
+        "face",
+        "tiger"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】基数词：nine = 9。"
+    },
+    {
+      "stem": "英语词汇：单词 \"face\" 的中文意思是什么？",
+      "options": [
+        "脸",
+        "耳朵",
+        "手",
+        "脚"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】身体部位：face = 脸。"
+    },
+    {
+      "stem": "汉译英：「脸」对应的英文单词是哪一个？",
+      "options": [
+        "face",
+        "five",
+        "green",
+        "fish"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】身体部位：face = 脸。"
+    },
+    {
+      "stem": "英语词汇：单词 \"nose\" 的中文意思是什么？",
+      "options": [
+        "鼻子",
+        "眼睛",
+        "嘴巴",
+        "头发"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】身体部位：nose = 鼻子。"
+    },
+    {
+      "stem": "汉译英：「鼻子」对应的英文单词是哪一个？",
+      "options": [
+        "nose",
+        "face",
+        "head",
+        "tiger"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】身体部位：nose = 鼻子。"
+    },
+    {
+      "stem": "英语词汇：单词 \"mouth\" 的中文意思是什么？",
+      "options": [
+        "嘴巴",
+        "鼻子",
+        "耳朵",
+        "胳膊"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】身体部位：mouth = 嘴巴。"
+    },
+    {
+      "stem": "汉译英：「嘴巴」对应的英文单词是哪一个？",
+      "options": [
+        "mouth",
+        "pig",
+        "duck",
+        "bird"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】身体部位：mouth = 嘴巴。"
+    },
+    {
+      "stem": "英语词汇：单词 \"hand\" 的中文意思是什么？",
+      "options": [
+        "手",
+        "脚",
+        "腿",
+        "头"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】身体部位：hand = 手。"
+    },
+    {
+      "stem": "汉译英：「手」对应的英文单词是哪一个？",
+      "options": [
+        "hand",
+        "red",
+        "fish",
+        "face"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】身体部位：hand = 手。"
+    },
+    {
+      "stem": "英语词汇：单词 \"head\" 的中文意思是什么？",
+      "options": [
+        "头",
+        "脸",
+        "手",
+        "脚"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】身体部位：head = 头。"
+    },
+    {
+      "stem": "汉译英：「头」对应的英文单词是哪一个？",
+      "options": [
+        "head",
+        "duck",
+        "one",
+        "tiger"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】身体部位：head = 头。"
+    },
+    {
+      "stem": "英语词汇：单词 \"boy\" 的中文意思是什么？",
+      "options": [
+        "男孩",
+        "女孩",
+        "老师",
+        "朋友"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】人物词：boy = 男孩，girl = 女孩。"
+    },
+    {
+      "stem": "汉译英：「男孩」对应的英文单词是哪一个？",
+      "options": [
+        "boy",
+        "pig",
+        "white",
+        "one"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】人物词：boy = 男孩，girl = 女孩。"
+    },
+    {
+      "stem": "英语词汇：单词 \"girl\" 的中文意思是什么？",
+      "options": [
+        "女孩",
+        "男孩",
+        "爸爸",
+        "妈妈"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】人物词：girl = 女孩。"
+    },
+    {
+      "stem": "汉译英：「女孩」对应的英文单词是哪一个？",
+      "options": [
+        "girl",
+        "bird",
+        "eraser",
+        "head"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】人物词：girl = 女孩。"
+    },
+    {
+      "stem": "英语词汇：单词 \"teacher\" 的中文意思是什么？",
+      "options": [
+        "老师",
+        "学生",
+        "医生",
+        "司机"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】人物词：teacher = 老师，student = 学生。"
+    },
+    {
+      "stem": "汉译英：「老师」对应的英文单词是哪一个？",
+      "options": [
+        "teacher",
+        "pencil",
+        "green",
+        "white"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】人物词：teacher = 老师，student = 学生。"
+    },
+    {
+      "stem": "【一年级英语·问候单元必考】早上在学校门口见到Miss White（怀特老师），你应该说什么？",
+      "options": [
+        "Good morning, Miss White!",
+        "Good night, Miss White!",
+        "Goodbye, Miss White!",
+        "Thank you, Miss White!"
+      ],
+      "answerIndex": 0,
+      "explanation": "【Unit 1 必考】morning 早上，Miss 用于未婚女性姓氏前，“Good morning, Miss White!”。"
+    },
+    {
+      "stem": "【一年级英语·数字单元必考】数一数：\"four\" 和 \"six\" 中间的那个数字用英语怎么说？",
+      "options": [
+        "five (5)",
+        "three (3)",
+        "seven (7)",
+        "eight (8)"
+      ],
+      "answerIndex": 0,
+      "explanation": "【数字单元必考】four(4)、five(5)、six(6)，中间是 5（five）。"
+    },
+    {
+      "stem": "【一年级英语·颜色单元必考】我国国旗五星红旗的主要颜色是红色和黄色，用英语怎么说？",
+      "options": [
+        "red and yellow",
+        "blue and green",
+        "black and white",
+        "orange and brown"
+      ],
+      "answerIndex": 0,
+      "explanation": "【颜色单元必考】red（红）、yellow（黄）。"
+    },
+    {
+      "stem": "【一年级英语·文具单元必考】\"Show me your pencil!\" 这句课堂指令的意思是？",
+      "options": [
+        "把你的铅笔展示给我看！",
+        "把你的书包收起来！",
+        "借我一支钢笔！",
+        "打开你的书！"
+      ],
+      "answerIndex": 0,
+      "explanation": "【Unit 1 指令必考】Show me... = 把……给我看看。"
     }
   ]
 }

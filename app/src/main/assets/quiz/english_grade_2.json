@@ -1,579 +1,798 @@
 {
-  "version": 2,
-  "subject": "英语",
   "grade": 2,
+  "subject": "english",
   "items": [
     {
-      "id": "e2-001",
-      "subject": "英语",
-      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "stem": "英语中「爸爸」和「妈妈」对应的单词分别是？",
       "options": [
-        "香蕉",
-        "葡萄",
-        "橘子",
-        "苹果"
+        "father (dad) 和 mother (mom)",
+        "brother 和 sister",
+        "grandpa 和 grandma",
+        "uncle 和 aunt"
       ],
-      "answerIndex": 3,
-      "explanation": "\"apple\" 意为“苹果”。"
+      "answerIndex": 0,
+      "explanation": "【家庭成员词汇】father/dad = 爸爸，mother/mom = 妈妈，brother = 兄/弟，sister = 姐/妹。"
     },
     {
-      "id": "e2-002",
-      "subject": "英语",
-      "stem": "英语单词 \"banana\" 的中文意思是什么？",
+      "stem": "我们用眼睛看东西，「眼睛」和「耳朵」的英文单词分别是？",
       "options": [
-        "西瓜",
-        "香蕉",
-        "草莓",
-        "苹果"
+        "eye 和 ear",
+        "nose 和 mouth",
+        "face 和 head",
+        "hand 和 foot"
       ],
-      "answerIndex": 1,
-      "explanation": "\"banana\" 意为“香蕉”。"
+      "answerIndex": 0,
+      "explanation": "【身体部位】eye = 眼睛，ear = 耳朵，nose = 鼻子，mouth = 嘴巴，hand = 手。"
     },
     {
-      "id": "e2-003",
-      "subject": "英语",
-      "stem": "英语单词 \"orange\" 的中文意思是什么？",
+      "stem": "水果词汇：\"apple\" 是苹果，那么「香蕉」和「橙子」的英文是？",
       "options": [
-        "橙子/橘子",
+        "banana 和 orange",
+        "pear 和 grape",
+        "peach 和 melon",
+        "milk 和 bread"
+      ],
+      "answerIndex": 0,
+      "explanation": "【水果词汇】banana = 香蕉，orange = 橙子/柑橘，pear = 梨，grape = 葡萄。"
+    },
+    {
+      "stem": "早餐我们常喝的 \"milk\" 和吃的 \"bread\" 分别指什么？",
+      "options": [
+        "牛奶 和 面包",
+        "鸡蛋 和 米饭",
+        "果汁 和 蛋糕",
+        "面条 和 水"
+      ],
+      "answerIndex": 0,
+      "explanation": "【食物词汇】milk = 牛奶，bread = 面包，egg = 鸡蛋，rice = 米饭，water = 水。"
+    },
+    {
+      "stem": "当你想询问朋友「你几岁了？」，应该怎么问？",
+      "options": [
+        "How old are you?",
+        "How are you?",
+        "Who are you?",
+        "Where are you?"
+      ],
+      "answerIndex": 0,
+      "explanation": "【日常交际】“How old are you?”用来询问年龄，回答如“I'm eight years old.”；而“How are you?”是问“你好吗？”。"
+    },
+    {
+      "stem": "数字 \"twelve\" 和 \"twenty\" 分别表示多少？",
+      "options": [
+        "12 和 20",
+        "11 和 12",
+        "13 和 30",
+        "15 和 20"
+      ],
+      "answerIndex": 0,
+      "explanation": "【数字11-20】eleven = 11，twelve = 12，thirteen = 13，fifteen = 15，twenty = 20。"
+    },
+    {
+      "stem": "因为不小心迟到或碰掉了别人的东西，应该先说什么？",
+      "options": [
+        "I'm sorry.（对不起）",
+        "Thank you.（谢谢）",
+        "Good job!（干得好）",
+        "Me too!（我也是）"
+      ],
+      "answerIndex": 0,
+      "explanation": "【礼貌用语】道歉说“I'm sorry.”，对方常回答“That's OK.”或“It doesn't matter.”。"
+    },
+    {
+      "stem": "单词 \"elephant\"（大象）是以元音音素开头的，表示「一头大象」应该用？",
+      "options": [
+        "an elephant",
+        "a elephant",
+        "two elephant",
+        "the elephants"
+      ],
+      "answerIndex": 0,
+      "explanation": "【冠词 a/an 规则】elephant 以元音音素 /e/ 开头，不定冠词要用 an（an elephant, an apple, an egg, an orange）。"
+    },
+    {
+      "stem": "句子 \"I like monkeys. They are cute.\" 中 \"cute\" 是什么意思？",
+      "options": [
+        "可爱的、机灵的",
+        "高大的",
+        "肥胖的",
+        "可怕的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【形容词记忆】cute = 可爱的，tall = 高的，short = 矮的/短的，fat = 胖的，thin = 瘦的。"
+    },
+    {
+      "stem": "别人问你 \"Do you like pears?\"（你喜欢梨吗？），如果你喜欢，应该回答？",
+      "options": [
+        "Yes, I do.",
+        "Yes, I am.",
+        "No, I can't.",
+        "Yes, it is."
+      ],
+      "answerIndex": 0,
+      "explanation": "【一般疑问句问答】以助动词“Do you...?”提问，肯定回答用“Yes, I do.”，否定回答用“No, I don't.”。"
+    },
+    {
+      "stem": "兔子有两只长耳朵，句中「长的」和「短的」对应的英文反义词是？",
+      "options": [
+        "long 和 short",
+        "big 和 small",
+        "hot 和 cold",
+        "new 和 old"
+      ],
+      "answerIndex": 0,
+      "explanation": "【反义词辨析】long（长的）↔ short（短的）；big（大的）↔ small（小的）。"
+    },
+    {
+      "stem": "询问「这是什么？」的标准英语问句是？",
+      "options": [
+        "What's this?",
+        "Who is he?",
+        "Where is it?",
+        "How many?"
+      ],
+      "answerIndex": 0,
+      "explanation": "【指示代词句型】this 指近处的“这，这个”，“What's this?”意为“这是什么？”，回答统一用“It's a/an...”。"
+    },
+    {
+      "stem": "英语词汇：单词 \"pear\" 的中文意思是什么？",
+      "options": [
         "梨",
         "桃子",
+        "葡萄",
+        "西瓜"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】水果词：pear = 梨，peach = 桃。"
+    },
+    {
+      "stem": "汉译英：「梨」对应的英文单词是哪一个？",
+      "options": [
+        "pear",
+        "strawberry",
+        "grandma",
+        "water"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】水果词：pear = 梨，peach = 桃。"
+    },
+    {
+      "stem": "英语词汇：单词 \"grape\" 的中文意思是什么？",
+      "options": [
+        "葡萄",
+        "香蕉",
+        "草莓",
         "柠檬"
       ],
       "answerIndex": 0,
-      "explanation": "\"orange\" 意为“橙子/橘子”。"
+      "explanation": "【英译汉精析】水果词：grape = 葡萄。"
     },
     {
-      "id": "e2-004",
-      "subject": "英语",
-      "stem": "英语单词 \"water\" 的中文意思是什么？",
+      "stem": "汉译英：「葡萄」对应的英文单词是哪一个？",
       "options": [
-        "果汁",
-        "茶",
-        "水",
-        "牛奶"
+        "grape",
+        "eleven",
+        "cake",
+        "cap"
       ],
-      "answerIndex": 2,
-      "explanation": "\"water\" 意为“水”。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】水果词：grape = 葡萄。"
     },
     {
-      "id": "e2-005",
-      "subject": "英语",
-      "stem": "英语单词 \"milk\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"watermelon\" 的中文意思是什么？",
       "options": [
-        "咖啡",
-        "水",
-        "牛奶",
-        "面包"
+        "西瓜",
+        "苹果",
+        "橙子",
+        "菠萝"
       ],
-      "answerIndex": 2,
-      "explanation": "\"milk\" 意为“牛奶”。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】水果词：watermelon = 西瓜（water水 + melon瓜）。"
     },
     {
-      "id": "e2-006",
-      "subject": "英语",
-      "stem": "英语单词 \"bread\" 的中文意思是什么？",
+      "stem": "汉译英：「西瓜」对应的英文单词是哪一个？",
+      "options": [
+        "watermelon",
+        "brother",
+        "sister",
+        "eighteen"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】水果词：watermelon = 西瓜（water水 + melon瓜）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"strawberry\" 的中文意思是什么？",
+      "options": [
+        "草莓",
+        "樱桃",
+        "芒果",
+        "香蕉"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】水果词：strawberry = 草莓。"
+    },
+    {
+      "stem": "汉译英：「草莓」对应的英文单词是哪一个？",
+      "options": [
+        "strawberry",
+        "chair",
+        "juice",
+        "cake"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】水果词：strawberry = 草莓。"
+    },
+    {
+      "stem": "英语词汇：单词 \"rice\" 的中文意思是什么？",
       "options": [
         "米饭",
+        "面条",
+        "饺子",
+        "蛋糕"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】食物词：rice = 米饭，noodles = 面条。"
+    },
+    {
+      "stem": "汉译英：「米饭」对应的英文单词是哪一个？",
+      "options": [
+        "rice",
+        "chair",
+        "pear",
+        "rabbit"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】食物词：rice = 米饭，noodles = 面条。"
+    },
+    {
+      "stem": "英语词汇：单词 \"egg\" 的中文意思是什么？",
+      "options": [
+        "鸡蛋",
+        "牛奶",
         "面包",
+        "果汁"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】食物词：egg = 鸡蛋（an egg）。"
+    },
+    {
+      "stem": "汉译英：「鸡蛋」对应的英文单词是哪一个？",
+      "options": [
+        "egg",
+        "rabbit",
+        "car",
+        "strawberry"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】食物词：egg = 鸡蛋（an egg）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"cake\" 的中文意思是什么？",
+      "options": [
         "蛋糕",
-        "面条"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"bread\" 意为“面包”。"
-    },
-    {
-      "id": "e2-007",
-      "subject": "英语",
-      "stem": "英语单词 \"book\" 的中文意思是什么？",
-      "options": [
-        "书",
-        "钢笔",
-        "书包",
-        "尺子"
+        "饼干",
+        "糖果",
+        "冰激凌"
       ],
       "answerIndex": 0,
-      "explanation": "\"book\" 意为“书”。"
+      "explanation": "【英译汉精析】食物词：cake = 蛋糕。"
     },
     {
-      "id": "e2-008",
-      "subject": "英语",
-      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
+      "stem": "汉译英：「蛋糕」对应的英文单词是哪一个？",
       "options": [
-        "橡皮",
-        "椅子",
-        "课桌",
-        "铅笔"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"pencil\" 意为“铅笔”。"
-    },
-    {
-      "id": "e2-009",
-      "subject": "英语",
-      "stem": "英语单词 \"school\" 的中文意思是什么？",
-      "options": [
-        "公园",
-        "学校",
-        "超市",
-        "医院"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"school\" 意为“学校”。"
-    },
-    {
-      "id": "e2-010",
-      "subject": "英语",
-      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
-      "options": [
-        "医生",
-        "老师",
-        "司机",
-        "农民"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"teacher\" 意为“老师”。"
-    },
-    {
-      "id": "e2-011",
-      "subject": "英语",
-      "stem": "英语单词 \"student\" 的中文意思是什么？",
-      "options": [
-        "警察",
-        "护士",
-        "学生",
-        "老师"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"student\" 意为“学生”。"
-    },
-    {
-      "id": "e2-012",
-      "subject": "英语",
-      "stem": "英语单词 \"family\" 的中文意思是什么？",
-      "options": [
-        "邻居",
-        "朋友",
-        "家庭",
-        "同学"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"family\" 意为“家庭”。"
-    },
-    {
-      "id": "e2-013",
-      "subject": "英语",
-      "stem": "英语单词 \"mother\" 的中文意思是什么？",
-      "options": [
-        "母亲",
-        "兄弟",
-        "父亲",
-        "姐妹"
+        "cake",
+        "sister",
+        "pear",
+        "grape"
       ],
       "answerIndex": 0,
-      "explanation": "\"mother\" 意为“母亲”。"
+      "explanation": "【汉译英拼写记忆】食物词：cake = 蛋糕。"
     },
     {
-      "id": "e2-014",
-      "subject": "英语",
-      "stem": "英语单词 \"father\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"juice\" 的中文意思是什么？",
       "options": [
+        "果汁",
+        "牛奶",
+        "茶水",
+        "咖啡"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】饮品词：juice = 果汁。"
+    },
+    {
+      "stem": "汉译英：「果汁」对应的英文单词是哪一个？",
+      "options": [
+        "juice",
+        "pear",
+        "grandma",
+        "fifteen"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】饮品词：juice = 果汁。"
+    },
+    {
+      "stem": "英语词汇：单词 \"water\" 的中文意思是什么？",
+      "options": [
+        "水",
+        "火",
+        "土",
+        "空气"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】日常词：water = 水。"
+    },
+    {
+      "stem": "汉译英：「水」对应的英文单词是哪一个？",
+      "options": [
+        "water",
+        "tall",
+        "thin",
+        "big"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】日常词：water = 水。"
+    },
+    {
+      "stem": "英语词汇：单词 \"brother\" 的中文意思是什么？",
+      "options": [
+        "哥哥 / 弟弟",
+        "姐姐 / 妹妹",
         "叔叔",
+        "爷爷"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】家庭词：brother = 兄弟。"
+    },
+    {
+      "stem": "汉译英：「哥哥 / 弟弟」对应的英文单词是哪一个？",
+      "options": [
+        "brother",
+        "grape",
+        "grandpa",
+        "egg"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】家庭词：brother = 兄弟。"
+    },
+    {
+      "stem": "英语词汇：单词 \"sister\" 的中文意思是什么？",
+      "options": [
+        "姐姐 / 妹妹",
+        "哥哥 / 弟弟",
         "阿姨",
-        "母亲",
-        "父亲"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"father\" 意为“父亲”。"
-    },
-    {
-      "id": "e2-015",
-      "subject": "英语",
-      "stem": "英语单词 \"morning\" 的中文意思是什么？",
-      "options": [
-        "晚上",
-        "早晨/上午",
-        "下午",
-        "中午"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"morning\" 意为“早晨/上午”。"
-    },
-    {
-      "id": "e2-016",
-      "subject": "英语",
-      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
-      "options": [
-        "下午",
-        "早晨",
-        "昨天",
-        "夜晚"
+        "奶奶"
       ],
       "answerIndex": 0,
-      "explanation": "\"afternoon\" 意为“下午”。"
+      "explanation": "【英译汉精析】家庭词：sister = 姐妹。"
     },
     {
-      "id": "e2-017",
-      "subject": "英语",
-      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
+      "stem": "汉译英：「姐姐 / 妹妹」对应的英文单词是哪一个？",
       "options": [
-        "星期二",
-        "星期一",
-        "星期日",
-        "星期五"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"Monday\" 意为“星期一”。"
-    },
-    {
-      "id": "e2-018",
-      "subject": "英语",
-      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
-      "options": [
-        "星期四",
-        "星期五",
-        "星期三",
-        "星期六"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"Friday\" 意为“星期五”。"
-    },
-    {
-      "id": "e2-019",
-      "subject": "英语",
-      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
-      "options": [
-        "星期日",
-        "星期二",
-        "星期一",
-        "星期六"
+        "sister",
+        "big",
+        "egg",
+        "thin"
       ],
       "answerIndex": 0,
-      "explanation": "\"Sunday\" 意为“星期日”。"
+      "explanation": "【汉译英拼写记忆】家庭词：sister = 姐妹。"
     },
     {
-      "id": "e2-020",
-      "subject": "英语",
-      "stem": "英语单词 \"spring\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"grandpa\" 的中文意思是什么？",
       "options": [
-        "夏天",
-        "春天",
-        "秋天",
-        "冬天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"spring\" 意为“春天”。"
-    },
-    {
-      "id": "e2-021",
-      "subject": "英语",
-      "stem": "英语单词 \"summer\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "夏天",
-        "秋天",
-        "春天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"summer\" 意为“夏天”。"
-    },
-    {
-      "id": "e2-022",
-      "subject": "英语",
-      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
-      "options": [
-        "夏天",
-        "秋天",
-        "春天",
-        "冬天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"autumn\" 意为“秋天”。"
-    },
-    {
-      "id": "e2-023",
-      "subject": "英语",
-      "stem": "英语单词 \"winter\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "秋天",
-        "春天",
-        "夏天"
+        "爷爷 / 外公",
+        "爸爸",
+        "叔叔",
+        "哥哥"
       ],
       "answerIndex": 0,
-      "explanation": "\"winter\" 意为“冬天”。"
+      "explanation": "【英译汉精析】家庭词：grandpa / grandfather = 祖父/外祖父。"
     },
     {
-      "id": "e2-024",
-      "subject": "英语",
-      "stem": "英语单词 \"library\" 的中文意思是什么？",
+      "stem": "汉译英：「爷爷 / 外公」对应的英文单词是哪一个？",
       "options": [
-        "图书馆",
-        "体育馆",
-        "电影院",
-        "博物馆"
+        "grandpa",
+        "eleven",
+        "grandma",
+        "fifteen"
       ],
       "answerIndex": 0,
-      "explanation": "\"library\" 意为“图书馆”。"
+      "explanation": "【汉译英拼写记忆】家庭词：grandpa / grandfather = 祖父/外祖父。"
     },
     {
-      "id": "e2-025",
-      "subject": "英语",
-      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"grandma\" 的中文意思是什么？",
       "options": [
-        "邮局",
-        "医院",
-        "银行",
-        "学校"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"hospital\" 意为“医院”。"
-    },
-    {
-      "id": "e2-026",
-      "subject": "英语",
-      "stem": "英语单词 \"science\" 的中文意思是什么？",
-      "options": [
-        "音乐",
-        "历史",
-        "科学",
-        "数学"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"science\" 意为“科学”。"
-    },
-    {
-      "id": "e2-027",
-      "subject": "英语",
-      "stem": "英语单词 \"computer\" 的中文意思是什么？",
-      "options": [
-        "电脑",
-        "电视",
-        "相机",
-        "电话"
+        "奶奶 / 外婆",
+        "妈妈",
+        "阿姨",
+        "姐姐"
       ],
       "answerIndex": 0,
-      "explanation": "\"computer\" 意为“电脑”。"
+      "explanation": "【英译汉精析】家庭词：grandma / grandmother = 祖母/外祖母。"
     },
     {
-      "id": "e2-028",
-      "subject": "英语",
-      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
+      "stem": "汉译英：「奶奶 / 外婆」对应的英文单词是哪一个？",
       "options": [
-        "杂志",
-        "笔记本",
-        "报纸",
-        "词典"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"dictionary\" 意为“词典”。"
-    },
-    {
-      "id": "e2-029",
-      "subject": "英语",
-      "stem": "英语单词 \"environment\" 的中文意思是什么？",
-      "options": [
-        "温度",
-        "政府",
-        "环境",
-        "实验"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"environment\" 意为“环境”。"
-    },
-    {
-      "id": "e2-030",
-      "subject": "英语",
-      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
-      "options": [
-        "距离",
-        "温度",
-        "季节",
-        "天气"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"temperature\" 意为“温度”。"
-    },
-    {
-      "id": "e2-031",
-      "subject": "英语",
-      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
-      "options": [
-        "自然",
-        "知识",
-        "文化",
-        "语言"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"knowledge\" 意为“知识”。"
-    },
-    {
-      "id": "e2-032",
-      "subject": "英语",
-      "stem": "英语单词 \"experience\" 的中文意思是什么？",
-      "options": [
-        "经验/经历",
-        "运动",
-        "实验",
-        "解释"
+        "grandma",
+        "watermelon",
+        "car",
+        "rabbit"
       ],
       "answerIndex": 0,
-      "explanation": "\"experience\" 意为“经验/经历”。"
+      "explanation": "【汉译英拼写记忆】家庭词：grandma / grandmother = 祖母/外祖母。"
     },
     {
-      "id": "e2-033",
-      "subject": "英语",
-      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
+      "stem": "英语词汇：单词 \"giraffe\" 的中文意思是什么？",
       "options": [
-        "You're welcome.",
-        "Goodbye.",
-        "I'm fine.",
-        "Nice to meet you."
+        "长颈鹿",
+        "大象",
+        "斑马",
+        "袋鼠"
       ],
       "answerIndex": 0,
-      "explanation": "回应感谢常用 You're welcome（不客气）。"
+      "explanation": "【英译汉精析】动物词：giraffe = 长颈鹿（脖子很长 tall）。"
     },
     {
-      "id": "e2-034",
-      "subject": "英语",
-      "stem": "早上见到老师时，应该用哪句英语问好？",
+      "stem": "汉译英：「长颈鹿」对应的英文单词是哪一个？",
       "options": [
-        "Good morning!",
-        "See you!",
-        "Good afternoon!",
-        "Good night!"
+        "giraffe",
+        "eleven",
+        "cap",
+        "rice"
       ],
       "answerIndex": 0,
-      "explanation": "早上问好使用 Good morning!"
+      "explanation": "【汉译英拼写记忆】动物词：giraffe = 长颈鹿（脖子很长 tall）。"
     },
     {
-      "id": "e2-035",
-      "subject": "英语",
-      "stem": "\"How old are you?\" 是在询问什么？",
+      "stem": "英语词汇：单词 \"elephant\" 的中文意思是什么？",
       "options": [
-        "你几岁了？",
-        "你好吗？",
-        "你在哪里？",
-        "你是谁？"
+        "大象",
+        "河马",
+        "犀牛",
+        "骆驼"
       ],
       "answerIndex": 0,
-      "explanation": "How old 用来询问年龄。"
+      "explanation": "【英译汉精析】动物词：elephant = 大象（注意用 an elephant）。"
     },
     {
-      "id": "e2-036",
-      "subject": "英语",
-      "stem": "填空：I ___ a student.",
+      "stem": "汉译英：「大象」对应的英文单词是哪一个？",
       "options": [
-        "are",
-        "be",
-        "is",
-        "am"
-      ],
-      "answerIndex": 3,
-      "explanation": "第一人称单数 I 搭配 be 动词 am。"
-    },
-    {
-      "id": "e2-037",
-      "subject": "英语",
-      "stem": "填空：She ___ reading books every day.",
-      "options": [
-        "liking",
-        "likes",
-        "like",
-        "to like"
-      ],
-      "answerIndex": 1,
-      "explanation": "第三人称单数一般现在时动词加 -s。"
-    },
-    {
-      "id": "e2-038",
-      "subject": "英语",
-      "stem": "填空：There ___ an apple and two pears on the table.",
-      "options": [
-        "is",
-        "are",
-        "be",
-        "am"
+        "elephant",
+        "pear",
+        "sister",
+        "thin"
       ],
       "answerIndex": 0,
-      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
+      "explanation": "【汉译英拼写记忆】动物词：elephant = 大象（注意用 an elephant）。"
     },
     {
-      "id": "e2-039",
-      "subject": "英语",
-      "stem": "\"child\"（孩子）的复数形式是什么？",
+      "stem": "英语词汇：单词 \"rabbit\" 的中文意思是什么？",
       "options": [
-        "childes",
-        "childs",
-        "childrens",
-        "children"
-      ],
-      "answerIndex": 3,
-      "explanation": "child 的不规则复数是 children。"
-    },
-    {
-      "id": "e2-040",
-      "subject": "英语",
-      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
-      "options": [
-        "teeth",
-        "toothes",
-        "tooths",
-        "teethes"
+        "兔子",
+        "松鼠",
+        "刺猬",
+        "老鼠"
       ],
       "answerIndex": 0,
-      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
+      "explanation": "【英译汉精析】动物词：rabbit = 兔子。"
     },
     {
-      "id": "e2-041",
-      "subject": "英语",
-      "stem": "动词 \"go\" 的过去式是什么？",
+      "stem": "汉译英：「兔子」对应的英文单词是哪一个？",
       "options": [
-        "gone",
-        "going",
-        "went",
-        "goed"
+        "rabbit",
+        "thirteen",
+        "tall",
+        "fifteen"
       ],
-      "answerIndex": 2,
-      "explanation": "go - went - gone 是不规则动词变化。"
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动物词：rabbit = 兔子。"
     },
     {
-      "id": "e2-042",
-      "subject": "英语",
-      "stem": "动词 \"buy\"（买）的过去式是什么？",
+      "stem": "英语词汇：单词 \"tall\" 的中文意思是什么？",
       "options": [
-        "brought",
-        "buying",
-        "buyed",
-        "bought"
+        "高的",
+        "矮的",
+        "胖的",
+        "瘦的"
       ],
-      "answerIndex": 3,
-      "explanation": "buy 的过去式和过去分词都是 bought。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：tall = 高的 ↔ short = 矮的。"
     },
     {
-      "id": "e2-043",
-      "subject": "英语",
-      "stem": "填空：He has lived in Beijing ___ 2020.",
+      "stem": "汉译英：「高的」对应的英文单词是哪一个？",
       "options": [
-        "at",
+        "tall",
+        "grandpa",
+        "eighteen",
+        "sister"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：tall = 高的 ↔ short = 矮的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"thin\" 的中文意思是什么？",
+      "options": [
+        "瘦的",
+        "胖的",
+        "大的",
+        "小的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：thin = 瘦的 ↔ fat = 胖的。"
+    },
+    {
+      "stem": "汉译英：「瘦的」对应的英文单词是哪一个？",
+      "options": [
+        "thin",
+        "egg",
+        "water",
+        "tall"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：thin = 瘦的 ↔ fat = 胖的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"big\" 的中文意思是什么？",
+      "options": [
+        "大的",
+        "小的",
+        "长的",
+        "短的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：big = 大的 ↔ small = 小的。"
+    },
+    {
+      "stem": "汉译英：「大的」对应的英文单词是哪一个？",
+      "options": [
+        "big",
+        "eighteen",
+        "pear",
+        "fifteen"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：big = 大的 ↔ small = 小的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"eleven\" 的中文意思是什么？",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】数字词：eleven = 11。"
+    },
+    {
+      "stem": "汉译英：「11」对应的英文单词是哪一个？",
+      "options": [
+        "eleven",
+        "cap",
+        "boat",
+        "giraffe"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】数字词：eleven = 11。"
+    },
+    {
+      "stem": "英语词汇：单词 \"thirteen\" 的中文意思是什么？",
+      "options": [
+        "13",
+        "3",
+        "14",
+        "30"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】数字词：thirteen = 13（thirty = 30）。"
+    },
+    {
+      "stem": "汉译英：「13」对应的英文单词是哪一个？",
+      "options": [
+        "thirteen",
+        "chair",
+        "big",
+        "fifteen"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】数字词：thirteen = 13（thirty = 30）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"fifteen\" 的中文意思是什么？",
+      "options": [
+        "15",
+        "5",
+        "14",
+        "50"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】数字词：fifteen = 15（fifty = 50）。"
+    },
+    {
+      "stem": "汉译英：「15」对应的英文单词是哪一个？",
+      "options": [
+        "fifteen",
+        "chair",
+        "eleven",
+        "grandma"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】数字词：fifteen = 15（fifty = 50）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"eighteen\" 的中文意思是什么？",
+      "options": [
+        "18",
+        "8",
+        "16",
+        "80"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】数字词：eighteen = 18。"
+    },
+    {
+      "stem": "汉译英：「18」对应的英文单词是哪一个？",
+      "options": [
+        "eighteen",
+        "juice",
+        "chair",
+        "brother"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】数字词：eighteen = 18。"
+    },
+    {
+      "stem": "英语词汇：单词 \"chair\" 的中文意思是什么？",
+      "options": [
+        "椅子",
+        "桌子",
+        "床",
+        "沙发"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】家具词：chair = 椅子，desk = 课桌。"
+    },
+    {
+      "stem": "汉译英：「椅子」对应的英文单词是哪一个？",
+      "options": [
+        "chair",
+        "tall",
+        "brother",
+        "grape"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】家具词：chair = 椅子，desk = 课桌。"
+    },
+    {
+      "stem": "英语词汇：单词 \"car\" 的中文意思是什么？",
+      "options": [
+        "小汽车",
+        "公交车",
+        "火车",
+        "轮船"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】交通词：car = 小汽车，bus = 公交车。"
+    },
+    {
+      "stem": "汉译英：「小汽车」对应的英文单词是哪一个？",
+      "options": [
+        "car",
+        "sister",
+        "brother",
+        "giraffe"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】交通词：car = 小汽车，bus = 公交车。"
+    },
+    {
+      "stem": "英语词汇：单词 \"boat\" 的中文意思是什么？",
+      "options": [
+        "小船",
+        "飞机",
+        "自行车",
+        "地铁"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】交通词：boat = 小船。"
+    },
+    {
+      "stem": "汉译英：「小船」对应的英文单词是哪一个？",
+      "options": [
+        "boat",
+        "grandpa",
+        "rabbit",
+        "tall"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】交通词：boat = 小船。"
+    },
+    {
+      "stem": "英语词汇：单词 \"kite\" 的中文意思是什么？",
+      "options": [
+        "风筝",
+        "气球",
+        "足球",
+        "玩具熊"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】玩具词：kite = 风筝（fly a kite 放风筝）。"
+    },
+    {
+      "stem": "汉译英：「风筝」对应的英文单词是哪一个？",
+      "options": [
+        "kite",
+        "elephant",
+        "grape",
+        "thin"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】玩具词：kite = 风筝（fly a kite 放风筝）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"cap\" 的中文意思是什么？",
+      "options": [
+        "鸭舌帽 / 帽子",
+        "鞋子",
+        "袜子",
+        "手套"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】服饰词：cap = 有檐帽子。"
+    },
+    {
+      "stem": "汉译英：「鸭舌帽 / 帽子」对应的英文单词是哪一个？",
+      "options": [
+        "cap",
+        "car",
+        "rabbit",
+        "kite"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】服饰词：cap = 有檐帽子。"
+    },
+    {
+      "stem": "【二年级英语·介绍他人必考】向妈妈介绍你的新朋友迈克，应该说：\"Mum, ______ is Mike.\"",
+      "options": [
+        "this",
+        "he's",
+        "that's a",
+        "it"
+      ],
+      "answerIndex": 0,
+      "explanation": "【交际必考】英语中介绍某人给第三方认识，固定句型用“This is + 人名.”（不能用 He is... 直接介绍）。"
+    },
+    {
+      "stem": "【二年级英语·名词复数必考】我有两个苹果和三个梨，正确表达是？",
+      "options": [
+        "two apples and three pears",
+        "two apple and three pear",
+        "a apples and three pears",
+        "two apples and three peares"
+      ],
+      "answerIndex": 0,
+      "explanation": "【复数规则必考】数量大于 1 时，可数名词后面要加 -s：apples, pears。"
+    },
+    {
+      "stem": "【二年级英语·方位单元必考】\"Where is my cap?\" — \"Look! It's ______ the desk.\"（在课桌上面）",
+      "options": [
+        "on",
         "in",
-        "since",
-        "for"
+        "under",
+        "to"
       ],
-      "answerIndex": 2,
-      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+      "answerIndex": 0,
+      "explanation": "【方位介词必考】on = 在……表面上；in = 在……里面；under = 在……下面。"
     },
     {
-      "id": "e2-044",
-      "subject": "英语",
-      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "stem": "【二年级英语·动物特征必考】描述大象的特征：\"It has a ______ nose and ______ ears.\"",
       "options": [
-        "interested; interesting",
-        "interesting; interest",
-        "interest; interesting",
-        "interesting; interested"
+        "long; big",
+        "short; small",
+        "tall; thin",
+        "fat; short"
       ],
-      "answerIndex": 3,
-      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+      "answerIndex": 0,
+      "explanation": "【外貌形容词必考】大象长着长鼻子（a long nose）和大耳朵（big ears）。"
     }
   ]
 }

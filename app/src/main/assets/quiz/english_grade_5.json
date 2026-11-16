@@ -1,579 +1,710 @@
 {
-  "version": 2,
-  "subject": "英语",
   "grade": 5,
+  "subject": "english",
   "items": [
     {
-      "id": "e5-001",
-      "subject": "英语",
-      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "stem": "一般现在时：\"My brother ______ to school by bike every day.\" 主语是第三人称单数，横线处应填？",
       "options": [
-        "苹果",
-        "橘子",
-        "葡萄",
-        "香蕉"
+        "goes",
+        "go",
+        "going",
+        "went"
       ],
       "answerIndex": 0,
-      "explanation": "\"apple\" 意为“苹果”。"
+      "explanation": "【三单变化规则】every day（每天）表示经常性动作，用一般现在时；主语 My brother 是第三人称单数（he），动词 go 要加 -es 变为 goes。"
     },
     {
-      "id": "e5-002",
-      "subject": "英语",
-      "stem": "英语单词 \"banana\" 的中文意思是什么？",
+      "stem": "There be 句型就近原则：\"There ______ a book and two pens on the desk.\" 横线处应填？",
       "options": [
-        "苹果",
-        "草莓",
-        "香蕉",
-        "西瓜"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"banana\" 意为“香蕉”。"
-    },
-    {
-      "id": "e5-003",
-      "subject": "英语",
-      "stem": "英语单词 \"orange\" 的中文意思是什么？",
-      "options": [
-        "柠檬",
-        "梨",
-        "橙子/橘子",
-        "桃子"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"orange\" 意为“橙子/橘子”。"
-    },
-    {
-      "id": "e5-004",
-      "subject": "英语",
-      "stem": "英语单词 \"water\" 的中文意思是什么？",
-      "options": [
-        "水",
-        "茶",
-        "牛奶",
-        "果汁"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"water\" 意为“水”。"
-    },
-    {
-      "id": "e5-005",
-      "subject": "英语",
-      "stem": "英语单词 \"milk\" 的中文意思是什么？",
-      "options": [
-        "咖啡",
-        "牛奶",
-        "水",
-        "面包"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"milk\" 意为“牛奶”。"
-    },
-    {
-      "id": "e5-006",
-      "subject": "英语",
-      "stem": "英语单词 \"bread\" 的中文意思是什么？",
-      "options": [
-        "米饭",
-        "面条",
-        "蛋糕",
-        "面包"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"bread\" 意为“面包”。"
-    },
-    {
-      "id": "e5-007",
-      "subject": "英语",
-      "stem": "英语单词 \"book\" 的中文意思是什么？",
-      "options": [
-        "钢笔",
-        "书",
-        "尺子",
-        "书包"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"book\" 意为“书”。"
-    },
-    {
-      "id": "e5-008",
-      "subject": "英语",
-      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
-      "options": [
-        "橡皮",
-        "铅笔",
-        "课桌",
-        "椅子"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"pencil\" 意为“铅笔”。"
-    },
-    {
-      "id": "e5-009",
-      "subject": "英语",
-      "stem": "英语单词 \"school\" 的中文意思是什么？",
-      "options": [
-        "学校",
-        "公园",
-        "医院",
-        "超市"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"school\" 意为“学校”。"
-    },
-    {
-      "id": "e5-010",
-      "subject": "英语",
-      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
-      "options": [
-        "老师",
-        "医生",
-        "农民",
-        "司机"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"teacher\" 意为“老师”。"
-    },
-    {
-      "id": "e5-011",
-      "subject": "英语",
-      "stem": "英语单词 \"student\" 的中文意思是什么？",
-      "options": [
-        "护士",
-        "警察",
-        "老师",
-        "学生"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"student\" 意为“学生”。"
-    },
-    {
-      "id": "e5-012",
-      "subject": "英语",
-      "stem": "英语单词 \"family\" 的中文意思是什么？",
-      "options": [
-        "邻居",
-        "朋友",
-        "家庭",
-        "同学"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"family\" 意为“家庭”。"
-    },
-    {
-      "id": "e5-013",
-      "subject": "英语",
-      "stem": "英语单词 \"mother\" 的中文意思是什么？",
-      "options": [
-        "母亲",
-        "兄弟",
-        "父亲",
-        "姐妹"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"mother\" 意为“母亲”。"
-    },
-    {
-      "id": "e5-014",
-      "subject": "英语",
-      "stem": "英语单词 \"father\" 的中文意思是什么？",
-      "options": [
-        "父亲",
-        "叔叔",
-        "母亲",
-        "阿姨"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"father\" 意为“父亲”。"
-    },
-    {
-      "id": "e5-015",
-      "subject": "英语",
-      "stem": "英语单词 \"morning\" 的中文意思是什么？",
-      "options": [
-        "中午",
-        "早晨/上午",
-        "下午",
-        "晚上"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"morning\" 意为“早晨/上午”。"
-    },
-    {
-      "id": "e5-016",
-      "subject": "英语",
-      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
-      "options": [
-        "昨天",
-        "早晨",
-        "下午",
-        "夜晚"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"afternoon\" 意为“下午”。"
-    },
-    {
-      "id": "e5-017",
-      "subject": "英语",
-      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
-      "options": [
-        "星期日",
-        "星期五",
-        "星期二",
-        "星期一"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"Monday\" 意为“星期一”。"
-    },
-    {
-      "id": "e5-018",
-      "subject": "英语",
-      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
-      "options": [
-        "星期六",
-        "星期四",
-        "星期三",
-        "星期五"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"Friday\" 意为“星期五”。"
-    },
-    {
-      "id": "e5-019",
-      "subject": "英语",
-      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
-      "options": [
-        "星期六",
-        "星期一",
-        "星期日",
-        "星期二"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"Sunday\" 意为“星期日”。"
-    },
-    {
-      "id": "e5-020",
-      "subject": "英语",
-      "stem": "英语单词 \"spring\" 的中文意思是什么？",
-      "options": [
-        "春天",
-        "夏天",
-        "冬天",
-        "秋天"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"spring\" 意为“春天”。"
-    },
-    {
-      "id": "e5-021",
-      "subject": "英语",
-      "stem": "英语单词 \"summer\" 的中文意思是什么？",
-      "options": [
-        "秋天",
-        "冬天",
-        "春天",
-        "夏天"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"summer\" 意为“夏天”。"
-    },
-    {
-      "id": "e5-022",
-      "subject": "英语",
-      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "秋天",
-        "春天",
-        "夏天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"autumn\" 意为“秋天”。"
-    },
-    {
-      "id": "e5-023",
-      "subject": "英语",
-      "stem": "英语单词 \"winter\" 的中文意思是什么？",
-      "options": [
-        "秋天",
-        "冬天",
-        "夏天",
-        "春天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"winter\" 意为“冬天”。"
-    },
-    {
-      "id": "e5-024",
-      "subject": "英语",
-      "stem": "英语单词 \"library\" 的中文意思是什么？",
-      "options": [
-        "博物馆",
-        "电影院",
-        "图书馆",
-        "体育馆"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"library\" 意为“图书馆”。"
-    },
-    {
-      "id": "e5-025",
-      "subject": "英语",
-      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
-      "options": [
-        "银行",
-        "邮局",
-        "医院",
-        "学校"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"hospital\" 意为“医院”。"
-    },
-    {
-      "id": "e5-026",
-      "subject": "英语",
-      "stem": "英语单词 \"science\" 的中文意思是什么？",
-      "options": [
-        "历史",
-        "音乐",
-        "科学",
-        "数学"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"science\" 意为“科学”。"
-    },
-    {
-      "id": "e5-027",
-      "subject": "英语",
-      "stem": "英语单词 \"computer\" 的中文意思是什么？",
-      "options": [
-        "电脑",
-        "电视",
-        "相机",
-        "电话"
-      ],
-      "answerIndex": 0,
-      "explanation": "\"computer\" 意为“电脑”。"
-    },
-    {
-      "id": "e5-028",
-      "subject": "英语",
-      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
-      "options": [
-        "报纸",
-        "杂志",
-        "词典",
-        "笔记本"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"dictionary\" 意为“词典”。"
-    },
-    {
-      "id": "e5-029",
-      "subject": "英语",
-      "stem": "英语单词 \"environment\" 的中文意思是什么？",
-      "options": [
-        "实验",
-        "环境",
-        "温度",
-        "政府"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"environment\" 意为“环境”。"
-    },
-    {
-      "id": "e5-030",
-      "subject": "英语",
-      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
-      "options": [
-        "天气",
-        "温度",
-        "季节",
-        "距离"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"temperature\" 意为“温度”。"
-    },
-    {
-      "id": "e5-031",
-      "subject": "英语",
-      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
-      "options": [
-        "语言",
-        "自然",
-        "知识",
-        "文化"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"knowledge\" 意为“知识”。"
-    },
-    {
-      "id": "e5-032",
-      "subject": "英语",
-      "stem": "英语单词 \"experience\" 的中文意思是什么？",
-      "options": [
-        "运动",
-        "解释",
-        "实验",
-        "经验/经历"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"experience\" 意为“经验/经历”。"
-    },
-    {
-      "id": "e5-033",
-      "subject": "英语",
-      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
-      "options": [
-        "You're welcome.",
-        "Goodbye.",
-        "I'm fine.",
-        "Nice to meet you."
-      ],
-      "answerIndex": 0,
-      "explanation": "回应感谢常用 You're welcome（不客气）。"
-    },
-    {
-      "id": "e5-034",
-      "subject": "英语",
-      "stem": "早上见到老师时，应该用哪句英语问好？",
-      "options": [
-        "Good afternoon!",
-        "See you!",
-        "Good morning!",
-        "Good night!"
-      ],
-      "answerIndex": 2,
-      "explanation": "早上问好使用 Good morning!"
-    },
-    {
-      "id": "e5-035",
-      "subject": "英语",
-      "stem": "\"How old are you?\" 是在询问什么？",
-      "options": [
-        "你在哪里？",
-        "你好吗？",
-        "你是谁？",
-        "你几岁了？"
-      ],
-      "answerIndex": 3,
-      "explanation": "How old 用来询问年龄。"
-    },
-    {
-      "id": "e5-036",
-      "subject": "英语",
-      "stem": "填空：I ___ a student.",
-      "options": [
-        "be",
-        "am",
         "is",
-        "are"
-      ],
-      "answerIndex": 1,
-      "explanation": "第一人称单数 I 搭配 be 动词 am。"
-    },
-    {
-      "id": "e5-037",
-      "subject": "英语",
-      "stem": "填空：She ___ reading books every day.",
-      "options": [
-        "to like",
-        "likes",
-        "like",
-        "liking"
-      ],
-      "answerIndex": 1,
-      "explanation": "第三人称单数一般现在时动词加 -s。"
-    },
-    {
-      "id": "e5-038",
-      "subject": "英语",
-      "stem": "填空：There ___ an apple and two pears on the table.",
-      "options": [
         "are",
-        "is",
-        "am",
-        "be"
+        "have",
+        "has"
       ],
-      "answerIndex": 1,
-      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
+      "answerIndex": 0,
+      "explanation": "【There be 就近原则】There be 句型表示“某处有某物”（不能与 have/has 混用！），be 动词单复数由紧挨着它的第一个名词决定：a book 是单数，故填 is。"
     },
     {
-      "id": "e5-039",
-      "subject": "英语",
-      "stem": "\"child\"（孩子）的复数形式是什么？",
+      "stem": "代词辨析：\"This is my book. That red one is ______.（那本红色的是你的书）\" 横线后没有名词，应填哪个名词性物主代词？",
       "options": [
-        "childrens",
-        "childes",
-        "children",
-        "childs"
+        "yours",
+        "your",
+        "you",
+        "yourself"
       ],
-      "answerIndex": 2,
-      "explanation": "child 的不规则复数是 children。"
+      "answerIndex": 0,
+      "explanation": "【名词性物主代词】形容词性物主代词（your）后面必须跟名词；横线后没有名词时，用名词性物主代词 yours（yours = your book）。"
     },
     {
-      "id": "e5-040",
-      "subject": "英语",
-      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
+      "stem": "序数词拼写：表示「第一、第二、第三」的英文单词分别是？",
       "options": [
-        "teethes",
-        "tooths",
-        "teeth",
-        "toothes"
+        "first, second, third",
+        "one, two, three",
+        "once, twice, third",
+        "first, two, three"
       ],
-      "answerIndex": 2,
-      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
+      "answerIndex": 0,
+      "explanation": "【基数词变序数词口诀】“一二三，特殊记（first, second, third）；八去 t（eighth），九去 e（ninth），ve 要用 f 替（fifth, twelfth）”。"
     },
     {
-      "id": "e5-041",
-      "subject": "英语",
-      "stem": "动词 \"go\" 的过去式是什么？",
+      "stem": "日期与月份介词：\"China's National Day is ______ October 1st.\" 具体到某一天用哪个时间介词？",
       "options": [
-        "gone",
-        "went",
-        "goed",
-        "going"
-      ],
-      "answerIndex": 1,
-      "explanation": "go - went - gone 是不规则动词变化。"
-    },
-    {
-      "id": "e5-042",
-      "subject": "英语",
-      "stem": "动词 \"buy\"（买）的过去式是什么？",
-      "options": [
-        "buyed",
-        "brought",
-        "buying",
-        "bought"
-      ],
-      "answerIndex": 3,
-      "explanation": "buy 的过去式和过去分词都是 bought。"
-    },
-    {
-      "id": "e5-043",
-      "subject": "英语",
-      "stem": "填空：He has lived in Beijing ___ 2020.",
-      "options": [
+        "on",
         "in",
-        "for",
-        "since",
-        "at"
+        "at",
+        "for"
       ],
-      "answerIndex": 2,
-      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+      "answerIndex": 0,
+      "explanation": "【时间介词口诀】in 年 in 月 in 季节（in October）；on 加具体某一天（on October 1st / on Sunday morning）；at 加具体钟点时刻（at 7:00）。"
     },
     {
-      "id": "e5-044",
-      "subject": "英语",
-      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "stem": "询问对方周末通常做什么：\"What ______ you usually do on the weekend?\" 横线处助动词应填？",
       "options": [
-        "interesting; interest",
-        "interest; interesting",
-        "interesting; interested",
-        "interested; interesting"
+        "do",
+        "are",
+        "does",
+        "is"
       ],
-      "answerIndex": 2,
-      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+      "answerIndex": 0,
+      "explanation": "【助动词辨析】句中有实义动词原形 do（做），主语是 you，构成一般现在时疑问句需借用助动词 do（不能用 are！）。"
+    },
+    {
+      "stem": "单词 \"tomato\"（西红柿）和 \"potato\"（土豆）变复数时应该怎么变？",
+      "options": [
+        "加 -es（tomatoes, potatoes）",
+        "直接加 -s",
+        "去 o 加 -ies",
+        "单复数同形"
+      ],
+      "answerIndex": 0,
+      "explanation": "【以o结尾的名词复数】有生命的黑人(negroes)、英雄(heroes)爱吃土豆(potatoes)和西红柿(tomatoes)，这四个词变复数加 -es；无生命的如 photo➔photos、piano➔pianos 加 -s。"
+    },
+    {
+      "stem": "询问「你最喜欢哪个季节？」，正确的英文表达是？",
+      "options": [
+        "Which season do you like best?（或 What's your favourite season?）",
+        "How many seasons are there?",
+        "Why do you like summer?",
+        "When is spring?"
+      ],
+      "answerIndex": 0,
+      "explanation": "【同义句型】“Which ... do you like best?”与“What's your favourite ...?”都表示“你最喜欢哪一个……？”。"
+    },
+    {
+      "stem": "因为夏天可以去游泳，回答 \"Why do you like summer?\" 时应该用哪个词开头？",
+      "options": [
+        "Because I can go swimming.",
+        "So I like summer.",
+        "Yes, I do.",
+        "In July."
+      ],
+      "answerIndex": 0,
+      "explanation": "【因果问答】以 Why（为什么）提问，必须用 Because（因为）来回答原因。"
+    },
+    {
+      "stem": "句型转换：\"Some water\"（一些水）变成否定句或疑问句时，\"some\" 通常要改成什么词？",
+      "options": [
+        "any",
+        "many",
+        "a",
+        "an"
+      ],
+      "answerIndex": 0,
+      "explanation": "【some 与 any 规则】some 一般用于肯定句（I have some books）；在否定句和一般疑问句中通常改为 any（I don't have any water / Do you have any water?）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"January\" 的中文意思是什么？",
+      "options": [
+        "一月",
+        "二月",
+        "三月",
+        "十二月"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】月份词：Jan. 一月，Feb. 二月，Mar. 三月。"
+    },
+    {
+      "stem": "汉译英：「一月」对应的英文单词是哪一个？",
+      "options": [
+        "January",
+        "December",
+        "fresh",
+        "September"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】月份词：Jan. 一月，Feb. 二月，Mar. 三月。"
+    },
+    {
+      "stem": "英语词汇：单词 \"February\" 的中文意思是什么？",
+      "options": [
+        "二月",
+        "一月",
+        "四月",
+        "十月"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】月份词：February = 二月（注意拼写 Feb-ru-ary）。"
+    },
+    {
+      "stem": "汉译英：「二月」对应的英文单词是哪一个？",
+      "options": [
+        "February",
+        "exercise",
+        "mountain",
+        "August"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】月份词：February = 二月（注意拼写 Feb-ru-ary）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"August\" 的中文意思是什么？",
+      "options": [
+        "八月",
+        "七月",
+        "九月",
+        "十月"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】月份词：August = 八月（Aug.）。"
+    },
+    {
+      "stem": "汉译英：「八月」对应的英文单词是哪一个？",
+      "options": [
+        "August",
+        "January",
+        "September",
+        "hard-working"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】月份词：August = 八月（Aug.）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"September\" 的中文意思是什么？",
+      "options": [
+        "九月",
+        "八月",
+        "十月",
+        "十一月"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】月份词：September = 九月（教师节在9月10日）。"
+    },
+    {
+      "stem": "汉译英：「九月」对应的英文单词是哪一个？",
+      "options": [
+        "September",
+        "January",
+        "bridge",
+        "December"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】月份词：September = 九月（教师节在9月10日）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"October\" 的中文意思是什么？",
+      "options": [
+        "十月",
+        "九月",
+        "十一月",
+        "十二月"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】月份词：October = 十月（国庆节 Oct. 1st）。"
+    },
+    {
+      "stem": "汉译英：「十月」对应的英文单词是哪一个？",
+      "options": [
+        "October",
+        "delicious",
+        "December",
+        "September"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】月份词：October = 十月（国庆节 Oct. 1st）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"December\" 的中文意思是什么？",
+      "options": [
+        "十二月",
+        "十一月",
+        "一月",
+        "十月"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】月份词：December = 十二月（Dec.）。"
+    },
+    {
+      "stem": "汉译英：「十二月」对应的英文单词是哪一个？",
+      "options": [
+        "December",
+        "January",
+        "bridge",
+        "vacation"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】月份词：December = 十二月（Dec.）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"delicious\" 的中文意思是什么？",
+      "options": [
+        "美味的",
+        "苦涩的",
+        "新鲜的",
+        "健康的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：delicious = 美味可口的。"
+    },
+    {
+      "stem": "汉译英：「美味的」对应的英文单词是哪一个？",
+      "options": [
+        "delicious",
+        "always",
+        "exercise",
+        "mountain"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：delicious = 美味可口的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"healthy\" 的中文意思是什么？",
+      "options": [
+        "健康的",
+        "生病的",
+        "甜的",
+        "辣的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：health(健康) + -y = healthy(健康的)。"
+    },
+    {
+      "stem": "汉译英：「健康的」对应的英文单词是哪一个？",
+      "options": [
+        "healthy",
+        "delicious",
+        "forest",
+        "strict"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：health(健康) + -y = healthy(健康的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"fresh\" 的中文意思是什么？",
+      "options": [
+        "新鲜的",
+        "陈旧的",
+        "咸的",
+        "酸的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：fresh vegetables = 新鲜蔬菜。"
+    },
+    {
+      "stem": "汉译英：「新鲜的」对应的英文单词是哪一个？",
+      "options": [
+        "fresh",
+        "exercise",
+        "October",
+        "January"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：fresh vegetables = 新鲜蔬菜。"
+    },
+    {
+      "stem": "英语词汇：单词 \"mountain\" 的中文意思是什么？",
+      "options": [
+        "高山",
+        "河流",
+        "湖泊",
+        "森林"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】自然词：mountain = 高山，hill = 小山。"
+    },
+    {
+      "stem": "汉译英：「高山」对应的英文单词是哪一个？",
+      "options": [
+        "mountain",
+        "always",
+        "January",
+        "delicious"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】自然词：mountain = 高山，hill = 小山。"
+    },
+    {
+      "stem": "英语词汇：单词 \"forest\" 的中文意思是什么？",
+      "options": [
+        "森林",
+        "沙漠",
+        "草原",
+        "海洋"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】自然词：forest = 森林。"
+    },
+    {
+      "stem": "汉译英：「森林」对应的英文单词是哪一个？",
+      "options": [
+        "forest",
+        "strict",
+        "exercise",
+        "mountain"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】自然词：forest = 森林。"
+    },
+    {
+      "stem": "英语词汇：单词 \"bridge\" 的中文意思是什么？",
+      "options": [
+        "桥",
+        "建筑",
+        "村庄",
+        "道路"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】自然/建筑词：bridge = 桥梁。"
+    },
+    {
+      "stem": "汉译英：「桥」对应的英文单词是哪一个？",
+      "options": [
+        "bridge",
+        "healthy",
+        "delicious",
+        "village"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】自然/建筑词：bridge = 桥梁。"
+    },
+    {
+      "stem": "英语词汇：单词 \"village\" 的中文意思是什么？",
+      "options": [
+        "村庄",
+        "城市",
+        "国家",
+        "街道"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】场所词：village = 村庄（villager = 村民）。"
+    },
+    {
+      "stem": "汉译英：「村庄」对应的英文单词是哪一个？",
+      "options": [
+        "village",
+        "bridge",
+        "forest",
+        "healthy"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】场所词：village = 村庄（villager = 村民）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"strict\" 的中文意思是什么？",
+      "options": [
+        "严厉的 / 严格的",
+        "慈祥的",
+        "滑稽的",
+        "年轻的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】人物描述：strict = 严格的（be strict with sb.）。"
+    },
+    {
+      "stem": "汉译英：「严厉的 / 严格的」对应的英文单词是哪一个？",
+      "options": [
+        "strict",
+        "December",
+        "bridge",
+        "October"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】人物描述：strict = 严格的（be strict with sb.）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"hard-working\" 的中文意思是什么？",
+      "options": [
+        "勤奋的 / 努力工作的",
+        "懒惰的",
+        "聪明的",
+        "外向的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】人物描述：hard-working = 勤奋的。"
+    },
+    {
+      "stem": "汉译英：「勤奋的 / 努力工作的」对应的英文单词是哪一个？",
+      "options": [
+        "hard-working",
+        "sometimes",
+        "delicious",
+        "exercise"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】人物描述：hard-working = 勤奋的。"
+    },
+    {
+      "stem": "英语词汇：单词 \"always\" 的中文意思是什么？",
+      "options": [
+        "总是（100%）",
+        "通常",
+        "有时",
+        "从不"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】频度副词：always(总是) > usually(通常) > often(经常) > sometimes(有时) > never(从不)。"
+    },
+    {
+      "stem": "汉译英：「总是（100%）」对应的英文单词是哪一个？",
+      "options": [
+        "always",
+        "mountain",
+        "January",
+        "August"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】频度副词：always(总是) > usually(通常) > often(经常) > sometimes(有时) > never(从不)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"sometimes\" 的中文意思是什么？",
+      "options": [
+        "有时",
+        "总是",
+        "从不",
+        "每天"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】频度副词：sometimes = 有时。"
+    },
+    {
+      "stem": "汉译英：「有时」对应的英文单词是哪一个？",
+      "options": [
+        "sometimes",
+        "strict",
+        "August",
+        "always"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】频度副词：sometimes = 有时。"
+    },
+    {
+      "stem": "英语词汇：单词 \"exercise\" 的中文意思是什么？",
+      "options": [
+        "锻炼 / 做体操",
+        "休息",
+        "睡觉",
+        "购物"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】动词/名词：do morning exercises = 做早操。"
+    },
+    {
+      "stem": "汉译英：「锻炼 / 做体操」对应的英文单词是哪一个？",
+      "options": [
+        "exercise",
+        "strict",
+        "forest",
+        "September"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动词/名词：do morning exercises = 做早操。"
+    },
+    {
+      "stem": "英语词汇：单词 \"picnic\" 的中文意思是什么？",
+      "options": [
+        "野餐",
+        "聚会",
+        "比赛",
+        "旅行"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】活动词：go on a picnic = 去野餐。"
+    },
+    {
+      "stem": "汉译英：「野餐」对应的英文单词是哪一个？",
+      "options": [
+        "picnic",
+        "September",
+        "exercise",
+        "October"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】活动词：go on a picnic = 去野餐。"
+    },
+    {
+      "stem": "英语词汇：单词 \"vacation\" 的中文意思是什么？",
+      "options": [
+        "假期",
+        "周末",
+        "学期",
+        "工作日"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】名词：summer vacation = 暑假。"
+    },
+    {
+      "stem": "汉译英：「假期」对应的英文单词是哪一个？",
+      "options": [
+        "vacation",
+        "September",
+        "village",
+        "hard-working"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】名词：summer vacation = 暑假。"
+    },
+    {
+      "stem": "【五年级英语·序数词日期必考】\"When is Tree Planting Day（植树节）?\" — \"It's on ______.\"",
+      "options": [
+        "March 12th",
+        "May 1st",
+        "June 1st",
+        "September 10th"
+      ],
+      "answerIndex": 0,
+      "explanation": "【节日日期必考】植树节 3 月 12 日（March 12th）；劳动节 May 1st；儿童节 June 1st；教师节 September 10th。"
+    },
+    {
+      "stem": "【五年级英语·现在进行时双写必考】\"Look! The cute monkey is ______（跑步）and ______（游泳）!\"",
+      "options": [
+        "running; swimming",
+        "runing; swiming",
+        "runs; swims",
+        "ran; swam"
+      ],
+      "answerIndex": 0,
+      "explanation": "【进行时变形必考】run, swim, sit, shop, get 均属于重读闭音节，加 -ing 必须双写尾字母：running, swimming, sitting, shopping。"
+    },
+    {
+      "stem": "【五年级英语·名词性物主代词必考】\"The yellow picture is ______（我的）. Look! That is ______（她的）picture.\"",
+      "options": [
+        "mine; her",
+        "my; hers",
+        "mine; hers",
+        "I; she"
+      ],
+      "answerIndex": 0,
+      "explanation": "【物主代词必考】口诀：“有名则形，无名则名”。第一空后无名词，用名词性物主代词 mine；第二空后有名词 picture，用形容词性物主代词 her。"
+    },
+    {
+      "stem": "【五年级英语·一般现在时否定必考】\"My sister ______ like eating onions, because they smell too strong.\"",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "aren't"
+      ],
+      "answerIndex": 0,
+      "explanation": "【三单否定必考】句中有实义动词原形 like，主语 My sister 是单数第三人称，否定助动词用 doesn't。"
+    },
+    {
+      "stem": "【五年级英语·外貌性格问答必考】\"What's your new maths teacher like?\" 是在问新数学老师的什么？",
+      "options": [
+        "他/她是什么样的人（性格或外貌特点）",
+        "他/她喜欢什么食物",
+        "他/她几岁了",
+        "他/她在哪里"
+      ],
+      "answerIndex": 0,
+      "explanation": "【五上 Unit 1 必考】“What's sb. like?”询问性格或外貌（回答如 He is strict / kind / funny），而“What does sb. like?”才问喜欢什么！"
+    },
+    {
+      "stem": "【五年级英语·would like 礼貌用语】\"Would you like some tea?\" 如果你不想喝，最礼貌的拒绝回答是？",
+      "options": [
+        "No, thanks.（不，谢谢。）",
+        "No, I wouldn't.",
+        "I hate tea.",
+        "Don't give me tea."
+      ],
+      "answerIndex": 0,
+      "explanation": "【交际礼仪必考】面对他人提供食物或饮料“Would you like...?”，肯定答“Yes, please.”，否定委婉答“No, thanks.”。"
+    },
+    {
+      "stem": "【五年级英语·some 与 any 必考】\"Are there ______ tall buildings in the village?\" — \"No, there aren't ______.\"",
+      "options": [
+        "any; any",
+        "some; some",
+        "some; any",
+        "any; some"
+      ],
+      "answerIndex": 0,
+      "explanation": "【五上 Unit 6 必考】疑问句和否定句中表示“一些”通常用 any；但在“Would you like some...?”表示请求希望得到肯定回答时用 some。"
+    },
+    {
+      "stem": "【五年级英语·序数词缩写必考】用英语表示「12月25日（圣诞节）」和「5月2日」，序数词正确写法是？",
+      "options": [
+        "December 25th; May 2nd",
+        "December 25st; May 2th",
+        "December 25rd; May 2st",
+        "December twenty-five"
+      ],
+      "answerIndex": 0,
+      "explanation": "【五下 Unit 4 日期必考】序数词缩写看个位：1➔st(1st, 21st, 31st)，2➔nd(2nd, 22nd)，3➔rd(3rd, 23rd)，其余一律加 th！"
+    },
+    {
+      "stem": "【五年级英语·现在进行时问答必考】\"What are the pandas doing?\" — \"Look! They ______ bamboo.\"",
+      "options": [
+        "are eating",
+        "eat",
+        "eats",
+        "is eating"
+      ],
+      "answerIndex": 0,
+      "explanation": "【五下 Unit 5-6 必考】问句是“What are... doing?”（正在干什么），回答用“主语 + be + 动词-ing”，pandas 是复数故用 are eating。"
+    },
+    {
+      "stem": "【五年级英语·公共场所标志必考】在图书馆或阅览室里常见的英文提示「Keep to the right」和「Talk quietly」分别是？",
+      "options": [
+        "靠右走；小声讲话",
+        "禁止拍照；不要触摸",
+        "按顺序排队；保持桌面整洁",
+        "不要奔跑；禁止饮食"
+      ],
+      "answerIndex": 0,
+      "explanation": "【五下 Unit 6 必考行为规范】Keep to the right（靠右行），Keep your desk clean（保持课桌干净），Talk quietly（小声说话），Take turns（按顺序来）。"
+    },
+    {
+      "stem": "【五年级英语·频度副词位置必考】选出语序正确的一句：",
+      "options": [
+        "I usually clean my room on Saturdays.",
+        "Usually I am clean my room.",
+        "I clean usually my room.",
+        "I clean my room usually on."
+      ],
+      "answerIndex": 0,
+      "explanation": "【五下 Unit 1 必考】频度副词（always/usually/often/sometimes/never）位置口诀：“be 情助之后，实义动词之前”。"
+    },
+    {
+      "stem": "【五年级英语·物主代词对比】\"Whose storybook is this?\" — \"It's ______. That one is ______.\"",
+      "options": [
+        "hers; mine",
+        "her; my",
+        "she; I",
+        "hers; my"
+      ],
+      "answerIndex": 0,
+      "explanation": "【五下 Unit 5 必考】横线后面都没有名词，必须两个空都用名词性物主代词（mine, yours, his, hers, theirs, ours）。"
+    },
+    {
+      "stem": "【五年级英语·季节特征必考】\"In ______, the weather is hot and the days are long. I can eat ice cream and swim.\"",
+      "options": [
+        "summer",
+        "spring",
+        "autumn",
+        "winter"
+      ],
+      "answerIndex": 0,
+      "explanation": "【五下 Unit 2 必考】白天长、炎热、吃冰淇淋和游泳是夏天（summer）的典型特征。"
+    },
+    {
+      "stem": "【五年级英语·动词短语搭配】\"On the weekend, I often ______（上舞蹈课）and ______（去散步）with my mum.\"",
+      "options": [
+        "take a dancing class; go for a walk",
+        "have dance; go walk",
+        "do a dancing; walk",
+        "play dancing; go walking"
+      ],
+      "answerIndex": 0,
+      "explanation": "【五下 Unit 1 短语必考】take a dancing class 上舞蹈课，go for a walk 去散步，go shopping 去购物，clean my room 打扫房间。"
     }
   ]
 }

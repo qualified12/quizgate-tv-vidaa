@@ -1,631 +1,490 @@
 {
-  "version": 2,
-  "subject": "英语",
   "grade": 7,
+  "subject": "english",
   "items": [
     {
-      "id": "e7-001",
-      "subject": "英语",
-      "stem": "英语单词 \"apple\" 的中文意思是什么？",
+      "stem": "反身代词与固定搭配：\"Help ______ to some fish, children!\"（孩子们，请随便吃点鱼吧！）横线处应填？",
       "options": [
-        "香蕉",
-        "葡萄",
-        "橘子",
-        "苹果"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"apple\" 意为“苹果”。"
-    },
-    {
-      "id": "e7-002",
-      "subject": "英语",
-      "stem": "英语单词 \"banana\" 的中文意思是什么？",
-      "options": [
-        "香蕉",
-        "西瓜",
-        "苹果",
-        "草莓"
+        "yourselves",
+        "yourself",
+        "themselves",
+        "ourselves"
       ],
       "answerIndex": 0,
-      "explanation": "\"banana\" 意为“香蕉”。"
+      "explanation": "【反身代词单复数】固定句型“Help yourself/yourselves to...（请随便吃……）”，句末称呼语是复数 children（孩子们），对应的第二人称复数反身代词是 yourselves。"
     },
     {
-      "id": "e7-003",
-      "subject": "英语",
-      "stem": "英语单词 \"orange\" 的中文意思是什么？",
+      "stem": "不可数名词辨析：\"Can you give me ______ on how to learn English well?\"（你能给我两条建议吗？）",
       "options": [
-        "桃子",
-        "橙子/橘子",
-        "柠檬",
-        "梨"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"orange\" 意为“橙子/橘子”。"
-    },
-    {
-      "id": "e7-004",
-      "subject": "英语",
-      "stem": "英语单词 \"water\" 的中文意思是什么？",
-      "options": [
-        "水",
-        "果汁",
-        "茶",
-        "牛奶"
+        "two pieces of advice",
+        "two advices",
+        "an advice",
+        "some advices"
       ],
       "answerIndex": 0,
-      "explanation": "\"water\" 意为“水”。"
+      "explanation": "【高频不可数名词】advice（建议）、information（信息）、news（新闻）、weather（天气）、furniture（家具）均为不可数名词，没有复数形式，也不能直接加 a/an，表数量用 two pieces of advice。（suggestion 才是可数名词）"
     },
     {
-      "id": "e7-005",
-      "subject": "英语",
-      "stem": "英语单词 \"milk\" 的中文意思是什么？",
+      "stem": "频度副词位置与句意：\"Tom gets up early every day, so he is ______ late for school.\" 横线处应填？",
       "options": [
-        "水",
-        "面包",
-        "牛奶",
-        "咖啡"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"milk\" 意为“牛奶”。"
-    },
-    {
-      "id": "e7-006",
-      "subject": "英语",
-      "stem": "英语单词 \"bread\" 的中文意思是什么？",
-      "options": [
-        "面条",
-        "蛋糕",
-        "米饭",
-        "面包"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"bread\" 意为“面包”。"
-    },
-    {
-      "id": "e7-007",
-      "subject": "英语",
-      "stem": "英语单词 \"book\" 的中文意思是什么？",
-      "options": [
-        "钢笔",
-        "尺子",
-        "书包",
-        "书"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"book\" 意为“书”。"
-    },
-    {
-      "id": "e7-008",
-      "subject": "英语",
-      "stem": "英语单词 \"pencil\" 的中文意思是什么？",
-      "options": [
-        "橡皮",
-        "铅笔",
-        "椅子",
-        "课桌"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"pencil\" 意为“铅笔”。"
-    },
-    {
-      "id": "e7-009",
-      "subject": "英语",
-      "stem": "英语单词 \"school\" 的中文意思是什么？",
-      "options": [
-        "学校",
-        "公园",
-        "超市",
-        "医院"
+        "never（从不）",
+        "always（总是）",
+        "usually（通常）",
+        "often（经常）"
       ],
       "answerIndex": 0,
-      "explanation": "\"school\" 意为“学校”。"
+      "explanation": "【频度副词逻辑】前半句说“汤姆每天都很早起床”，因此结果是上学“从不（never）”迟到，且频度副词位于 be 动词 is 之后。"
     },
     {
-      "id": "e7-010",
-      "subject": "英语",
-      "stem": "英语单词 \"teacher\" 的中文意思是什么？",
+      "stem": "花费句型四朵金花辨析：\"It ______ me half an hour to finish my homework yesterday.\" 横线处应填？",
       "options": [
-        "医生",
-        "老师",
-        "司机",
-        "农民"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"teacher\" 意为“老师”。"
-    },
-    {
-      "id": "e7-011",
-      "subject": "英语",
-      "stem": "英语单词 \"student\" 的中文意思是什么？",
-      "options": [
-        "警察",
-        "护士",
-        "老师",
-        "学生"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"student\" 意为“学生”。"
-    },
-    {
-      "id": "e7-012",
-      "subject": "英语",
-      "stem": "英语单词 \"family\" 的中文意思是什么？",
-      "options": [
-        "朋友",
-        "同学",
-        "家庭",
-        "邻居"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"family\" 意为“家庭”。"
-    },
-    {
-      "id": "e7-013",
-      "subject": "英语",
-      "stem": "英语单词 \"mother\" 的中文意思是什么？",
-      "options": [
-        "母亲",
-        "姐妹",
-        "兄弟",
-        "父亲"
+        "took",
+        "spent",
+        "cost",
+        "paid"
       ],
       "answerIndex": 0,
-      "explanation": "\"mother\" 意为“母亲”。"
+      "explanation": "【四个“花费”公式】① It takes/took sb. + 时间 + to do sth.（It作形式主语只能用take！）；② 人 + spend + 时间/钱 + on sth. / (in) doing sth.；③ 物 + cost + 人 + 钱；④ 人 + pay + 钱 + for 物。"
     },
     {
-      "id": "e7-014",
-      "subject": "英语",
-      "stem": "英语单词 \"father\" 的中文意思是什么？",
+      "stem": "祈使句与并列连词：\"Work hard, ______ you will pass the exam; hurry up, ______ you'll miss the bus.\"",
       "options": [
-        "叔叔",
-        "父亲",
-        "阿姨",
-        "母亲"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"father\" 意为“父亲”。"
-    },
-    {
-      "id": "e7-015",
-      "subject": "英语",
-      "stem": "英语单词 \"morning\" 的中文意思是什么？",
-      "options": [
-        "晚上",
-        "中午",
-        "下午",
-        "早晨/上午"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"morning\" 意为“早晨/上午”。"
-    },
-    {
-      "id": "e7-016",
-      "subject": "英语",
-      "stem": "英语单词 \"afternoon\" 的中文意思是什么？",
-      "options": [
-        "下午",
-        "早晨",
-        "夜晚",
-        "昨天"
+        "and; or",
+        "or; and",
+        "but; so",
+        "so; or"
       ],
       "answerIndex": 0,
-      "explanation": "\"afternoon\" 意为“下午”。"
+      "explanation": "【祈使句 + and/or + 陈述句】顺承积极结果（那么就会……）用 and；警告不利结果（否则就会……）用 or。"
     },
     {
-      "id": "e7-017",
-      "subject": "英语",
-      "stem": "英语单词 \"Monday\" 的中文意思是什么？",
+      "stem": "现在进行时表将来：\"Wait a minute! My mother ______ dinner in the kitchen right now.\"",
       "options": [
-        "星期五",
-        "星期二",
-        "星期一",
-        "星期日"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"Monday\" 意为“星期一”。"
-    },
-    {
-      "id": "e7-018",
-      "subject": "英语",
-      "stem": "英语单词 \"Friday\" 的中文意思是什么？",
-      "options": [
-        "星期三",
-        "星期五",
-        "星期六",
-        "星期四"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"Friday\" 意为“星期五”。"
-    },
-    {
-      "id": "e7-019",
-      "subject": "英语",
-      "stem": "英语单词 \"Sunday\" 的中文意思是什么？",
-      "options": [
-        "星期二",
-        "星期一",
-        "星期日",
-        "星期六"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"Sunday\" 意为“星期日”。"
-    },
-    {
-      "id": "e7-020",
-      "subject": "英语",
-      "stem": "英语单词 \"spring\" 的中文意思是什么？",
-      "options": [
-        "冬天",
-        "春天",
-        "秋天",
-        "夏天"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"spring\" 意为“春天”。"
-    },
-    {
-      "id": "e7-021",
-      "subject": "英语",
-      "stem": "英语单词 \"summer\" 的中文意思是什么？",
-      "options": [
-        "夏天",
-        "春天",
-        "冬天",
-        "秋天"
+        "is cooking",
+        "cooks",
+        "cooked",
+        "cook"
       ],
       "answerIndex": 0,
-      "explanation": "\"summer\" 意为“夏天”。"
+      "explanation": "【时态信号词】“Wait a minute!（等一下）”和“right now（此刻）”表明妈妈此刻正在厨房做饭，用现在进行时 is cooking。"
     },
     {
-      "id": "e7-022",
-      "subject": "英语",
-      "stem": "英语单词 \"autumn\" 的中文意思是什么？",
+      "stem": "冠词辨析：\"He likes playing ______ basketball, while his sister likes playing ______ piano.\"",
       "options": [
-        "秋天",
-        "冬天",
-        "夏天",
-        "春天"
+        "/ (不填); the",
+        "the; the",
+        "a; the",
+        "the; / (不填)"
       ],
       "answerIndex": 0,
-      "explanation": "\"autumn\" 意为“秋天”。"
+      "explanation": "【冠词铁律】球类、棋类运动名词前“零冠词（不加the）”：play basketball / play chess；西洋乐器名词前“必须加定冠词 the”：play the piano / play the violin。"
     },
     {
-      "id": "e7-023",
-      "subject": "英语",
-      "stem": "英语单词 \"winter\" 的中文意思是什么？",
+      "stem": "感官系动词用法：\"The silk shirt feels ______ and looks ______.\" 横线处应填形容词还是副词？",
       "options": [
-        "冬天",
-        "春天",
-        "秋天",
-        "夏天"
+        "soft, nice（均用形容词）",
+        "softly, nicely",
+        "soft, nicely",
+        "softly, nice"
       ],
       "answerIndex": 0,
-      "explanation": "\"winter\" 意为“冬天”。"
+      "explanation": "【感官系动词】look（看起来）、sound（听起来）、smell（闻起来）、taste（尝起来）、feel（摸起来）属于连系动词，后面必须接“形容词”作表语，绝不能接 -ly 副词！"
     },
     {
-      "id": "e7-024",
-      "subject": "英语",
-      "stem": "英语单词 \"library\" 的中文意思是什么？",
+      "stem": "-ed 与 -ing 形容词辨析：\"We were all ______ at the ______ news.\"",
       "options": [
-        "博物馆",
-        "体育馆",
-        "电影院",
-        "图书馆"
+        "excited, exciting",
+        "exciting, excited",
+        "excited, excited",
+        "exciting, exciting"
       ],
-      "answerIndex": 3,
-      "explanation": "\"library\" 意为“图书馆”。"
+      "answerIndex": 0,
+      "explanation": "【分词形容词规律】以 -ed 结尾（excited/interested/surprised）主语通常是“人”，表示“（人）感到激动的”；以 -ing 结尾（exciting/interesting）修饰“事物（news）”，表示“令人激动的”。"
     },
     {
-      "id": "e7-025",
-      "subject": "英语",
-      "stem": "英语单词 \"hospital\" 的中文意思是什么？",
+      "stem": "名词所有格辨析：\"This is ______ bedroom. It's tidy and small.\"(这是露西和莉莉两人共用的一个卧室)",
       "options": [
-        "学校",
-        "银行",
-        "医院",
-        "邮局"
+        "Lucy and Lily's",
+        "Lucy's and Lily's",
+        "Lucy and Lily",
+        "Lucys and Lilys"
       ],
-      "answerIndex": 2,
-      "explanation": "\"hospital\" 意为“医院”。"
+      "answerIndex": 0,
+      "explanation": "【名词所有格规则】后接单数名词 bedroom 说明是两人“共同拥有”，只需在最后一个人的名字后加 's（Lucy and Lily's）；若各自拥有（复数 bedrooms），才分别加 's（Lucy's and Lily's）。"
     },
     {
-      "id": "e7-026",
-      "subject": "英语",
-      "stem": "英语单词 \"science\" 的中文意思是什么？",
+      "stem": "英语词汇：单词 \"habit\" 的中文意思是什么？",
       "options": [
-        "历史",
-        "数学",
-        "音乐",
-        "科学"
+        "习惯",
+        "爱好",
+        "计划",
+        "秘密"
       ],
-      "answerIndex": 3,
-      "explanation": "\"science\" 意为“科学”。"
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】初一高频词：eating habits = 饮食习惯。"
     },
     {
-      "id": "e7-027",
-      "subject": "英语",
-      "stem": "英语单词 \"computer\" 的中文意思是什么？",
+      "stem": "汉译英：「习惯」对应的英文单词是哪一个？",
       "options": [
-        "相机",
-        "电脑",
+        "habit",
+        "important",
+        "describe",
+        "favorite"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】初一高频词：eating habits = 饮食习惯。"
+    },
+    {
+      "stem": "英语词汇：单词 \"favorite\" 的中文意思是什么？",
+      "options": [
+        "最喜欢的",
+        "讨厌的",
+        "无聊的",
+        "昂贵的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】初一高频词：favorite = 最喜爱的（同 like...best）。"
+    },
+    {
+      "stem": "汉译英：「最喜欢的」对应的英文单词是哪一个？",
+      "options": [
+        "favorite",
+        "important",
+        "different",
+        "arrive"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】初一高频词：favorite = 最喜爱的（同 like...best）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"subject\" 的中文意思是什么？",
+      "options": [
+        "学科 / 科目",
+        "年级",
+        "班级",
+        "分数"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】初一高频词：school subjects = 学校科目。"
+    },
+    {
+      "stem": "汉译英：「学科 / 科目」对应的英文单词是哪一个？",
+      "options": [
+        "subject",
+        "information",
+        "remember",
+        "describe"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】初一高频词：school subjects = 学校科目。"
+    },
+    {
+      "stem": "英语词汇：单词 \"festival\" 的中文意思是什么？",
+      "options": [
+        "节日",
+        "假期",
+        "周末",
+        "生日"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】初一高频词：Spring Festival = 春节。"
+    },
+    {
+      "stem": "汉译英：「节日」对应的英文单词是哪一个？",
+      "options": [
+        "festival",
+        "describe",
+        "remember",
+        "different"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】初一高频词：Spring Festival = 春节。"
+    },
+    {
+      "stem": "英语词汇：单词 \"remember\" 的中文意思是什么？",
+      "options": [
+        "记得 / 记住",
+        "忘记",
+        "丢失",
+        "寻找"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】动词辨析：remember(记住) ↔ forget(忘记)。"
+    },
+    {
+      "stem": "汉译英：「记得 / 记住」对应的英文单词是哪一个？",
+      "options": [
+        "remember",
+        "dangerous",
+        "arrive",
+        "delicious"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】动词辨析：remember(记住) ↔ forget(忘记)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"important\" 的中文意思是什么？",
+      "options": [
+        "重要的",
+        "危险的",
+        "容易的",
+        "奇怪的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：important = 重要的（importance 名词）。"
+    },
+    {
+      "stem": "汉译英：「重要的」对应的英文单词是哪一个？",
+      "options": [
+        "important",
+        "information",
+        "message",
+        "practice"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：important = 重要的（importance 名词）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"popular\" 的中文意思是什么？",
+      "options": [
+        "受欢迎的 / 流行的",
+        "稀有的",
+        "安静的",
+        "昂贵的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：be popular with = 受……欢迎。"
+    },
+    {
+      "stem": "汉译英：「受欢迎的 / 流行的」对应的英文单词是哪一个？",
+      "options": [
+        "popular",
+        "arrive",
+        "weather",
+        "delicious"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：be popular with = 受……欢迎。"
+    },
+    {
+      "stem": "英语词汇：单词 \"different\" 的中文意思是什么？",
+      "options": [
+        "不同的",
+        "相同的",
+        "相似的",
+        "特别的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：be different from = 与……不同（difference 名词）。"
+    },
+    {
+      "stem": "汉译英：「不同的」对应的英文单词是哪一个？",
+      "options": [
+        "different",
+        "weather",
+        "festival",
+        "popular"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：be different from = 与……不同（difference 名词）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"dangerous\" 的中文意思是什么？",
+      "options": [
+        "危险的",
+        "安全的",
+        "有趣的",
+        "友好的"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】形容词：danger(名词) ➔ dangerous(形容词，危险的)。"
+    },
+    {
+      "stem": "汉译英：「危险的」对应的英文单词是哪一个？",
+      "options": [
+        "dangerous",
+        "subject",
+        "important",
+        "practice"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】形容词：danger(名词) ➔ dangerous(形容词，危险的)。"
+    },
+    {
+      "stem": "英语词汇：单词 \"weather\" 的中文意思是什么？",
+      "options": [
+        "天气（不可数名词）",
+        "气候",
+        "季节",
+        "温度"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】不可数名词：What's the weather like?（不可加 a）。"
+    },
+    {
+      "stem": "汉译英：「天气（不可数名词）」对应的英文单词是哪一个？",
+      "options": [
+        "weather",
+        "describe",
+        "message",
+        "information"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】不可数名词：What's the weather like?（不可加 a）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"information\" 的中文意思是什么？",
+      "options": [
+        "信息（不可数名词）",
+        "建议",
+        "新闻",
+        "知识"
+      ],
+      "answerIndex": 0,
+      "explanation": "【英译汉精析】不可数名词：a piece of information（不能加 s）。"
+    },
+    {
+      "stem": "汉译英：「信息（不可数名词）」对应的英文单词是哪一个？",
+      "options": [
+        "information",
+        "festival",
+        "habit",
+        "favorite"
+      ],
+      "answerIndex": 0,
+      "explanation": "【汉译英拼写记忆】不可数名词：a piece of information（不能加 s）。"
+    },
+    {
+      "stem": "英语词汇：单词 \"message\" 的中文意思是什么？",
+      "options": [
+        "消息 / 口信（可数）",
+        "邮件",
         "电话",
-        "电视"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"computer\" 意为“电脑”。"
-    },
-    {
-      "id": "e7-028",
-      "subject": "英语",
-      "stem": "英语单词 \"dictionary\" 的中文意思是什么？",
-      "options": [
-        "笔记本",
-        "词典",
-        "杂志",
-        "报纸"
-      ],
-      "answerIndex": 1,
-      "explanation": "\"dictionary\" 意为“词典”。"
-    },
-    {
-      "id": "e7-029",
-      "subject": "英语",
-      "stem": "英语单词 \"environment\" 的中文意思是什么？",
-      "options": [
-        "政府",
-        "实验",
-        "温度",
-        "环境"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"environment\" 意为“环境”。"
-    },
-    {
-      "id": "e7-030",
-      "subject": "英语",
-      "stem": "英语单词 \"temperature\" 的中文意思是什么？",
-      "options": [
-        "距离",
-        "天气",
-        "温度",
-        "季节"
-      ],
-      "answerIndex": 2,
-      "explanation": "\"temperature\" 意为“温度”。"
-    },
-    {
-      "id": "e7-031",
-      "subject": "英语",
-      "stem": "英语单词 \"knowledge\" 的中文意思是什么？",
-      "options": [
-        "知识",
-        "文化",
-        "语言",
-        "自然"
+        "地址"
       ],
       "answerIndex": 0,
-      "explanation": "\"knowledge\" 意为“知识”。"
+      "explanation": "【英译汉精析】常用搭配：take a message = 捎个口信。"
     },
     {
-      "id": "e7-032",
-      "subject": "英语",
-      "stem": "英语单词 \"experience\" 的中文意思是什么？",
+      "stem": "汉译英：「消息 / 口信（可数）」对应的英文单词是哪一个？",
       "options": [
-        "运动",
-        "实验",
-        "解释",
-        "经验/经历"
-      ],
-      "answerIndex": 3,
-      "explanation": "\"experience\" 意为“经验/经历”。"
-    },
-    {
-      "id": "e7-033",
-      "subject": "英语",
-      "stem": "别人对你说 \"Thank you!\" 时，礼貌的回答是？",
-      "options": [
-        "Goodbye.",
-        "You're welcome.",
-        "I'm fine.",
-        "Nice to meet you."
-      ],
-      "answerIndex": 1,
-      "explanation": "回应感谢常用 You're welcome（不客气）。"
-    },
-    {
-      "id": "e7-034",
-      "subject": "英语",
-      "stem": "早上见到老师时，应该用哪句英语问好？",
-      "options": [
-        "See you!",
-        "Good morning!",
-        "Good night!",
-        "Good afternoon!"
-      ],
-      "answerIndex": 1,
-      "explanation": "早上问好使用 Good morning!"
-    },
-    {
-      "id": "e7-035",
-      "subject": "英语",
-      "stem": "\"How old are you?\" 是在询问什么？",
-      "options": [
-        "你几岁了？",
-        "你是谁？",
-        "你好吗？",
-        "你在哪里？"
+        "message",
+        "information",
+        "favorite",
+        "important"
       ],
       "answerIndex": 0,
-      "explanation": "How old 用来询问年龄。"
+      "explanation": "【汉译英拼写记忆】常用搭配：take a message = 捎个口信。"
     },
     {
-      "id": "e7-036",
-      "subject": "英语",
-      "stem": "填空：I ___ a student.",
+      "stem": "英语词汇：单词 \"practice\" 的中文意思是什么？",
       "options": [
-        "am",
-        "be",
-        "is",
-        "are"
+        "练习",
+        "比赛",
+        "休息",
+        "表扬"
       ],
       "answerIndex": 0,
-      "explanation": "第一人称单数 I 搭配 be 动词 am。"
+      "explanation": "【英译汉精析】搭配：practice doing sth. = 练习做某事。"
     },
     {
-      "id": "e7-037",
-      "subject": "英语",
-      "stem": "填空：She ___ reading books every day.",
+      "stem": "汉译英：「练习」对应的英文单词是哪一个？",
       "options": [
-        "likes",
-        "to like",
-        "liking",
-        "like"
+        "practice",
+        "weather",
+        "important",
+        "describe"
       ],
       "answerIndex": 0,
-      "explanation": "第三人称单数一般现在时动词加 -s。"
+      "explanation": "【汉译英拼写记忆】搭配：practice doing sth. = 练习做某事。"
     },
     {
-      "id": "e7-038",
-      "subject": "英语",
-      "stem": "填空：There ___ an apple and two pears on the table.",
+      "stem": "英语词汇：单词 \"arrive\" 的中文意思是什么？",
       "options": [
-        "is",
-        "am",
-        "be",
-        "are"
+        "到达",
+        "离开",
+        "出发",
+        "停留"
       ],
       "answerIndex": 0,
-      "explanation": "There be 句型遵循就近原则，an apple 是单数，用 is。"
+      "explanation": "【英译汉精析】搭配：arrive in + 大地点 / arrive at + 小地点。"
     },
     {
-      "id": "e7-039",
-      "subject": "英语",
-      "stem": "\"child\"（孩子）的复数形式是什么？",
+      "stem": "汉译英：「到达」对应的英文单词是哪一个？",
       "options": [
-        "childes",
-        "children",
-        "childs",
-        "childrens"
-      ],
-      "answerIndex": 1,
-      "explanation": "child 的不规则复数是 children。"
-    },
-    {
-      "id": "e7-040",
-      "subject": "英语",
-      "stem": "\"tooth\"（牙齿）的复数形式是什么？",
-      "options": [
-        "teeth",
-        "toothes",
-        "teethes",
-        "tooths"
+        "arrive",
+        "festival",
+        "popular",
+        "remember"
       ],
       "answerIndex": 0,
-      "explanation": "tooth 的复数是 teeth，foot 的复数是 feet。"
+      "explanation": "【汉译英拼写记忆】搭配：arrive in + 大地点 / arrive at + 小地点。"
     },
     {
-      "id": "e7-041",
-      "subject": "英语",
-      "stem": "动词 \"go\" 的过去式是什么？",
+      "stem": "英语词汇：单词 \"describe\" 的中文意思是什么？",
       "options": [
-        "gone",
-        "goed",
-        "going",
-        "went"
-      ],
-      "answerIndex": 3,
-      "explanation": "go - went - gone 是不规则动词变化。"
-    },
-    {
-      "id": "e7-042",
-      "subject": "英语",
-      "stem": "动词 \"buy\"（买）的过去式是什么？",
-      "options": [
-        "brought",
-        "buying",
-        "bought",
-        "buyed"
-      ],
-      "answerIndex": 2,
-      "explanation": "buy 的过去式和过去分词都是 bought。"
-    },
-    {
-      "id": "e7-043",
-      "subject": "英语",
-      "stem": "填空：He has lived in Beijing ___ 2020.",
-      "options": [
-        "since",
-        "in",
-        "for",
-        "at"
+        "描述 / 形容",
+        "发明",
+        "决定",
+        "相信"
       ],
       "answerIndex": 0,
-      "explanation": "现在完成时中，since + 过去时间点，for + 时间段。"
+      "explanation": "【英译汉精析】动词：describe sth. to sb.。"
     },
     {
-      "id": "e7-044",
-      "subject": "英语",
-      "stem": "填空：The book is very ___, so I am ___ in it.",
+      "stem": "汉译英：「描述 / 形容」对应的英文单词是哪一个？",
       "options": [
-        "interesting; interested",
-        "interested; interesting",
-        "interest; interesting",
-        "interesting; interest"
+        "describe",
+        "festival",
+        "favorite",
+        "subject"
       ],
       "answerIndex": 0,
-      "explanation": "-ing 形容事物“令人感兴趣的”，-ed 形容人“感到有兴趣的”。"
+      "explanation": "【汉译英拼写记忆】动词：describe sth. to sb.。"
     },
     {
-      "id": "e7-045",
-      "subject": "英语",
-      "stem": "填空：If it ___ tomorrow, we will stay at home.",
+      "stem": "【七年级英语·祈使句否定必考】老师在图书馆提醒同学们「不要在馆内吃东西或大声说话」，应该说？",
       "options": [
-        "rains",
-        "will rain",
-        "rained",
-        "rain"
+        "Don't eat or talk loudly in the library.",
+        "Not eat and talk in the library.",
+        "Doesn't eat or talk in the library.",
+        "No eating and talk."
       ],
       "answerIndex": 0,
-      "explanation": "if 引导的条件状语从句遵循“主将从现”，从句用一般现在时 rains。"
+      "explanation": "【七下 Unit 4 规章制度必考】否定祈使句以“Don't + 动词原形”开头，且否定句中并列动词用 or 连接，不用 and！"
     },
     {
-      "id": "e7-046",
-      "subject": "英语",
-      "stem": "填空：English ___ all over the world today.",
+      "stem": "【七年级英语·选择疑问句必考】\"Is your friend tall or short?\" 这类选择疑问句应该怎么回答？",
       "options": [
-        "spoke",
-        "is spoken",
-        "was speaking",
-        "speaks"
-      ],
-      "answerIndex": 1,
-      "explanation": "英语是“被讲”，一般现在时被动语态 is spoken。"
-    },
-    {
-      "id": "e7-047",
-      "subject": "英语",
-      "stem": "填空：Could you tell me where ___?",
-      "options": [
-        "the post office is",
-        "the post office was",
-        "is the post office",
-        "was the post office"
+        "He is tall.（直接选其中一项回答，不能用 Yes/No）",
+        "Yes, he is.",
+        "No, he isn't.",
+        "Yes, he is short."
       ],
       "answerIndex": 0,
-      "explanation": "宾语从句必须使用陈述句语序（主语+谓语）。"
+      "explanation": "【七下 Unit 9 外貌描写必考】“A or B”构成选择疑问句，回答绝对不能用 Yes 或 No！"
     },
     {
-      "id": "e7-048",
-      "subject": "英语",
-      "stem": "填空：Look! The children ___ basketball on the playground.",
+      "stem": "【七年级英语·可数与不可数名词必考】\"I'd like a bowl of ______（牛肉面）with some ______（胡萝卜）.\"",
       "options": [
-        "plays",
-        "play",
-        "are playing",
-        "played"
+        "beef noodles; carrots",
+        "beefs noodle; carrot",
+        "beef noodle; carrots",
+        "beefs noodles; carrot"
       ],
-      "answerIndex": 2,
-      "explanation": "Look! 提示动作正在发生，用现在进行时 are playing。"
+      "answerIndex": 0,
+      "explanation": "【七下 Unit 10 必考】beef（牛肉）不可数，作定语修饰 noodles（常用复数）；carrot（胡萝卜）是可数名词，some 后加 -s。"
+    },
+    {
+      "stem": "【七年级英语·感叹句与花钱句型必考】\"How much did you ______ on this new bike?\" — \"I ______ 500 yuan for it.\"",
+      "options": [
+        "spend; paid",
+        "cost; spent",
+        "take; paid",
+        "pay; spent"
+      ],
+      "answerIndex": 0,
+      "explanation": "【七年级重难点必考】人作主语“spend... on 物”；人作主语“pay 钱 for 物”；物作主语“cost 人 钱”。"
     }
   ]
 }

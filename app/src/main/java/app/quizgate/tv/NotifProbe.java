@@ -4,6 +4,7 @@
  * Modified from the original QuizGate TV project by qualified12.
  * See NOTICE for the full list of changes.
  */
+
 package app.quizgate.tv;
 
 import android.content.Intent;
@@ -45,13 +46,15 @@ public class NotifProbe extends NotificationListenerService {
             } else if (p.isDailyLimitReached()) {
                 p.setLockReason(Prefs.LOCK_DAILY);
                 p.saveSnapshot(Prefs.LOCKED, 0L);
-            } else if (p.phase() == Prefs.IDLE) {
+            } else if (p.phase() != Prefs.LOCKED) {
                 if (bm == Prefs.BOOT_LOCK) {
                     p.setLockReason(Prefs.LOCK_QUIZ);
                     p.saveSnapshot(Prefs.LOCKED, 0L);
                 } else if (bm == Prefs.BOOT_TIMER) {
+                    long dur = p.durationMin() * 60_000L;
                     p.setLockReason(Prefs.LOCK_QUIZ);
-                    p.saveSnapshot(Prefs.RUNNING, p.durationMin() * 60_000L);
+                    p.setDeadlineAt(System.currentTimeMillis() + dur);
+                    p.saveSnapshot(Prefs.RUNNING, dur);
                     p.markStartHint(5_000L);
                 }
             }
