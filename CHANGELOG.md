@@ -4,6 +4,39 @@
 
 ---
 
+## v1.6.9-VIDAA (2026-11-17)
+
+**真机验证：海信 VIDAA TV / MT9653 / Android 11 (API 30) / OS 02.02.70.01**
+
+### 新增
+
+- **答题进度持久化**（`Prefs.java` +1,369 字节）：
+  新增 `activeQuizTarget` / `activeQuizCorrect` / `activeQuizWrongStreak` /
+  `activeQuizCooldownUntilWall` 四个字段及 `clearActiveQuizProgress()`。
+  进程被杀、电视重启或系统冻结后重新拉起遮罩时，**已答对题数与连错冷却时间全部保留**，
+  不会出现「答到第 3 题突然从 0 重来」或「冷却中被重置可以继续瞎按」的问题。
+  冷却结束时间用墙钟（wall clock）记录，跨重启依然准确。
+- **焦点锚点增强**（`Anchor.java` +968 字节）：守护存活锚点写入的信息更完整，
+  便于排查失联原因。
+- **遮罩层增强**（`MaskView.java` +1,139 字节）：配合进度持久化，重挂遮罩时恢复
+  当前题目、已答对数与冷却剩余时间。
+- **局域网控制台增强**（`LanServer.java` +647 字节）
+- **`GateService` / `MainActivity` 适配**：接入新的进度字段与设置项
+
+### 已知问题
+
+- `LanServer.localIp()` **仍未排除 `p2p0`**（Wi-Fi Direct 虚拟网卡），
+  部分机型首页会显示 `192.168.75.x` 这类手机连不上的地址。
+  请手动使用电视 `wlan0` 的实际 IP 访问 `:8787`。
+- 悬浮窗授权在部分固件卸载重装后会残留为 `ignore`，需重新执行
+  `adb shell appops set app.quizgate.tv SYSTEM_ALERT_WINDOW allow`
+
+### 类数
+
+132 个类（与 v1.6.7 相同，本版只改逻辑未加类）
+
+---
+
 ## v1.6.7-VIDAA (2026-11-16)
 
 **真机验证：海信 VIDAA TV / MT9653 / Android 11 (API 30) / OS 02.02.70.01**

@@ -145,7 +145,20 @@ public class MaskView extends FrameLayout {
         this.lockMode = lockMode;
         this.host = host;
         this.extendMin = prefs.extendMin();
-        this.targetCount = prefs.quizCount();
+        int savedTarget = prefs.activeQuizTarget();
+        this.targetCount = (lockMode == Prefs.LOCK_QUIZ && savedTarget > 0)
+                ? Math.max(prefs.quizCount(), savedTarget)
+                : prefs.quizCount();
+        if (lockMode == Prefs.LOCK_QUIZ) {
+            if (savedTarget <= 0) prefs.setActiveQuizTarget(this.targetCount);
+            this.correctCount = Math.max(0, Math.min(this.targetCount - 1, prefs.activeQuizCorrect()));
+            this.wrongStreak = prefs.activeQuizWrongStreak();
+            long cdWall = prefs.activeQuizCooldownUntilWall();
+            long nowWall = System.currentTimeMillis();
+            if (cdWall > nowWall && cdWall - nowWall <= 120_000L) {
+                this.cooldownUntil = SystemClock.uptimeMillis() + (cdWall - nowWall);
+            }
+        }
         this.penaltyPerWrong = prefs.wrongPenalty();
         this.guessTrigger = prefs.guessTrigger();
         this.guessCooldownSec = prefs.guessCooldownSec();
@@ -373,6 +386,9 @@ public class MaskView extends FrameLayout {
         if (ok) {
             wrongStreak = 0;
             correctCount = correctCount + 1;
+            prefs.setActiveQuizWrongStreak(0);
+            prefs.setActiveQuizCooldownUntilWall(0L);
+            prefs.setActiveQuizCorrect(correctCount);
             prefs.addStar(1);
             starView.setText("★ 积分：" + prefs.stars());
             opts[i].setBackgroundColor(0xFF1F6F45);
@@ -397,11 +413,14 @@ public class MaskView extends FrameLayout {
             prefs.addWrongRecord(q.badge, q.stem, q.options[i], q.options[q.answer], q.explain);
             if (penaltyPerWrong > 0) {
                 targetCount = Math.min(30, targetCount + penaltyPerWrong);
+                prefs.setActiveQuizTarget(targetCount);
             }
             if (guessTrigger > 0 && wrongStreak >= guessTrigger) {
                 cooldownUntil = SystemClock.uptimeMillis() + guessCooldownSec * 1000L;
+                prefs.setActiveQuizCooldownUntilWall(System.currentTimeMillis() + guessCooldownSec * 1000L);
                 wrongStreak = 0;
             }
+            prefs.setActiveQuizWrongStreak(wrongStreak);
             opts[i].setBackgroundColor(0x8C6B1D1D);
             opts[q.answer].setBackgroundColor(0xFF1F6F45);
             // 弹出「错题图文精讲与确认看懂面板」，必须孩子看懂确认后才进入下一题！

@@ -10,6 +10,6 @@ package app.quizgate.tv;
 public final class BuildCfg {
     private BuildCfg() {}
     public static final String UPGRADE_BASE = "";
-    public static final String VERSION_NAME = "1.6.7-VIDAA";
-    public static final int VERSION_CODE = 10607;
+    public static final String VERSION_NAME = "1.6.9-VIDAA";
+    public static final int VERSION_CODE = 10609;
 }

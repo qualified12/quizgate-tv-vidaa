@@ -142,6 +142,14 @@ public final class LanServer {
             if (Build.VERSION.SDK_INT >= 26) ctx.startForegroundService(i);
             else ctx.startService(i);
             return "已开启【大人模式】！本次观看不再锁屏答题，下次开机自动恢复儿童管控。";
+        } else if ("setstars".equals(cmd)) {
+            try {
+                int sv = Integer.parseInt(extractParam(path, "stars"));
+                p.setStars(sv);
+                return "已将星星总积分恢复/设为：" + p.stars() + " ★";
+            } catch (Throwable t) {
+                return "请输入有效的整数积分！";
+            }
         } else if ("adult_off".equals(cmd)) {
             Intent i = new Intent(ctx, GateService.class).setAction(GateService.ACTION_ADULT_OFF);
             if (Build.VERSION.SDK_INT >= 26) ctx.startForegroundService(i);
@@ -188,6 +196,8 @@ public final class LanServer {
           .append("<button type='submit' name='cmd' value='adult_off'>恢复儿童管控</button>")
           .append("<button type='submit' name='cmd' value='lock'>立即锁屏答题</button>")
           .append("<button type='submit' name='cmd' value='bonus15'>今日+15分钟</button>")
+          .append("<div style='margin-top:10px'>恢复/设置总积分：<input name='stars' type='number' placeholder='如 158' style='width:100px;background:#0b0e14;color:#fff'> ")
+          .append("<button type='submit' name='cmd' value='setstars'>保存总积分</button></div>")
           .append("</form></div>");
 
         JSONArray arr = p.getWrongArray();

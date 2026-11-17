@@ -14,6 +14,7 @@ import org.json.JSONObject;
 
 public final class Anchor {
     public static final String KEY = "quizgate_install_anchor";
+    public static final String STARS_KEY = "quizgate_stars_backup";
 
     public static final class Report {
         public boolean enabled;
@@ -57,6 +58,7 @@ public final class Anchor {
             if (r.enabled) {
                 writeRaw(c, pack(now, now, 0, 0L));
                 prefs.markAnchorInit();
+                restoreStarsIfNeeded(c, prefs);
             }
             return r;
         }
@@ -78,6 +80,7 @@ public final class Anchor {
             if (r.enabled) {
                 writeRaw(c, pack(r.firstInstallAt, now, r.uninstalls, r.gapMs));
                 prefs.markAnchorInit();
+                restoreStarsIfNeeded(c, prefs);
             }
         } catch (Throwable ignore) {
         }
@@ -110,6 +113,29 @@ public final class Anchor {
         } catch (Throwable t) {
             return "";
         }
+    }
+
+
+    public static void saveStarsBackup(Context c, int stars) {
+        try {
+            ContentResolver cr = c.getContentResolver();
+            Settings.Secure.putString(cr, STARS_KEY, String.valueOf(Math.max(0, stars)));
+        } catch (Throwable ignore) {}
+    }
+
+    public static void restoreStarsIfNeeded(Context c, Prefs prefs) {
+        try {
+            if (prefs.stars() > 0) {
+                saveStarsBackup(c, prefs.stars());
+                return;
+            }
+            ContentResolver cr = c.getContentResolver();
+            String s = Settings.Secure.getString(cr, STARS_KEY);
+            if (s != null && !s.isEmpty()) {
+                int v = Integer.parseInt(s.trim());
+                if (v > 0) prefs.setStars(v);
+            }
+        } catch (Throwable ignore) {}
     }
 
     private static String readRaw(Context c) {

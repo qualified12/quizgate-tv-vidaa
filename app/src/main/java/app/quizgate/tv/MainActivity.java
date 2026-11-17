@@ -403,6 +403,7 @@ public class MainActivity extends Activity {
                 new OptionPanel.OnPick() {
                     @Override public void onValue(int v) {
                         prefs.setQuizCount(v);
+                        if (prefs.phase() != Prefs.LOCKED) prefs.clearActiveQuizProgress();
                         hideOptionPanel();
                         refresh();
                     }
@@ -596,17 +597,19 @@ public class MainActivity extends Activity {
     }
 
     private void openStarsPanel() {
-        String[] labels = {"兑换10颗星", "兑换20颗星", "全部清零", "奖励+5颗星"};
-        int[] vals = {-10, -20, -9999, 5};
-        mountOption(new OptionPanel(this, "星星积分银行（当前：" + prefs.stars() + " ★）", labels, vals,
-                0, "", -9999, 9999,
+        String[] labels = {"兑换10★", "兑换20★", "奖励+5★", "清零"};
+        int[] vals = {-10, -20, -10005, -9999};
+        mountOption(new OptionPanel(this, "星星积分银行（当前：" + prefs.stars() + " ★ · 点「自定义」可直接输入总积分）", labels, vals,
+                -1, "★", 0, 99999,
                 new OptionPanel.OnPick() {
                     @Override public void onValue(int v) {
                         if (v == -9999) prefs.setStars(0);
-                        else prefs.addStar(v);
+                        else if (v == -10005) prefs.addStar(5);
+                        else if (v < 0) prefs.addStar(v);
+                        else prefs.setStars(v);
                         hideOptionPanel();
                         refresh();
-                        toast("当前剩余积分：" + prefs.stars() + " ★");
+                        toast("当前星星总积分已更新为：" + prefs.stars() + " ★");
                     }
                 }, new Runnable() { @Override public void run() { hideOptionPanel(); } }));
     }

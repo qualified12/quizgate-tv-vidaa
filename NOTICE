@@ -46,7 +46,8 @@ Summary of changes:
   - Anti-guessing guards: minimum read time, wrong-answer cooldown.
   - Wrong-answer workbook and star points
   - Full-screen wrong-answer explainer overlay with per-question
-    subject/grade badges and dynamic-question step-by-step explanations (v1.6.7).
+    subject/grade badges and dynamic-question step-by-step explanations (v1.6.7)
+  - Persisted quiz progress across process death / reboot (v1.6.9).
   - Adult (bypass) mode with automatic restore on next boot.
   - Idle / screen-off re-lock.
   - Local-area parent console listening on TCP port 8787.

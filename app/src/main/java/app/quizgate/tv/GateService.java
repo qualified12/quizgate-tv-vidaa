@@ -340,6 +340,7 @@ public class GateService extends Service implements MaskView.Host {
         }
 
         if (ACTION_ADULT_ON.equals(action)) {
+            prefs.clearActiveQuizProgress();
             prefs.setAdultMode(true);
             cancelBackupAlarm();
             removeMask();
@@ -437,6 +438,10 @@ public class GateService extends Service implements MaskView.Host {
     private void triggerLock(int reason) {
         cancelBackupAlarm();
         Log.i(TAG, "triggerLock reason=" + reason);
+        if (reason == Prefs.LOCK_QUIZ && prefs.activeQuizTarget() <= 0) {
+            prefs.setActiveQuizTarget(prefs.quizCount());
+            prefs.setActiveQuizCorrect(0);
+        }
         prefs.setLockReason(reason);
         prefs.setDeadlineAt(0L);
         prefs.saveSnapshot(Prefs.LOCKED, 0);
@@ -577,6 +582,7 @@ public class GateService extends Service implements MaskView.Host {
 
     @Override
     public void onSolved() {
+        prefs.clearActiveQuizProgress();
         int extMin = prefs.extendMin();
         removeMask();
         restoreMedia(true);
@@ -615,6 +621,7 @@ public class GateService extends Service implements MaskView.Host {
 
     @Override
     public void onPinOk() {
+        prefs.clearActiveQuizProgress();
         int reason = prefs.lockReason();
         if (reason == Prefs.LOCK_CURFEW) prefs.bypassCurfewToday();
         if (reason == Prefs.LOCK_DAILY) prefs.setDailyBypass(true);
@@ -633,6 +640,7 @@ public class GateService extends Service implements MaskView.Host {
     }
 
     private void exitSession() {
+        prefs.clearActiveQuizProgress();
         cancelBackupAlarm();
         removeMask();
         removeMini();

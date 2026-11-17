@@ -53,10 +53,12 @@ public final class Prefs {
     public static final int JUNIOR_GRADES_MASK = 0x1C0;
     public static final int ALL_GRADES_MASK = 0x1FF;
 
+    private final Context appCtx;
     private final SharedPreferences sp;
 
     public Prefs(Context c) {
-        sp = c.getApplicationContext().getSharedPreferences(F, Context.MODE_PRIVATE);
+        appCtx = c.getApplicationContext();
+        sp = appCtx.getSharedPreferences(F, Context.MODE_PRIVATE);
     }
 
     private static int clamp(int v, int lo, int hi) {
@@ -79,6 +81,29 @@ public final class Prefs {
 
     public long deadlineAt() { return sp.getLong("deadlineAt", 0L); }
     public void setDeadlineAt(long v) { sp.edit().putLong("deadlineAt", v).commit(); }
+
+
+    // ---------- 断电/重启持久化当前答题进度与加罚题数 ----------
+    public int activeQuizTarget() { return sp.getInt("activeQuizTarget", 0); }
+    public void setActiveQuizTarget(int v) { sp.edit().putInt("activeQuizTarget", clamp(v, 0, 50)).commit(); }
+
+    public int activeQuizCorrect() { return sp.getInt("activeQuizCorrect", 0); }
+    public void setActiveQuizCorrect(int v) { sp.edit().putInt("activeQuizCorrect", Math.max(0, v)).commit(); }
+
+    public int activeQuizWrongStreak() { return sp.getInt("activeQuizWrongStreak", 0); }
+    public void setActiveQuizWrongStreak(int v) { sp.edit().putInt("activeQuizWrongStreak", Math.max(0, v)).commit(); }
+
+    public long activeQuizCooldownUntilWall() { return sp.getLong("activeQuizCooldownWall", 0L); }
+    public void setActiveQuizCooldownUntilWall(long wallMs) { sp.edit().putLong("activeQuizCooldownWall", Math.max(0L, wallMs)).commit(); }
+
+    public void clearActiveQuizProgress() {
+        sp.edit()
+            .remove("activeQuizTarget")
+            .remove("activeQuizCorrect")
+            .remove("activeQuizWrongStreak")
+            .remove("activeQuizCooldownWall")
+            .commit();
+    }
 
     public int quizCount() { return sp.getInt("quizCount", 3); }
     public void setQuizCount(int v) { sp.edit().putInt("quizCount", clamp(v, 1, 20)).commit(); }
@@ -237,8 +262,13 @@ public final class Prefs {
     public void addStar(int delta) {
         int cur = Math.max(0, sp.getInt("stars", 0) + delta);
         sp.edit().putInt("stars", cur).commit();
+        Anchor.saveStarsBackup(appCtx, cur);
     }
-    public void setStars(int v) { sp.edit().putInt("stars", Math.max(0, v)).commit(); }
+    public void setStars(int v) {
+        int cur = Math.max(0, v);
+        sp.edit().putInt("stars", cur).commit();
+        Anchor.saveStarsBackup(appCtx, cur);
+    }
 
     // ---------- 错题记录本 ----------
     public void addWrongRecord(String badge, String stem, String wrongOpt, String rightOpt, String explain) {
